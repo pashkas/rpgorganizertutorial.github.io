@@ -6,7 +6,7 @@
 :toc: left
 :footer: nofooter
 :toc-title: Содержание
-:toclevels: 2
+:toclevels: 1
 :numbered:
 
 include::Приветствую тебя, первый игрок.adoc[]
