@@ -1,0 +1,12 @@
+= РПГ ОРГАНАЙЗЕР: ТУТОРИАЛ
+:nofooter:
+:doctype: book
+:encoding: utf-8
+:lang: ru
+:toc: left
+:footer: nofooter
+:toc-title: Содержание
+:toclevels: 2
+:numbered:
+
+include::Приветствую тебя, первый игрок.adoc[]
