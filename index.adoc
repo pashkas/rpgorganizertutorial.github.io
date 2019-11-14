@@ -9,5 +9,5 @@
 :toclevels: 2
 :numbered:
 
-include::Приветствую тебя, первый игрок.adoc[]
+include::Приветствую_тебя_первый_игрок.adoc[]
 include::Персонаж.adoc[]
