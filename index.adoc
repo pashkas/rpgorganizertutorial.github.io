@@ -10,3 +10,4 @@
 :numbered:
 
 include::Приветствую тебя, первый игрок.adoc[]
+include::Персонаж.adoc[]
