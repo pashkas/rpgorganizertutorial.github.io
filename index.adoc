@@ -7,6 +7,7 @@
 :footer: nofooter
 :toc-title: Содержание
 :toclevels: 2
+:stylesheet: mystyles.css
 :numbered:
 
 include::Приветствую_тебя_первый_игрок.adoc[]
