@@ -10,18 +10,13 @@
 :stylesheet: mystyles.css
 :numbered:
 
-include::01-Приветствую_тебя_первый_игрок.adoc[]
+include::Приветствую_тебя_первый_игрок.adoc[]
+include::Персонаж.adoc[]
+include::Характеристики.adoc[]
+include::Навыки.adoc[]
+include::Награды.adoc[]
+include::Квесты.adoc[]
+include::Начало_игры[]
+include::Файт.adoc[]
+include::Эпилог[]
 
-include::02-Персонаж.adoc[]
-
-include::03-Характеристики.adoc[]
-
-include::04-Навыки.adoc[]
-
-include::05-Начало_игры[]
-
-include::06-Файт.adoc[]
-
-include::07-Награды.adoc[]
-
-include::08-Квесты.adoc[]
