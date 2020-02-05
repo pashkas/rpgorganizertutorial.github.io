@@ -4,443 +4,442 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.8.dev">
+<meta name="generator" content="Asciidoctor 2.0.10">
 <title>РПГ ОРГАНАЙЗЕР: ТУТОРИАЛ</title>
 <style>
-/* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
-/* Uncomment @import statement to use as custom stylesheet */
-/*@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";*/
-article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}
-audio,video{display:inline-block}
-audio:not([controls]){display:none;height:0}
-html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
-a{background:none}
-a:focus{outline:thin dotted}
-a:active,a:hover{outline:0}
-h1{font-size:2em;margin:.67em 0}
-abbr[title]{border-bottom:1px dotted}
-b,strong{font-weight:bold}
-dfn{font-style:italic}
-hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
-mark{background:#ff0;color:#000}
-code,kbd,pre,samp{font-family:monospace;font-size:1em}
-pre{white-space:pre-wrap}
-q{quotes:"\201C" "\201D" "\2018" "\2019"}
-small{font-size:80%}
-sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
-sup{top:-.5em}
-sub{bottom:-.25em}
-img{border:0}
-svg:not(:root){overflow:hidden}
-figure{margin:0}
-fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
-legend{border:0;padding:0}
-button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
-button,input{line-height:normal}
-button,select{text-transform:none}
-button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}
-button[disabled],html input[disabled]{cursor:default}
-input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}
-button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
-textarea{overflow:auto;vertical-align:top}
-table{border-collapse:collapse;border-spacing:0}
-*,*::before,*::after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
-html,body{font-size:100%}
-body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;font-weight:400;font-style:normal;line-height:1;position:relative;cursor:auto;tab-size:4;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
-a:hover{cursor:pointer}
-img,object,embed{max-width:100%;height:auto}
-object,embed{height:100%}
-img{-ms-interpolation-mode:bicubic}
-.left{float:left!important}
-.right{float:right!important}
-.text-left{text-align:left!important}
-.text-right{text-align:right!important}
-.text-center{text-align:center!important}
-.text-justify{text-align:justify!important}
-.hide{display:none}
-img,object,svg{display:inline-block;vertical-align:middle}
-textarea{height:auto;min-height:50px}
-select{width:100%}
-.center{margin-left:auto;margin-right:auto}
-.stretch{width:100%}
-.subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#7a2518;font-weight:400;margin-top:0;margin-bottom:.25em}
-div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0;direction:ltr}
-a{color:#2156a5;text-decoration:underline;line-height:inherit}
-a:hover,a:focus{color:#1d4b8f}
-a img{border:0}
-p{font-family:inherit;font-weight:400;font-size:1em;line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
-p aside{font-size:.875em;line-height:1.35;font-style:italic}
-h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{font-family:"Open Sans","DejaVu Sans",sans-serif;font-weight:300;font-style:normal;color:#ba3925;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
-h1 small,h2 small,h3 small,#toctitle small,.sidebarblock>.content>.title small,h4 small,h5 small,h6 small{font-size:60%;color:#e99b8f;line-height:0}
-h1{font-size:2.125em}
-h2{font-size:1.6875em}
-h3,#toctitle,.sidebarblock>.content>.title{font-size:1.375em}
-h4,h5{font-size:1.125em}
-h6{font-size:1em}
-hr{border:solid #dddddf;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em;height:0}
-em,i{font-style:italic;line-height:inherit}
-strong,b{font-weight:bold;line-height:inherit}
-small{font-size:60%;line-height:inherit}
-code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
-ul,ol,dl{font-size:1em;line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
-ul,ol{margin-left:1.5em}
-ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0;font-size:1em}
-ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
-ul.square{list-style-type:square}
-ul.circle{list-style-type:circle}
-ul.disc{list-style-type:disc}
-ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
-dl dt{margin-bottom:.3125em;font-weight:bold}
-dl dd{margin-bottom:1.25em}
-abbr,acronym{text-transform:uppercase;font-size:90%;color:rgba(0,0,0,.8);border-bottom:1px dotted #ddd;cursor:help}
-abbr{text-transform:none}
-blockquote{margin:0 0 1.25em;padding:.5625em 1.25em 0 1.1875em;border-left:1px solid #ddd}
-blockquote cite{display:block;font-size:.9375em;color:rgba(0,0,0,.6)}
-blockquote cite::before{content:"\2014 \0020"}
-blockquote cite a,blockquote cite a:visited{color:rgba(0,0,0,.6)}
-blockquote,blockquote p{line-height:1.6;color:rgba(0,0,0,.85)}
-@media screen and (min-width:768px){h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2}
-h1{font-size:2.75em}
-h2{font-size:2.3125em}
-h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
-h4{font-size:1.4375em}}
-table{background:#fff;margin-bottom:1.25em;border:solid 1px #dedede}
-table thead,table tfoot{background:#f7f8f7}
-table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
-table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
-table tr.even,table tr.alt{background:#f8f8f7}
-table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{display:table-cell;line-height:1.6}
-h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
-h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
-.clearfix::before,.clearfix::after,.float-group::before,.float-group::after{content:" ";display:table}
-.clearfix::after,.float-group::after{clear:both}
-:not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;-webkit-border-radius:4px;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed;word-wrap:break-word}
-:not(pre)>code.nobreak{word-wrap:normal}
-:not(pre)>code.nowrap{white-space:nowrap}
-pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
-pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
-pre>code{display:block}
-pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
-em em{font-style:normal}
-strong strong{font-weight:400}
-.keyseq{color:rgba(51,51,51,.8)}
-kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background:#f7f7f7;border:1px solid #ccc;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em white inset;box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em #fff inset;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
-.keyseq kbd:first-child{margin-left:0}
-.keyseq kbd:last-child{margin-right:0}
-.menuseq,.menuref{color:#000}
-.menuseq b:not(.caret),.menuref{font-weight:inherit}
-.menuseq{word-spacing:-.02em}
-.menuseq b.caret{font-size:1.25em;line-height:.8}
-.menuseq i.caret{font-weight:bold;text-align:center;width:.45em}
-b.button::before,b.button::after{position:relative;top:-1px;font-weight:400}
-b.button::before{content:"[";padding:0 3px 0 2px}
-b.button::after{content:"]";padding:0 2px 0 3px}
-p a>code:hover{color:rgba(0,0,0,.9)}
-#header,#content,#footnotes,#footer{width:100%;margin-left:auto;margin-right:auto;margin-top:0;margin-bottom:0;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
-#header::before,#header::after,#content::before,#content::after,#footnotes::before,#footnotes::after,#footer::before,#footer::after{content:" ";display:table}
-#header::after,#content::after,#footnotes::after,#footer::after{clear:both}
-#content{margin-top:1.25em}
-#content::before{content:none}
-#header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
-#header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
-#header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
-#header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:-ms-flexbox;display:-webkit-flex;display:flex;-ms-flex-flow:row wrap;-webkit-flex-flow:row wrap;flex-flow:row wrap}
-#header .details span:first-child{margin-left:-.125em}
-#header .details span.email a{color:rgba(0,0,0,.85)}
-#header .details br{display:none}
-#header .details br+span::before{content:"\00a0\2013\00a0"}
-#header .details br+span.author::before{content:"\00a0\22c5\00a0";color:rgba(0,0,0,.85)}
-#header .details br+span#revremark::before{content:"\00a0|\00a0"}
-#header #revnumber{text-transform:capitalize}
-#header #revnumber::after{content:"\00a0"}
-#content>h1:first-child:not([class]){color:rgba(0,0,0,.85);border-bottom:1px solid #dddddf;padding-bottom:8px;margin-top:0;padding-top:1rem;margin-bottom:1.25rem}
-#toc{border-bottom:1px solid #e7e7e9;padding-bottom:.5em}
-#toc>ul{margin-left:.125em}
-#toc ul.sectlevel0>li>a{font-style:italic}
-#toc ul.sectlevel0 ul.sectlevel1{margin:.5em 0}
-#toc ul{font-family:"Open Sans","DejaVu Sans",sans-serif;list-style-type:none}
-#toc li{line-height:1.3334;margin-top:.3334em}
-#toc a{text-decoration:none}
-#toc a:active{text-decoration:underline}
-#toctitle{color:#7a2518;font-size:1.2em}
-@media screen and (min-width:768px){#toctitle{font-size:1.375em}
-body.toc2{padding-left:15em;padding-right:0}
-#toc.toc2{margin-top:0!important;background:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
-#toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
-#toc.toc2>ul{font-size:.9em;margin-bottom:0}
-#toc.toc2 ul ul{margin-left:0;padding-left:1em}
-#toc.toc2 ul.sectlevel0 ul.sectlevel1{padding-left:0;margin-top:.5em;margin-bottom:.5em}
-body.toc2.toc-right{padding-left:0;padding-right:15em}
-body.toc2.toc-right #toc.toc2{border-right-width:0;border-left:1px solid #e7e7e9;left:auto;right:0}}
-@media screen and (min-width:1280px){body.toc2{padding-left:20em;padding-right:0}
-#toc.toc2{width:20em}
-#toc.toc2 #toctitle{font-size:1.375em}
-#toc.toc2>ul{font-size:.95em}
-#toc.toc2 ul ul{padding-left:1.25em}
-body.toc2.toc-right{padding-left:0;padding-right:20em}}
-#content #toc{border-style:solid;border-width:1px;border-color:#e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;-webkit-border-radius:4px;border-radius:4px}
-#content #toc>:first-child{margin-top:0}
-#content #toc>:last-child{margin-bottom:0}
-#footer{max-width:100%;background:rgba(0,0,0,.8);padding:1.25em}
-#footer-text{color:rgba(255,255,255,.8);line-height:1.44}
-#content{margin-bottom:.625em}
-.sect1{padding-bottom:.625em}
-@media screen and (min-width:768px){#content{margin-bottom:1.25em}
-.sect1{padding-bottom:1.25em}}
-.sect1:last-child{padding-bottom:0}
-.sect1+.sect1{border-top:1px solid #e7e7e9}
-#content h1>a.anchor,h2>a.anchor,h3>a.anchor,#toctitle>a.anchor,.sidebarblock>.content>.title>a.anchor,h4>a.anchor,h5>a.anchor,h6>a.anchor{position:absolute;z-index:1001;width:1.5ex;margin-left:-1.5ex;display:block;text-decoration:none!important;visibility:hidden;text-align:center;font-weight:400}
-#content h1>a.anchor::before,h2>a.anchor::before,h3>a.anchor::before,#toctitle>a.anchor::before,.sidebarblock>.content>.title>a.anchor::before,h4>a.anchor::before,h5>a.anchor::before,h6>a.anchor::before{content:"\00A7";font-size:.85em;display:block;padding-top:.1em}
-#content h1:hover>a.anchor,#content h1>a.anchor:hover,h2:hover>a.anchor,h2>a.anchor:hover,h3:hover>a.anchor,#toctitle:hover>a.anchor,.sidebarblock>.content>.title:hover>a.anchor,h3>a.anchor:hover,#toctitle>a.anchor:hover,.sidebarblock>.content>.title>a.anchor:hover,h4:hover>a.anchor,h4>a.anchor:hover,h5:hover>a.anchor,h5>a.anchor:hover,h6:hover>a.anchor,h6>a.anchor:hover{visibility:visible}
-#content h1>a.link,h2>a.link,h3>a.link,#toctitle>a.link,.sidebarblock>.content>.title>a.link,h4>a.link,h5>a.link,h6>a.link{color:#ba3925;text-decoration:none}
-#content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
-details,.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
-details>summary:first-of-type{cursor:pointer;display:list-item;outline:none;margin-bottom:.75em}
-.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{text-rendering:optimizeLegibility;text-align:left;font-family:"Noto Serif","DejaVu Serif",serif;font-size:1rem;font-style:italic}
-table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
-.paragraph.lead>p,#preamble>.sectionbody>[class="paragraph"]:first-of-type p{font-size:1.21875em;line-height:1.6;color:rgba(0,0,0,.85)}
-table.tableblock #preamble>.sectionbody>[class="paragraph"]:first-of-type p{font-size:inherit}
-.admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
-.admonitionblock>table td.icon{text-align:center;width:80px}
-.admonitionblock>table td.icon img{max-width:none}
-.admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
-.admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6)}
-.admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
-.exampleblock>.content{border-style:solid;border-width:1px;border-color:#e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;-webkit-border-radius:4px;border-radius:4px}
-.exampleblock>.content>:first-child{margin-top:0}
-.exampleblock>.content>:last-child{margin-bottom:0}
-.sidebarblock{border-style:solid;border-width:1px;border-color:#dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;-webkit-border-radius:4px;border-radius:4px}
-.sidebarblock>:first-child{margin-top:0}
-.sidebarblock>:last-child{margin-bottom:0}
-.sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
-.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
-.literalblock pre,.listingblock>.content>pre{-webkit-border-radius:4px;border-radius:4px;word-wrap:break-word;overflow-x:auto;padding:1em;font-size:.8125em}
-@media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
-@media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
-.literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class="highlight"],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
-.literalblock.output pre{color:#f7f7f8;background:rgba(0,0,0,.9)}
-.listingblock>.content{position:relative}
-.listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:inherit;opacity:.5}
-.listingblock:hover code[data-lang]::before{display:block}
-.listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:inherit;opacity:.5}
-.listingblock.terminal pre .command:not([data-prompt])::before{content:"$"}
-.listingblock pre.highlightjs{padding:0}
-.listingblock pre.highlightjs>code{padding:1em;-webkit-border-radius:4px;border-radius:4px}
-.listingblock pre.prettyprint{border-width:0}
-.prettyprint{background:#f7f7f8}
-pre.prettyprint .linenums{line-height:1.45;margin-left:2em}
-pre.prettyprint li{background:none;list-style-type:inherit;padding-left:0}
-pre.prettyprint li code[data-lang]::before{opacity:1}
-pre.prettyprint li:not(:first-child) code[data-lang]::before{display:none}
-table.linenotable{border-collapse:separate;border:0;margin-bottom:0;background:none}
-table.linenotable td[class]{color:inherit;vertical-align:top;padding:0;line-height:inherit;white-space:normal}
-table.linenotable td.code{padding-left:.75em}
-table.linenotable td.linenos{border-right:1px solid currentColor;opacity:.35;padding-right:.5em}
-pre.pygments .lineno{border-right:1px solid currentColor;opacity:.35;display:inline-block;margin-right:.75em}
-pre.pygments .lineno::before{content:"";margin-right:-.125em}
-.quoteblock{margin:0 1em 1.25em 1.5em;display:table}
-.quoteblock>.title{margin-left:-1.5em;margin-bottom:.75em}
-.quoteblock blockquote,.quoteblock p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
-.quoteblock blockquote{margin:0;padding:0;border:0}
-.quoteblock blockquote::before{content:"\201c";float:left;font-size:2.75em;font-weight:bold;line-height:.6em;margin-left:-.6em;color:#7a2518;text-shadow:0 1px 2px rgba(0,0,0,.1)}
-.quoteblock blockquote>.paragraph:last-child p{margin-bottom:0}
-.quoteblock .attribution{margin-top:.75em;margin-right:.5ex;text-align:right}
-.verseblock{margin:0 1em 1.25em}
-.verseblock pre{font-family:"Open Sans","DejaVu Sans",sans;font-size:1.15rem;color:rgba(0,0,0,.85);font-weight:300;text-rendering:optimizeLegibility}
-.verseblock pre strong{font-weight:400}
-.verseblock .attribution{margin-top:1.25rem;margin-left:.5ex}
-.quoteblock .attribution,.verseblock .attribution{font-size:.9375em;line-height:1.45;font-style:italic}
-.quoteblock .attribution br,.verseblock .attribution br{display:none}
-.quoteblock .attribution cite,.verseblock .attribution cite{display:block;letter-spacing:-.025em;color:rgba(0,0,0,.6)}
-.quoteblock.abstract blockquote::before,.quoteblock.excerpt blockquote::before,.quoteblock .quoteblock blockquote::before{display:none}
-.quoteblock.abstract blockquote,.quoteblock.abstract p,.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{line-height:1.6;word-spacing:0}
-.quoteblock.abstract{margin:0 1em 1.25em;display:block}
-.quoteblock.abstract>.title{margin:0 0 .375em;font-size:1.15em;text-align:center}
-.quoteblock.excerpt,.quoteblock .quoteblock{margin:0 0 1.25em;padding:0 0 .25em 1em;border-left:.25em solid #dddddf}
-.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{color:inherit;font-size:1.0625rem}
-.quoteblock.excerpt .attribution,.quoteblock .quoteblock .attribution{color:inherit;text-align:left;margin-right:0}
-table.tableblock{max-width:100%;border-collapse:separate}
-p.tableblock:last-child{margin-bottom:0}
-td.tableblock>.content>:last-child{margin-bottom:-1.25em}
-td.tableblock>.content>:last-child.sidebarblock{margin-bottom:0}
-table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
-table.grid-all>thead>tr>.tableblock,table.grid-all>tbody>tr>.tableblock{border-width:0 1px 1px 0}
-table.grid-all>tfoot>tr>.tableblock{border-width:1px 1px 0 0}
-table.grid-cols>*>tr>.tableblock{border-width:0 1px 0 0}
-table.grid-rows>thead>tr>.tableblock,table.grid-rows>tbody>tr>.tableblock{border-width:0 0 1px}
-table.grid-rows>tfoot>tr>.tableblock{border-width:1px 0 0}
-table.grid-all>*>tr>.tableblock:last-child,table.grid-cols>*>tr>.tableblock:last-child{border-right-width:0}
-table.grid-all>tbody>tr:last-child>.tableblock,table.grid-all>thead:last-child>tr>.tableblock,table.grid-rows>tbody>tr:last-child>.tableblock,table.grid-rows>thead:last-child>tr>.tableblock{border-bottom-width:0}
-table.frame-all{border-width:1px}
-table.frame-sides{border-width:0 1px}
-table.frame-topbot,table.frame-ends{border-width:1px 0}
-table.stripes-all tr,table.stripes-odd tr:nth-of-type(odd),table.stripes-even tr:nth-of-type(even),table.stripes-hover tr:hover{background:#f8f8f7}
-th.halign-left,td.halign-left{text-align:left}
-th.halign-right,td.halign-right{text-align:right}
-th.halign-center,td.halign-center{text-align:center}
-th.valign-top,td.valign-top{vertical-align:top}
-th.valign-bottom,td.valign-bottom{vertical-align:bottom}
-th.valign-middle,td.valign-middle{vertical-align:middle}
-table thead th,table tfoot th{font-weight:bold}
-tbody tr th{display:table-cell;line-height:1.6;background:#f7f8f7}
-tbody tr th,tbody tr th p,tfoot tr th,tfoot tr th p{color:rgba(0,0,0,.8);font-weight:bold}
-p.tableblock>code:only-child{background:none;padding:0}
-p.tableblock{font-size:1em}
-ol{margin-left:1.75em}
-ul li ol{margin-left:1.5em}
-dl dd{margin-left:1.125em}
-dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
-ol>li p,ul>li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
-ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
-ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
-ul.unstyled,ol.unstyled{margin-left:0}
-ul.checklist{margin-left:.625em}
-ul.checklist li>p:first-child>.fa-square-o:first-child,ul.checklist li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
-ul.checklist li>p:first-child>input[type="checkbox"]:first-child{margin-right:.25em}
-ul.inline{display:-ms-flexbox;display:-webkit-box;display:flex;-ms-flex-flow:row wrap;-webkit-flex-flow:row wrap;flex-flow:row wrap;list-style:none;margin:0 0 .625em -1.25em}
-ul.inline>li{margin-left:1.25em}
-.unstyled dl dt{font-weight:400;font-style:normal}
-ol.arabic{list-style-type:decimal}
-ol.decimal{list-style-type:decimal-leading-zero}
-ol.loweralpha{list-style-type:lower-alpha}
-ol.upperalpha{list-style-type:upper-alpha}
-ol.lowerroman{list-style-type:lower-roman}
-ol.upperroman{list-style-type:upper-roman}
-ol.lowergreek{list-style-type:lower-greek}
-.hdlist>table,.colist>table{border:0;background:none}
-.hdlist>table>tbody>tr,.colist>table>tbody>tr{background:none}
-td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
-td.hdlist1{font-weight:bold;padding-bottom:1.25em}
-.literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
-.colist td:not([class]):first-child{padding:.4em .75em 0;line-height:1;vertical-align:top}
-.colist td:not([class]):first-child img{max-width:none}
-.colist td:not([class]):last-child{padding:.25em 0}
-.thumb,.th{line-height:0;display:inline-block;border:solid 4px #fff;-webkit-box-shadow:0 0 0 1px #ddd;box-shadow:0 0 0 1px #ddd}
-.imageblock.left{margin:.25em .625em 1.25em 0}
-.imageblock.right{margin:.25em 0 1.25em .625em}
-.imageblock>.title{margin-bottom:0}
-.imageblock.thumb,.imageblock.th{border-width:6px}
-.imageblock.thumb>.title,.imageblock.th>.title{padding:0 .125em}
-.image.left,.image.right{margin-top:.25em;margin-bottom:.25em;display:inline-block;line-height:0}
-.image.left{margin-right:.625em}
-.image.right{margin-left:.625em}
-a.image{text-decoration:none;display:inline-block}
-a.image object{pointer-events:none}
-sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
-sup.footnote a,sup.footnoteref a{text-decoration:none}
-sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
-#footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
-#footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em;border-width:1px 0 0}
-#footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;margin-bottom:.2em}
-#footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none;margin-left:-1.05em}
-#footnotes .footnote:last-of-type{margin-bottom:0}
-#content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
-.gist .file-data>table{border:0;background:#fff;width:100%;margin-bottom:0}
-.gist .file-data>table td.line-data{width:99%}
-div.unbreakable{page-break-inside:avoid}
-.big{font-size:larger}
-.small{font-size:smaller}
-.underline{text-decoration:underline}
-.overline{text-decoration:overline}
-.line-through{text-decoration:line-through}
-.aqua{color:#00bfbf}
-.aqua-background{background:#00fafa}
-.black{color:#000}
-.black-background{background:#000}
-.blue{color:#0000bf}
-.blue-background{background:#0000fa}
-.fuchsia{color:#bf00bf}
-.fuchsia-background{background:#fa00fa}
-.gray{color:#606060}
-.gray-background{background:#7d7d7d}
-.green{color:#006000}
-.green-background{background:#007d00}
-.lime{color:#00bf00}
-.lime-background{background:#00fa00}
-.maroon{color:#600000}
-.maroon-background{background:#7d0000}
-.navy{color:#000060}
-.navy-background{background:#00007d}
-.olive{color:#606000}
-.olive-background{background:#7d7d00}
-.purple{color:#600060}
-.purple-background{background:#7d007d}
-.red{color:#bf0000}
-.red-background{background:#fa0000}
-.silver{color:#909090}
-.silver-background{background:#bcbcbc}
-.teal{color:#006060}
-.teal-background{background:#007d7d}
-.white{color:#bfbfbf}
-.white-background{background:#fafafa}
-.yellow{color:#bfbf00}
-.yellow-background{background:#fafa00}
-span.icon>.fa{cursor:default}
-a span.icon>.fa{cursor:inherit}
-.admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
-.admonitionblock td.icon .icon-note::before{content:"\f05a";color:#19407c}
-.admonitionblock td.icon .icon-tip::before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
-.admonitionblock td.icon .icon-warning::before{content:"\f071";color:#bf6900}
-.admonitionblock td.icon .icon-caution::before{content:"\f06d";color:#bf3400}
-.admonitionblock td.icon .icon-important::before{content:"\f06a";color:#bf0000}
-.conum[data-value]{display:inline-block;color:#fff!important;background:rgba(0,0,0,.8);-webkit-border-radius:100px;border-radius:100px;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
-.conum[data-value] *{color:#fff!important}
-.conum[data-value]+b{display:none}
-.conum[data-value]::after{content:attr(data-value)}
-pre .conum[data-value]{position:relative;top:-.125em}
-b.conum *{color:inherit!important}
-.conum:not([data-value]):empty{display:none}
-dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
-h1,h2,p,td.content,span.alt{letter-spacing:-.01em}
-p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
-p,blockquote,dt,td.content,span.alt{font-size:1.0625rem}
-p{margin-bottom:1.25rem}
-.sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
-.exampleblock>.content{background:#fffef7;border-color:#e0e0dc;-webkit-box-shadow:0 1px 4px #e0e0dc;box-shadow:0 1px 4px #e0e0dc}
-.print-only{display:none!important}
-@page{margin:1.25cm .75cm}
-@media print{*{-webkit-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important}
-html{font-size:80%}
-a{color:inherit!important;text-decoration:underline!important}
-a.bare,a[href^="#"],a[href^="mailto:"]{text-decoration:none!important}
-a[href^="http:"]:not(.bare)::after,a[href^="https:"]:not(.bare)::after{content:"(" attr(href) ")";display:inline-block;font-size:.875em;padding-left:.25em}
-abbr[title]::after{content:" (" attr(title) ")"}
-pre,blockquote,tr,img,object,svg{page-break-inside:avoid}
-thead{display:table-header-group}
-svg{max-width:100%}
-p,blockquote,dt,td.content{font-size:1em;orphans:3;widows:3}
-h2,h3,#toctitle,.sidebarblock>.content>.title{page-break-after:avoid}
-#toc,.sidebarblock,.exampleblock>.content{background:none!important}
-#toc{border-bottom:1px solid #dddddf!important;padding-bottom:0!important}
-body.book #header{text-align:center}
-body.book #header>h1:first-child{border:0!important;margin:2.5em 0 1em}
-body.book #header .details{border:0!important;display:block;padding:0!important}
-body.book #header .details span:first-child{margin-left:0!important}
-body.book #header .details br{display:block}
-body.book #header .details br+span::before{content:none!important}
-body.book #toc{border:0!important;text-align:left!important;padding:0!important;margin:0!important}
-body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-break-before:always}
-.listingblock code[data-lang]::before{display:block}
-#footer{padding:0 .9375em;}
-.hide-on-print{display:none!important}
-.print-only{display:block!important}
-.hide-for-print{display:none!important}
-.show-for-print{display:inherit!important}}
-@media print,amzn-kf8{#header>h1:first-child{margin-top:1.25rem}
-.sect1{padding:0!important}
-.sect1+.sect1{border:0}
-#footer{background:none}
-#footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
-@media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
-img {
-    text-align: center;
-	display: block;
-    margin: 0 auto;
-	max-height: 70vh;
-}
+/* Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
+/* Uncomment @import statement to use as custom stylesheet */
+/*@import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700";*/
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section{display:block}
+audio,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+a{background:none}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:.67em 0}
+abbr[title]{border-bottom:1px dotted}
+b,strong{font-weight:bold}
+dfn{font-style:italic}
+hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}
+mark{background:#ff0;color:#000}
+code,kbd,pre,samp{font-family:monospace;font-size:1em}
+pre{white-space:pre-wrap}
+q{quotes:"\201C" "\201D" "\2018" "\2019"}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+button,input{line-height:normal}
+button,select{text-transform:none}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+*,*::before,*::after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+html,body{font-size:100%}
+body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;font-weight:400;font-style:normal;line-height:1;position:relative;cursor:auto;tab-size:4;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+a:hover{cursor:pointer}
+img,object,embed{max-width:100%;height:auto}
+object,embed{height:100%}
+img{-ms-interpolation-mode:bicubic}
+.left{float:left!important}
+.right{float:right!important}
+.text-left{text-align:left!important}
+.text-right{text-align:right!important}
+.text-center{text-align:center!important}
+.text-justify{text-align:justify!important}
+.hide{display:none}
+img,object,svg{display:inline-block;vertical-align:middle}
+textarea{height:auto;min-height:50px}
+select{width:100%}
+.center{margin-left:auto;margin-right:auto}
+.stretch{width:100%}
+.subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#7a2518;font-weight:400;margin-top:0;margin-bottom:.25em}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0;direction:ltr}
+a{color:#2156a5;text-decoration:underline;line-height:inherit}
+a:hover,a:focus{color:#1d4b8f}
+a img{border:0}
+p{font-family:inherit;font-weight:400;font-size:1em;line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
+p aside{font-size:.875em;line-height:1.35;font-style:italic}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{font-family:"Open Sans","DejaVu Sans",sans-serif;font-weight:300;font-style:normal;color:#ba3925;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
+h1 small,h2 small,h3 small,#toctitle small,.sidebarblock>.content>.title small,h4 small,h5 small,h6 small{font-size:60%;color:#e99b8f;line-height:0}
+h1{font-size:2.125em}
+h2{font-size:1.6875em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.375em}
+h4,h5{font-size:1.125em}
+h6{font-size:1em}
+hr{border:solid #dddddf;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em;height:0}
+em,i{font-style:italic;line-height:inherit}
+strong,b{font-weight:bold;line-height:inherit}
+small{font-size:60%;line-height:inherit}
+code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
+ul,ol,dl{font-size:1em;line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
+ul,ol{margin-left:1.5em}
+ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0;font-size:1em}
+ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
+ul.square{list-style-type:square}
+ul.circle{list-style-type:circle}
+ul.disc{list-style-type:disc}
+ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
+dl dt{margin-bottom:.3125em;font-weight:bold}
+dl dd{margin-bottom:1.25em}
+abbr,acronym{text-transform:uppercase;font-size:90%;color:rgba(0,0,0,.8);border-bottom:1px dotted #ddd;cursor:help}
+abbr{text-transform:none}
+blockquote{margin:0 0 1.25em;padding:.5625em 1.25em 0 1.1875em;border-left:1px solid #ddd}
+blockquote cite{display:block;font-size:.9375em;color:rgba(0,0,0,.6)}
+blockquote cite::before{content:"\2014 \0020"}
+blockquote cite a,blockquote cite a:visited{color:rgba(0,0,0,.6)}
+blockquote,blockquote p{line-height:1.6;color:rgba(0,0,0,.85)}
+@media screen and (min-width:768px){h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2}
+h1{font-size:2.75em}
+h2{font-size:2.3125em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
+h4{font-size:1.4375em}}
+table{background:#fff;margin-bottom:1.25em;border:solid 1px #dedede}
+table thead,table tfoot{background:#f7f8f7}
+table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
+table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
+table tr.even,table tr.alt{background:#f8f8f7}
+table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{display:table-cell;line-height:1.6}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
+h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
+.clearfix::before,.clearfix::after,.float-group::before,.float-group::after{content:" ";display:table}
+.clearfix::after,.float-group::after{clear:both}
+:not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;-webkit-border-radius:4px;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed;word-wrap:break-word}
+:not(pre)>code.nobreak{word-wrap:normal}
+:not(pre)>code.nowrap{white-space:nowrap}
+pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
+pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
+pre>code{display:block}
+pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
+em em{font-style:normal}
+strong strong{font-weight:400}
+.keyseq{color:rgba(51,51,51,.8)}
+kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background:#f7f7f7;border:1px solid #ccc;-webkit-border-radius:3px;border-radius:3px;-webkit-box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em white inset;box-shadow:0 1px 0 rgba(0,0,0,.2),0 0 0 .1em #fff inset;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
+.keyseq kbd:first-child{margin-left:0}
+.keyseq kbd:last-child{margin-right:0}
+.menuseq,.menuref{color:#000}
+.menuseq b:not(.caret),.menuref{font-weight:inherit}
+.menuseq{word-spacing:-.02em}
+.menuseq b.caret{font-size:1.25em;line-height:.8}
+.menuseq i.caret{font-weight:bold;text-align:center;width:.45em}
+b.button::before,b.button::after{position:relative;top:-1px;font-weight:400}
+b.button::before{content:"[";padding:0 3px 0 2px}
+b.button::after{content:"]";padding:0 2px 0 3px}
+p a>code:hover{color:rgba(0,0,0,.9)}
+#header,#content,#footnotes,#footer{width:100%;margin-left:auto;margin-right:auto;margin-top:0;margin-bottom:0;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
+#header::before,#header::after,#content::before,#content::after,#footnotes::before,#footnotes::after,#footer::before,#footer::after{content:" ";display:table}
+#header::after,#content::after,#footnotes::after,#footer::after{clear:both}
+#content{margin-top:1.25em}
+#content::before{content:none}
+#header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
+#header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
+#header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
+#header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:-ms-flexbox;display:-webkit-flex;display:flex;-ms-flex-flow:row wrap;-webkit-flex-flow:row wrap;flex-flow:row wrap}
+#header .details span:first-child{margin-left:-.125em}
+#header .details span.email a{color:rgba(0,0,0,.85)}
+#header .details br{display:none}
+#header .details br+span::before{content:"\00a0\2013\00a0"}
+#header .details br+span.author::before{content:"\00a0\22c5\00a0";color:rgba(0,0,0,.85)}
+#header .details br+span#revremark::before{content:"\00a0|\00a0"}
+#header #revnumber{text-transform:capitalize}
+#header #revnumber::after{content:"\00a0"}
+#content>h1:first-child:not([class]){color:rgba(0,0,0,.85);border-bottom:1px solid #dddddf;padding-bottom:8px;margin-top:0;padding-top:1rem;margin-bottom:1.25rem}
+#toc{border-bottom:1px solid #e7e7e9;padding-bottom:.5em}
+#toc>ul{margin-left:.125em}
+#toc ul.sectlevel0>li>a{font-style:italic}
+#toc ul.sectlevel0 ul.sectlevel1{margin:.5em 0}
+#toc ul{font-family:"Open Sans","DejaVu Sans",sans-serif;list-style-type:none}
+#toc li{line-height:1.3334;margin-top:.3334em}
+#toc a{text-decoration:none}
+#toc a:active{text-decoration:underline}
+#toctitle{color:#7a2518;font-size:1.2em}
+@media screen and (min-width:768px){#toctitle{font-size:1.375em}
+body.toc2{padding-left:15em;padding-right:0}
+#toc.toc2{margin-top:0!important;background:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
+#toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
+#toc.toc2>ul{font-size:.9em;margin-bottom:0}
+#toc.toc2 ul ul{margin-left:0;padding-left:1em}
+#toc.toc2 ul.sectlevel0 ul.sectlevel1{padding-left:0;margin-top:.5em;margin-bottom:.5em}
+body.toc2.toc-right{padding-left:0;padding-right:15em}
+body.toc2.toc-right #toc.toc2{border-right-width:0;border-left:1px solid #e7e7e9;left:auto;right:0}}
+@media screen and (min-width:1280px){body.toc2{padding-left:20em;padding-right:0}
+#toc.toc2{width:20em}
+#toc.toc2 #toctitle{font-size:1.375em}
+#toc.toc2>ul{font-size:.95em}
+#toc.toc2 ul ul{padding-left:1.25em}
+body.toc2.toc-right{padding-left:0;padding-right:20em}}
+#content #toc{border-style:solid;border-width:1px;border-color:#e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;-webkit-border-radius:4px;border-radius:4px}
+#content #toc>:first-child{margin-top:0}
+#content #toc>:last-child{margin-bottom:0}
+#footer{max-width:100%;background:rgba(0,0,0,.8);padding:1.25em}
+#footer-text{color:rgba(255,255,255,.8);line-height:1.44}
+#content{margin-bottom:.625em}
+.sect1{padding-bottom:.625em}
+@media screen and (min-width:768px){#content{margin-bottom:1.25em}
+.sect1{padding-bottom:1.25em}}
+.sect1:last-child{padding-bottom:0}
+.sect1+.sect1{border-top:1px solid #e7e7e9}
+#content h1>a.anchor,h2>a.anchor,h3>a.anchor,#toctitle>a.anchor,.sidebarblock>.content>.title>a.anchor,h4>a.anchor,h5>a.anchor,h6>a.anchor{position:absolute;z-index:1001;width:1.5ex;margin-left:-1.5ex;display:block;text-decoration:none!important;visibility:hidden;text-align:center;font-weight:400}
+#content h1>a.anchor::before,h2>a.anchor::before,h3>a.anchor::before,#toctitle>a.anchor::before,.sidebarblock>.content>.title>a.anchor::before,h4>a.anchor::before,h5>a.anchor::before,h6>a.anchor::before{content:"\00A7";font-size:.85em;display:block;padding-top:.1em}
+#content h1:hover>a.anchor,#content h1>a.anchor:hover,h2:hover>a.anchor,h2>a.anchor:hover,h3:hover>a.anchor,#toctitle:hover>a.anchor,.sidebarblock>.content>.title:hover>a.anchor,h3>a.anchor:hover,#toctitle>a.anchor:hover,.sidebarblock>.content>.title>a.anchor:hover,h4:hover>a.anchor,h4>a.anchor:hover,h5:hover>a.anchor,h5>a.anchor:hover,h6:hover>a.anchor,h6>a.anchor:hover{visibility:visible}
+#content h1>a.link,h2>a.link,h3>a.link,#toctitle>a.link,.sidebarblock>.content>.title>a.link,h4>a.link,h5>a.link,h6>a.link{color:#ba3925;text-decoration:none}
+#content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
+details,.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
+details>summary:first-of-type{cursor:pointer;display:list-item;outline:none;margin-bottom:.75em}
+.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{text-rendering:optimizeLegibility;text-align:left;font-family:"Noto Serif","DejaVu Serif",serif;font-size:1rem;font-style:italic}
+table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
+.paragraph.lead>p,#preamble>.sectionbody>[class="paragraph"]:first-of-type p{font-size:1.21875em;line-height:1.6;color:rgba(0,0,0,.85)}
+table.tableblock #preamble>.sectionbody>[class="paragraph"]:first-of-type p{font-size:inherit}
+.admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
+.admonitionblock>table td.icon{text-align:center;width:80px}
+.admonitionblock>table td.icon img{max-width:none}
+.admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
+.admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6)}
+.admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content{border-style:solid;border-width:1px;border-color:#e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;-webkit-border-radius:4px;border-radius:4px}
+.exampleblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child{margin-bottom:0}
+.sidebarblock{border-style:solid;border-width:1px;border-color:#dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;-webkit-border-radius:4px;border-radius:4px}
+.sidebarblock>:first-child{margin-top:0}
+.sidebarblock>:last-child{margin-bottom:0}
+.sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
+.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.literalblock pre,.listingblock>.content>pre{-webkit-border-radius:4px;border-radius:4px;word-wrap:break-word;overflow-x:auto;padding:1em;font-size:.8125em}
+@media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
+@media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
+.literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class="highlight"],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
+.literalblock.output pre{color:#f7f7f8;background:rgba(0,0,0,.9)}
+.listingblock>.content{position:relative}
+.listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:inherit;opacity:.5}
+.listingblock:hover code[data-lang]::before{display:block}
+.listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:inherit;opacity:.5}
+.listingblock.terminal pre .command:not([data-prompt])::before{content:"$"}
+.listingblock pre.highlightjs{padding:0}
+.listingblock pre.highlightjs>code{padding:1em;-webkit-border-radius:4px;border-radius:4px}
+.listingblock pre.prettyprint{border-width:0}
+.prettyprint{background:#f7f7f8}
+pre.prettyprint .linenums{line-height:1.45;margin-left:2em}
+pre.prettyprint li{background:none;list-style-type:inherit;padding-left:0}
+pre.prettyprint li code[data-lang]::before{opacity:1}
+pre.prettyprint li:not(:first-child) code[data-lang]::before{display:none}
+table.linenotable{border-collapse:separate;border:0;margin-bottom:0;background:none}
+table.linenotable td[class]{color:inherit;vertical-align:top;padding:0;line-height:inherit;white-space:normal}
+table.linenotable td.code{padding-left:.75em}
+table.linenotable td.linenos{border-right:1px solid currentColor;opacity:.35;padding-right:.5em}
+pre.pygments .lineno{border-right:1px solid currentColor;opacity:.35;display:inline-block;margin-right:.75em}
+pre.pygments .lineno::before{content:"";margin-right:-.125em}
+.quoteblock{margin:0 1em 1.25em 1.5em;display:table}
+.quoteblock>.title{margin-left:-1.5em;margin-bottom:.75em}
+.quoteblock blockquote,.quoteblock p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
+.quoteblock blockquote{margin:0;padding:0;border:0}
+.quoteblock blockquote::before{content:"\201c";float:left;font-size:2.75em;font-weight:bold;line-height:.6em;margin-left:-.6em;color:#7a2518;text-shadow:0 1px 2px rgba(0,0,0,.1)}
+.quoteblock blockquote>.paragraph:last-child p{margin-bottom:0}
+.quoteblock .attribution{margin-top:.75em;margin-right:.5ex;text-align:right}
+.verseblock{margin:0 1em 1.25em}
+.verseblock pre{font-family:"Open Sans","DejaVu Sans",sans;font-size:1.15rem;color:rgba(0,0,0,.85);font-weight:300;text-rendering:optimizeLegibility}
+.verseblock pre strong{font-weight:400}
+.verseblock .attribution{margin-top:1.25rem;margin-left:.5ex}
+.quoteblock .attribution,.verseblock .attribution{font-size:.9375em;line-height:1.45;font-style:italic}
+.quoteblock .attribution br,.verseblock .attribution br{display:none}
+.quoteblock .attribution cite,.verseblock .attribution cite{display:block;letter-spacing:-.025em;color:rgba(0,0,0,.6)}
+.quoteblock.abstract blockquote::before,.quoteblock.excerpt blockquote::before,.quoteblock .quoteblock blockquote::before{display:none}
+.quoteblock.abstract blockquote,.quoteblock.abstract p,.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{line-height:1.6;word-spacing:0}
+.quoteblock.abstract{margin:0 1em 1.25em;display:block}
+.quoteblock.abstract>.title{margin:0 0 .375em;font-size:1.15em;text-align:center}
+.quoteblock.excerpt,.quoteblock .quoteblock{margin:0 0 1.25em;padding:0 0 .25em 1em;border-left:.25em solid #dddddf}
+.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{color:inherit;font-size:1.0625rem}
+.quoteblock.excerpt .attribution,.quoteblock .quoteblock .attribution{color:inherit;text-align:left;margin-right:0}
+table.tableblock{max-width:100%;border-collapse:separate}
+p.tableblock:last-child{margin-bottom:0}
+td.tableblock>.content>:last-child{margin-bottom:-1.25em}
+td.tableblock>.content>:last-child.sidebarblock{margin-bottom:0}
+table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
+table.grid-all>thead>tr>.tableblock,table.grid-all>tbody>tr>.tableblock{border-width:0 1px 1px 0}
+table.grid-all>tfoot>tr>.tableblock{border-width:1px 1px 0 0}
+table.grid-cols>*>tr>.tableblock{border-width:0 1px 0 0}
+table.grid-rows>thead>tr>.tableblock,table.grid-rows>tbody>tr>.tableblock{border-width:0 0 1px}
+table.grid-rows>tfoot>tr>.tableblock{border-width:1px 0 0}
+table.grid-all>*>tr>.tableblock:last-child,table.grid-cols>*>tr>.tableblock:last-child{border-right-width:0}
+table.grid-all>tbody>tr:last-child>.tableblock,table.grid-all>thead:last-child>tr>.tableblock,table.grid-rows>tbody>tr:last-child>.tableblock,table.grid-rows>thead:last-child>tr>.tableblock{border-bottom-width:0}
+table.frame-all{border-width:1px}
+table.frame-sides{border-width:0 1px}
+table.frame-topbot,table.frame-ends{border-width:1px 0}
+table.stripes-all tr,table.stripes-odd tr:nth-of-type(odd),table.stripes-even tr:nth-of-type(even),table.stripes-hover tr:hover{background:#f8f8f7}
+th.halign-left,td.halign-left{text-align:left}
+th.halign-right,td.halign-right{text-align:right}
+th.halign-center,td.halign-center{text-align:center}
+th.valign-top,td.valign-top{vertical-align:top}
+th.valign-bottom,td.valign-bottom{vertical-align:bottom}
+th.valign-middle,td.valign-middle{vertical-align:middle}
+table thead th,table tfoot th{font-weight:bold}
+tbody tr th{display:table-cell;line-height:1.6;background:#f7f8f7}
+tbody tr th,tbody tr th p,tfoot tr th,tfoot tr th p{color:rgba(0,0,0,.8);font-weight:bold}
+p.tableblock>code:only-child{background:none;padding:0}
+p.tableblock{font-size:1em}
+ol{margin-left:1.75em}
+ul li ol{margin-left:1.5em}
+dl dd{margin-left:1.125em}
+dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
+ol>li p,ul>li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
+ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
+ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
+ul.unstyled,ol.unstyled{margin-left:0}
+ul.checklist{margin-left:.625em}
+ul.checklist li>p:first-child>.fa-square-o:first-child,ul.checklist li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
+ul.checklist li>p:first-child>input[type="checkbox"]:first-child{margin-right:.25em}
+ul.inline{display:-ms-flexbox;display:-webkit-box;display:flex;-ms-flex-flow:row wrap;-webkit-flex-flow:row wrap;flex-flow:row wrap;list-style:none;margin:0 0 .625em -1.25em}
+ul.inline>li{margin-left:1.25em}
+.unstyled dl dt{font-weight:400;font-style:normal}
+ol.arabic{list-style-type:decimal}
+ol.decimal{list-style-type:decimal-leading-zero}
+ol.loweralpha{list-style-type:lower-alpha}
+ol.upperalpha{list-style-type:upper-alpha}
+ol.lowerroman{list-style-type:lower-roman}
+ol.upperroman{list-style-type:upper-roman}
+ol.lowergreek{list-style-type:lower-greek}
+.hdlist>table,.colist>table{border:0;background:none}
+.hdlist>table>tbody>tr,.colist>table>tbody>tr{background:none}
+td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
+td.hdlist1{font-weight:bold;padding-bottom:1.25em}
+.literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
+.colist td:not([class]):first-child{padding:.4em .75em 0;line-height:1;vertical-align:top}
+.colist td:not([class]):first-child img{max-width:none}
+.colist td:not([class]):last-child{padding:.25em 0}
+.thumb,.th{line-height:0;display:inline-block;border:solid 4px #fff;-webkit-box-shadow:0 0 0 1px #ddd;box-shadow:0 0 0 1px #ddd}
+.imageblock.left{margin:.25em .625em 1.25em 0}
+.imageblock.right{margin:.25em 0 1.25em .625em}
+.imageblock>.title{margin-bottom:0}
+.imageblock.thumb,.imageblock.th{border-width:6px}
+.imageblock.thumb>.title,.imageblock.th>.title{padding:0 .125em}
+.image.left,.image.right{margin-top:.25em;margin-bottom:.25em;display:inline-block;line-height:0}
+.image.left{margin-right:.625em}
+.image.right{margin-left:.625em}
+a.image{text-decoration:none;display:inline-block}
+a.image object{pointer-events:none}
+sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
+sup.footnote a,sup.footnoteref a{text-decoration:none}
+sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
+#footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
+#footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em;border-width:1px 0 0}
+#footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;margin-bottom:.2em}
+#footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none;margin-left:-1.05em}
+#footnotes .footnote:last-of-type{margin-bottom:0}
+#content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
+.gist .file-data>table{border:0;background:#fff;width:100%;margin-bottom:0}
+.gist .file-data>table td.line-data{width:99%}
+div.unbreakable{page-break-inside:avoid}
+.big{font-size:larger}
+.small{font-size:smaller}
+.underline{text-decoration:underline}
+.overline{text-decoration:overline}
+.line-through{text-decoration:line-through}
+.aqua{color:#00bfbf}
+.aqua-background{background:#00fafa}
+.black{color:#000}
+.black-background{background:#000}
+.blue{color:#0000bf}
+.blue-background{background:#0000fa}
+.fuchsia{color:#bf00bf}
+.fuchsia-background{background:#fa00fa}
+.gray{color:#606060}
+.gray-background{background:#7d7d7d}
+.green{color:#006000}
+.green-background{background:#007d00}
+.lime{color:#00bf00}
+.lime-background{background:#00fa00}
+.maroon{color:#600000}
+.maroon-background{background:#7d0000}
+.navy{color:#000060}
+.navy-background{background:#00007d}
+.olive{color:#606000}
+.olive-background{background:#7d7d00}
+.purple{color:#600060}
+.purple-background{background:#7d007d}
+.red{color:#bf0000}
+.red-background{background:#fa0000}
+.silver{color:#909090}
+.silver-background{background:#bcbcbc}
+.teal{color:#006060}
+.teal-background{background:#007d7d}
+.white{color:#bfbfbf}
+.white-background{background:#fafafa}
+.yellow{color:#bfbf00}
+.yellow-background{background:#fafa00}
+span.icon>.fa{cursor:default}
+a span.icon>.fa{cursor:inherit}
+.admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
+.admonitionblock td.icon .icon-note::before{content:"\f05a";color:#19407c}
+.admonitionblock td.icon .icon-tip::before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
+.admonitionblock td.icon .icon-warning::before{content:"\f071";color:#bf6900}
+.admonitionblock td.icon .icon-caution::before{content:"\f06d";color:#bf3400}
+.admonitionblock td.icon .icon-important::before{content:"\f06a";color:#bf0000}
+.conum[data-value]{display:inline-block;color:#fff!important;background:rgba(0,0,0,.8);-webkit-border-radius:100px;border-radius:100px;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
+.conum[data-value] *{color:#fff!important}
+.conum[data-value]+b{display:none}
+.conum[data-value]::after{content:attr(data-value)}
+pre .conum[data-value]{position:relative;top:-.125em}
+b.conum *{color:inherit!important}
+.conum:not([data-value]):empty{display:none}
+dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
+h1,h2,p,td.content,span.alt{letter-spacing:-.01em}
+p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
+p,blockquote,dt,td.content,span.alt{font-size:1.0625rem}
+p{margin-bottom:1.25rem}
+.sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
+.exampleblock>.content{background:#fffef7;border-color:#e0e0dc;-webkit-box-shadow:0 1px 4px #e0e0dc;box-shadow:0 1px 4px #e0e0dc}
+.print-only{display:none!important}
+@page{margin:1.25cm .75cm}
+@media print{*{-webkit-box-shadow:none!important;box-shadow:none!important;text-shadow:none!important}
+html{font-size:80%}
+a{color:inherit!important;text-decoration:underline!important}
+a.bare,a[href^="#"],a[href^="mailto:"]{text-decoration:none!important}
+a[href^="http:"]:not(.bare)::after,a[href^="https:"]:not(.bare)::after{content:"(" attr(href) ")";display:inline-block;font-size:.875em;padding-left:.25em}
+abbr[title]::after{content:" (" attr(title) ")"}
+pre,blockquote,tr,img,object,svg{page-break-inside:avoid}
+thead{display:table-header-group}
+svg{max-width:100%}
+p,blockquote,dt,td.content{font-size:1em;orphans:3;widows:3}
+h2,h3,#toctitle,.sidebarblock>.content>.title{page-break-after:avoid}
+#toc,.sidebarblock,.exampleblock>.content{background:none!important}
+#toc{border-bottom:1px solid #dddddf!important;padding-bottom:0!important}
+body.book #header{text-align:center}
+body.book #header>h1:first-child{border:0!important;margin:2.5em 0 1em}
+body.book #header .details{border:0!important;display:block;padding:0!important}
+body.book #header .details span:first-child{margin-left:0!important}
+body.book #header .details br{display:block}
+body.book #header .details br+span::before{content:none!important}
+body.book #toc{border:0!important;text-align:left!important;padding:0!important;margin:0!important}
+body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-break-before:always}
+.listingblock code[data-lang]::before{display:block}
+#footer{padding:0 .9375em;}
+.hide-on-print{display:none!important}
+.print-only{display:block!important}
+.hide-for-print{display:none!important}
+.show-for-print{display:inherit!important}}
+@media print,amzn-kf8{#header>h1:first-child{margin-top:1.25rem}
+.sect1{padding:0!important}
+.sect1+.sect1{border:0}
+#footer{background:none}
+#footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
+@media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
+img {
+    text-align: center;
+	display: block;
+    margin: 0 auto;
+	max-height: 70vh;
+}
 
 </style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="book toc2 toc-left">
 <div id="header">
@@ -448,53 +447,52 @@ img {
 <div id="toc" class="toc2">
 <div id="toctitle">Содержание</div>
 <ul class="sectlevel1">
-<li><a href="#trueприветствую-тебя-первый-игрок">1. Приветствую тебя, первый игрок!</a>
+<li><a href="#_приветствую_тебя_первый_игрок">1. Приветствую тебя, первый игрок!</a>
 <ul class="sectlevel2">
-<li><a href="#trueоб-рпг-органайзере">1.1. Об РПГ Органайзере</a></li>
-<li><a href="#trueдоступ-к-рпг-органайзеру">1.2. Доступ к РПГ Органайзеру</a></li>
-<li><a href="#trueесли-зашел-с-телефона">1.3. Если зашел с телефона</a></li>
+<li><a href="#_об_рпг_органайзере">1.1. Об РПГ Органайзере</a></li>
+<li><a href="#_доступ_к_рпг_органайзеру">1.2. Доступ к РПГ Органайзеру</a></li>
+<li><a href="#_настройка">1.3. Настройка</a></li>
 </ul>
 </li>
-<li><a href="#trueперсонаж">2. Персонаж</a>
+<li><a href="#_персонаж">2. Персонаж</a>
 <ul class="sectlevel2">
-<li><a href="#trueнастройка-основной-информации">2.1. Настройка основной информации</a></li>
+<li><a href="#_настройка_основной_информации">2.1. Настройка основной информации</a></li>
 </ul>
 </li>
-<li><a href="#trueхарактристики">3. Характристики</a>
+<li><a href="#_характристики">3. Характристики</a>
 <ul class="sectlevel2">
-<li><a href="#trueпримеры-характеристик-в-реальной-жизни">3.1. Примеры характеристик в реальной жизни</a></li>
-<li><a href="#trueнастройка-характеристик-в-рпг-органайзере">3.2. Настройка характеристик в РПГ Органайзере</a></li>
-<li><a href="#trueхарактеристики-имеют-значение">3.3. Характеристики имеют значение</a></li>
+<li><a href="#_настройка_характеристик">3.1. Настройка характеристик</a></li>
+<li><a href="#_характеристики_имеют_значение">3.2. Характеристики имеют значение</a></li>
 </ul>
 </li>
-<li><a href="#trueнавыки">4. Навыки</a>
+<li><a href="#_навыки">4. Навыки</a>
 <ul class="sectlevel2">
-<li><a href="#trueнавыки-влияют-на-характеристики">4.1. Навыки влияют на характеристики</a></li>
-<li><a href="#trueнавыки-измеряются">4.2. Навыки измеряются</a></li>
-<li><a href="#trueпримеры-навыков-в-реальной-жизни">4.3. Примеры навыков в реальной жизни</a></li>
-<li><a href="#trueнастройка-навыков">4.4. Настройка навыков</a></li>
+<li><a href="#_навыки_измеряются">4.1. Навыки измеряются</a></li>
+<li><a href="#_навыки_развиваются">4.2. Навыки развиваются</a></li>
+<li><a href="#_навыки_влияют_на_характеристики">4.3. Навыки влияют на характеристики</a></li>
+<li><a href="#_примеры_навыков">4.4. Примеры навыков</a></li>
+<li><a href="#_настройка_навыков">4.5. Настройка навыков</a></li>
 </ul>
 </li>
-<li><a href="#trueфайт">5. Файт!</a>
+<li><a href="#_награды">5. Награды</a>
 <ul class="sectlevel2">
-<li><a href="#trueцель-игры">5.1. Цель игры</a></li>
-<li><a href="#trueпанель-задач">5.2. Панель задач</a></li>
-<li><a href="#trueпанель-интерфейса">5.3. Панель интерфейса</a></li>
-<li><a href="#trueжесты">5.4. Жесты</a></li>
-<li><a href="#trueтвои-действия">5.5. Твои действия</a></li>
-<li><a href="#trueновый-уровень">5.6. Новый уровень!</a></li>
+<li><a href="#_добавление_трофея">5.1. Добавление трофея</a></li>
 </ul>
 </li>
-<li><a href="#trueнаграды">6. Награды</a>
+<li><a href="#_квесты">6. Квесты</a>
 <ul class="sectlevel2">
-<li><a href="#trueвиды-наград">6.1. Виды наград</a></li>
-<li><a href="#trueдобавление-награды">6.2. Добавление награды</a></li>
-<li><a href="#trueполучение-и-использование-наград">6.3. Получение и использование наград</a></li>
+<li><a href="#_настройка_квестов_в_рпг_органайзере">6.1. Настройка квестов в РПГ Органайзере</a></li>
 </ul>
 </li>
-<li><a href="#trueквесты">7. Квесты</a>
+<li><a href="#_файт">7. Файт!</a>
 <ul class="sectlevel2">
-<li><a href="#trueнастройка-квестов-в-рпг-органайзере">7.1. Настройка квестов в РПГ Органайзере</a></li>
+<li><a href="#_цель">7.1. Цель</a></li>
+<li><a href="#_панель_задач">7.2. Панель задач</a></li>
+<li><a href="#_панель_интерфейса">7.3. Панель интерфейса</a></li>
+<li><a href="#_работа_с_навыками">7.4. Работа с навыками</a></li>
+<li><a href="#_работа_с_квестами">7.5. Работа с квестами</a></li>
+<li><a href="#_новый_уровень">7.6. Новый уровень!</a></li>
+<li><a href="#_награды_3">7.7. Награды</a></li>
 </ul>
 </li>
 </ul>
@@ -502,11 +500,11 @@ img {
 </div>
 <div id="content">
 <div class="sect1">
-<h2 id="trueприветствую-тебя-первый-игрок"><a class="anchor" href="#trueприветствую-тебя-первый-игрок"></a>1. Приветствую тебя, первый игрок!</h2>
+<h2 id="_приветствую_тебя_первый_игрок">1. Приветствую тебя, первый игрок!</h2>
 <div class="sectionbody">
 <div class="imageblock">
 <div class="content">
-<img src="img\дикарка.jpg" alt="img\дикарка">
+<img src="img/дикарка.jpg" alt="дикарка">
 </div>
 </div>
 <div class="paragraph">
@@ -519,31 +517,31 @@ img {
 <p><em>Это ты, верно?</em></p>
 </div>
 <div class="paragraph">
-<p>Тебе суждено <a href="http://eepurl.com/ciG_oL">вступить в ряды сопротивления</a> и одержать победу в самой удивительной и захватывающей <a href="http://nerdistway.blogspot.ru/2013/08/blog-post_5490.html">Игре Жизни</a>, отточить до совершенства свои таланты, стать несокрушимой, необыкновенной, вдохновляющей личностью и изменить мир. Но прежде тебе предстоит пройти обучение&#8230;&#8203;</p>
+<p>Тебе суждено <a href="http://eepurl.com/ciG_oL">вступить в ряды сопротивления</a> и одержать победу в самой удивительной и захватывающей <a href="http://nerdistway.blogspot.ru/2013/08/blog-post_5490.html">Игре Жизни</a>, отточить до совершенства свои таланты, стать несокрушимой, необыкновенной, вдохновляющей личностью и изменить мир.</p>
 </div>
 <div class="paragraph">
-<p>Чтобы полностью раскрыть твой потенциал, мы воспользуется примитивным человеческим изобретением - рпг эмулятором реальной жизни, называемым "Рпг Органайзер". Ты создашь героя, выберешь свой путь и будешь сражаться. Каждая новая победа сделает тебя сильнее и увереннее, и откроет доступ к новым испытаниям.</p>
+<p><em>Но прежде тебе предстоит пройти обучение&#8230;&#8203;</em></p>
 </div>
 <div class="paragraph">
-<p><strong>Готов к приключениям?</strong></p>
+<p>Чтобы полностью раскрыть твой потенциал, мы воспользуется примитивным человеческим изобретением - рпг эмулятором реальной жизни, называемым "Рпг Органайзер". Ты создашь героя, выберешь свой путь и будешь сражаться. Каждая новая победа сделает тебя сильнее, увереннее и откроет доступ к новым испытаниям.</p>
+</div>
+<div class="paragraph">
+<p><em>Готов к приключениям?</em></p>
 </div>
 <div class="sect2">
-<h3 id="trueоб-рпг-органайзере"><a class="anchor" href="#trueоб-рпг-органайзере"></a>1.1. Об РПГ Органайзере</h3>
+<h3 id="_об_рпг_органайзере">1.1. Об РПГ Органайзере</h3>
 <div class="paragraph">
 <p>Рпг Органайзер - это новейшая многопользовательская платформа которая делает саморазвитие простым и веселым.</p>
 </div>
 <div class="paragraph">
-<p>Совершенствуй и гармонизируй все стороны жизни с помощью РПГ Органайзера. Независимо от твоего текущего состояния дел, с помощью инновационной системы постепенной прогрессии (которую ты можешь встретить в любимых РПГ играх) у тебя есть хорошие шансы начать выглядеть и чувствовать себя увереннее всего за несколько недель.</p>
+<p>Совершенствуй все стороны жизни с помощью РПГ Органайзера. Независимо от твоего текущего состояния дел, с помощью инновационной системой постепенной прогрессии (которую ты можешь встретить в любимых РПГ играх) у тебя будут хорошие шансы начать выглядеть и чувствовать себя намного лучше всего за несколько недель.</p>
 </div>
 <div class="paragraph">
-<p>Отслеживай ежедневные миссии, зарабатывай очки опыта и продвигайся выше в турнирной таблице. Стань ЛЕГЕНДАРНЫМ ГЕРОЕМ и твое имя будет увековечено в Зале Славы!</p>
-</div>
-<div class="paragraph">
-<p>С Рпг Органайзером у тебя всегда будет новый вызов и награда, ожидающая тебя. Прокачай себя в реале!</p>
+<p>С Рпг Органайзером у тебя всегда будет новый вызов и награда, ожидающая тебя. Отслеживай ежедневные миссии, зарабатывай очки опыта и продвигайся выше в турнирной таблице. Стань ЛЕГЕНДАРНЫМ ГЕРОЕМ, прокачай себя в реале и твое имя будет увековечено в <a href="http://nerdistway.blogspot.com/2013/05/blog-post_91.html">Зале Славы</a>!</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="trueдоступ-к-рпг-органайзеру"><a class="anchor" href="#trueдоступ-к-рпг-органайзеру"></a>1.2. Доступ к РПГ Органайзеру</h3>
+<h3 id="_доступ_к_рпг_органайзеру">1.2. Доступ к РПГ Органайзеру</h3>
 <div class="paragraph">
 <p>Чтобы попасть во вселенную "РПГ Органайзер" - <a href="https://rpgorganizer-72d0b.firebaseapp.com/">перейди по секретной ссылке</a>.</p>
 </div>
@@ -555,7 +553,7 @@ img {
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img\логин.jpg" alt="img\логин">
+<img src="img/логин.jpg" alt="логин">
 </div>
 </div>
 <div class="paragraph">
@@ -563,45 +561,54 @@ img {
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img\главноеОкно.jpg" alt="img\главноеОкно">
+<img src="img/главноеОкно.jpg" alt="главноеОкно">
 </div>
 </div>
 </div>
 <div class="sect2">
-<h3 id="trueесли-зашел-с-телефона"><a class="anchor" href="#trueесли-зашел-с-телефона"></a>1.3. Если зашел с телефона</h3>
+<h3 id="_настройка">1.3. Настройка</h3>
 <div class="paragraph">
-<p>Если зашел в РПГ Органайзер с телефона, при первом запуске странички тебе будет предложено "добавить РПГ Органайзер на главный экран". Соглашайся, так будет намного удобнее пользоваться прогой (альтернативный способ - нажми Меню&#8594;Добавить на главный экран).</p>
+<p>При запуске странички тебе будет предложено "добавить РПГ Органайзер на главный экран". Эта функция доступна как на телефоне, так и на десктопе. Соглашайся, так будет намного удобнее пользоваться прогой (альтернативный способ - нажми Меню&#8594;Добавить на главный экран).</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img\добавитьПриложениеАндроид.jpg" alt="img\добавитьПриложениеАндроид">
+<img src="img/добавитьПриложениеАндроид.jpg" alt="добавитьПриложениеАндроид">
 </div>
 </div>
 <div class="paragraph">
-<p>После этих действий страничка "РПГ Органайзер" преобразуется в полноценное телефонное приложение! Чтобы открыть прогу - найди ее в своем списке установленных программ.</p>
+<p>После этих действий "РПГ Органайзер" преобразуется в полноценное приложение! Чтобы открыть его - запусти из своего списка установленных программ.</p>
 </div>
-<div class="paragraph">
-<p>Кстати&#8230;&#8203; На десктопе тоже можно преобразовать РПГ Органайзер в приложение&#8230;&#8203; Проделай в Chrome те же действия и страничка органайзера будет восприниматься компьютером как отдельная программа!</p>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Tip</div>
+</td>
+<td class="content">
+Преобразовать РПГ Органайзер в приложение можно также и на десктопе!
+</td>
+</tr>
+</table>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="trueперсонаж"><a class="anchor" href="#trueперсонаж"></a>2. Персонаж</h2>
+<h2 id="_персонаж">2. Персонаж</h2>
 <div class="sectionbody">
 <div class="imageblock">
 <div class="content">
-<img src="img\персонаж.jpg" alt="img\персонаж">
+<img src="img/персонаж.jpg" alt="персонаж">
 </div>
 </div>
 <div class="paragraph">
-<p>Вместо того, чтобы быть амебой, плывущей безвольно по течению, тебе нужно ПРЯМО СЕЙЧАС и ПРЯМО ЗДЕСЬ подумать о себе как об ИГРОВОМ ДИЗАЙНЕРЕ. Конечно, ты не можешь контролировать все, но ты можешь по крайней мере упорядочить свои планы в структуру, которая значительно повысит твои шансы на успех. Готовься, дорогой "убийца драконов", сейчас мы будем переносить твои цели в модель РПГ игры, а любая РПГ игра начинается&#8230;&#8203; с создания персонажа!</p>
+<p>Вместо того, чтобы быть амебой, плывущей безвольно по течению, тебе нужно ПРЯМО СЕЙЧАС и ПРЯМО ЗДЕСЬ подумать о себе как об ИГРОВОМ ДИЗАЙНЕРЕ. Конечно, ты не можешь контролировать все, зато можешь упорядочить свои планы в структуру, которая значительно повысит твои шансы на успех. Готовься, дорогой "убийца драконов", мы будем переносить твои цели в модель РПГ игры, а любая РПГ игра начинается&#8230;&#8203; <strong>с создания персонажа</strong>!</p>
 </div>
 <div class="paragraph">
-<p>Персонаж в РПГ играх - виртуальный аватар, взаимодействующий с игровой вселенной. Сначала он слаб и безызвестен, но в процессе игры можно достичь максимального уровня и тогда жизнь становится великолепной - открывается возможность входить в особые зоны, носить специальные доспехи и играючи достигать любых целей. Совершенствование персонажа увлекательный процесс, благодаря которому ты постоянно радуешься прогрессу и новым возможностям.</p>
+<p>Персонаж в РПГ - виртуальный аватар, взаимодействующий с игровой вселенной. Сначала он слаб и безызвестен, но в процессе можно достичь максимального уровня и тогда жизнь становится великолепной - открывается возможность входить в особые зоны, носить специальные доспехи и играючи достигать любых целей. Совершенствование персонажа увлекательный процесс, благодаря которому ты постоянно радуешься прогрессу и новым возможностям.</p>
 </div>
 <div class="paragraph">
-<p><em>В реальности все еще интереснее.</em> Мы создадим персонажа игры жизни, которым будешь ты сам. Как в игре, у тебя будут атрибуты, которые нужно улучшить (здоровье, ум, уверенность), навыки (йога, программирование, идеальное питание), противники (ежедневные задачи) и квесты (цели, проекты).</p>
+<p><em>В реальности все еще интереснее.</em> Мы создадим персонажа игры жизни, которым будешь ты сам. Как в игре, у тебя тоже будут атрибуты, навыки, квесты и инвентарь.</p>
 </div>
 <div class="paragraph">
 <p>Концепция персонажа полезна, потому что:</p>
@@ -623,7 +630,7 @@ img {
 </ul>
 </div>
 <div class="paragraph">
-<p>Давай немного пофантазируем! Ответь на следующие вопросы:</p>
+<p>Теперь немного пофантазируем. Ответь на следующие вопросы:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -634,27 +641,30 @@ img {
 <p><strong>Кто он?</strong>  <em>Воин? Волшебник? Асасин?</em></p>
 </li>
 <li>
+<p><strong>Как он будет выглядеть?</strong> <em>Он - человек? Гном? Могучий варвар? Эльф?</em></p>
+</li>
+<li>
 <p><strong>Какими качествами он будет обладать на МАКСИМАЛЬНОМ уровне?</strong>  <em>Будет сильным и харизматичным? Умным и хитрым? Уверенным, ловким и красивым? Все сразу?</em></p>
 </li>
 <li>
-<p><strong>Что он будет уметь?</strong>  <em>Знать иностранные языки. С легкостью заводить разговор с другими людьми. Искренне улыбаться и смотреть в глаза&#8230;&#8203;</em></p>
+<p><strong>Что он будет уметь?</strong>  <em>Знать иностранные языки? Выступать на публике? Круто танцевать? Петь? Рисовать?&#8230;&#8203;</em></p>
 </li>
 <li>
-<p><strong>Какой будет его жизнь и чем он будет заниматься на МАКСИМАЛЬНОМ уровне?</strong>  <em>Например, просыпаться в вилле у океана в окружении любящей семьи. Тяжело упражняться и изучать что-то новое, а затем помогать другим людям достигать тех же успехов. Заниматься любимым делом и ни в чем не нуждаться. Делиться радостью с родными и близкими друзьями. Проживать каждый день счастливо и с радостью справляться со всеми трудностями.</em></p>
+<p><strong>Какой будет его жизнь и чем он будет заниматься на МАКСИМАЛЬНОМ уровне?</strong>  <em>Например, просыпаться в вилле у океана в окружении любящей семьи. Тяжело упражняться и изучать что-то новое, а затем помогать другим людям достигать тех же успехов. Заниматься любимым делом и ни в чем не нуждаться. Проживать каждый день счастливо и с радостью справляться с трудностями.</em></p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>После того, как ты сформировал представление в своей голове, пришло время перенести все это в физическое измерение - занесем все это в РПГ Органайзер!</p>
+<p>После того, как ты сформировал это в своей голове, перенесем это в материальный мир!</p>
 </div>
 <div class="sect2">
-<h3 id="trueнастройка-основной-информации"><a class="anchor" href="#trueнастройка-основной-информации"></a>2.1. Настройка основной информации</h3>
+<h3 id="_настройка_основной_информации">2.1. Настройка основной информации</h3>
 <div class="paragraph">
 <p>На главной странице кликни по картинке перса:</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img\открыть_лист_персонажа.jpg" alt="img\открыть лист персонажа">
+<img src="img/открыть_лист_персонажа.jpg" alt="открыть лист персонажа">
 </div>
 </div>
 <div class="paragraph">
@@ -662,7 +672,7 @@ img {
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img\Персонаж_переход_в_режим_редактирования.jpg" alt="img\Персонаж переход в режим редактирования">
+<img src="img/Персонаж_переход_в_режим_редактирования.jpg" alt="Персонаж переход в режим редактирования">
 </div>
 </div>
 <div class="paragraph">
@@ -670,7 +680,7 @@ img {
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img\настройкиПерсонажа.jpg" alt="img\настройкиПерсонажа">
+<img src="img/настройкиПерсонажа.jpg" alt="настройкиПерсонажа">
 </div>
 </div>
 <div class="dlist">
@@ -679,16 +689,13 @@ img {
 <dd>
 <p>Впиши сюда псевдоним для настоящего героя!</p>
 </dd>
-<dt class="hdlist1">История</dt>
-<dd>
-<p>У всего есть начало. У тебя тоже должна быть биографическая легенда. Напиши немного о своей реальной жизни, и как будешь проводить время в виде героя. Вот бланк, который можно заполнить, если у тебя возникнут сложности:</p>
-<div class="paragraph">
-<p><em>[Твое имя] жил скромной жизнью ботана – [твоя дневная работа/профессия]. Как и другие супергерои в своих биографических легендах, этот герой страдал из-за [недостаток характера или то, чего тебе в жизни не хватает]. Однако, как и предрекали древние пророчества, надвигались перемены. Благодаря [событие, сыгравшее роль зова к приключениям], наш герой преобразился, создав [имя твоего альтер эго], чтобы оберегать и защищать жизнь своих любимых людей. По вечерам он / она – великолепный «крепкий орешек», славящийся своим [впиши эпический навык], [вставь увлекательную приключенческую историю], а однажды он даже [вспомни поступок, на который ты никогда не считал себя способным].</em></p>
-</div>
-</dd>
 <dt class="hdlist1">Изображение</dt>
 <dd>
 <p>Как будет выглядеть твой герой? Он человек? Выбери в интернете эпичную картинку и укажи в этом поле ссылку на нее!</p>
+</dd>
+<dt class="hdlist1">История</dt>
+<dd>
+<p>У всего есть начало. У тебя тоже должна быть биографическая легенда. Напиши немного о своей реальной жизни, и как будешь проводить время в виде героя.</p>
 </dd>
 </dl>
 </div>
@@ -697,31 +704,34 @@ img {
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img\сохранитьИзменения.jpg" alt="img\сохранитьИзменения">
+<img src="img/сохранитьИзменения.jpg" alt="сохранитьИзменения">
 </div>
 </div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="trueхарактристики"><a class="anchor" href="#trueхарактристики"></a>3. Характристики</h2>
+<h2 id="_характристики">3. Характристики</h2>
 <div class="sectionbody">
 <div class="imageblock">
 <div class="content">
-<img src="img\характеристики.jpg" alt="img\характеристики">
+<img src="img/характеристики.jpg" alt="характеристики">
 </div>
 </div>
 <div class="paragraph">
-<p>В РПГ у персонажа есть такая штука как характеристики. Они являются важнейшими численными показателями того, насколько он развит, крут, силен, здоров, хитер и умен. Герой с высокой ВЫНОСЛИВОСТЬЮ с большей вероятностью переживёт отравление ядом, прокачанным ВОСПРИЯТИЕМ раньше заметит врага, а персонаж с низким ИНТЕЛЛЕКТОМ вряд ли найдёт потайную дверь, ведущую в сокровищницу. Существует огромное разнообразие характеристик. От таких как "сила", "ловкость", "телосложение", "интеллект", "обаяние", "мудрость" (Подземелья и драконы) и "тело", "разум", "душа" (Tri-Stat dX) до таких как "отвращение к себе", "усталость", "любовь" (My Life With Master) и "секс", "деньги", "нытье", "курение" (Nicotine Girls).</p>
+<p>В РПГ главной мерой крутости персонажа являются характеристики (или атрибуты). Герой с высокой ВЫНОСЛИВОСТЬЮ с большей вероятностью переживёт отравление ядом, прокачанным ВОСПРИЯТИЕМ раньше заметит врага, а с низким ИНТЕЛЛЕКТОМ вряд ли найдёт потайную дверь, ведущую в сокровищницу. Существует огромное разнообразие характеристик. От таких как "сила", "ловкость", "телосложение", "интеллект", "обаяние", "мудрость" (Подземелья и драконы) и "тело", "разум", "душа" (Tri-Stat dX) до таких как "отвращение к себе", "усталость", "любовь" (My Life With Master) и "секс", "деньги", "нытье", "курение" (Nicotine Girls).</p>
 </div>
 <div class="paragraph">
-<p>Самой позитивной вещью в РПГ является то, что параметры персонажа не являются чем-то постоянным, а развиваются в процессе игры и сам процесс прокачки доставляет огромное удовольствие!</p>
+<p>Самой позитивной вещью является то, что параметры персонажа не являются чем-то статичным, а развиваются в процессе игры и сам процесс прокачки доставляет огромное удовольствие!</p>
 </div>
 <div class="paragraph">
-<p><strong>Эта концепция отлично подходит для реальной жизни!</strong></p>
+<p><strong>Эта идея отлично подходит для реальной жизни!</strong></p>
 </div>
 <div class="paragraph">
-<p>Как в твоей любимой РПГ твою «продвинутость» тоже можно описать рядом характеристик, таких как, например: "спорт", "здоровье", "карьера", "отношения", "образованность" и.т.д. Определение характеристик поможет тебе:</p>
+<p>Как и в любимой РПГ твою крутость тоже можно описать рядом характеристик и если продвинутость некоторых из них тебя не устраивает - будем развивать!</p>
+</div>
+<div class="paragraph">
+<p>Выделение характеристик поможет тебе:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -740,7 +750,10 @@ img {
 </ul>
 </div>
 <div class="sect2">
-<h3 id="trueпримеры-характеристик-в-реальной-жизни"><a class="anchor" href="#trueпримеры-характеристик-в-реальной-жизни"></a>3.1. Примеры характеристик в реальной жизни</h3>
+<h3 id="_настройка_характеристик">3.1. Настройка характеристик</h3>
+<div class="paragraph">
+<p><strong>Придумай, какие главные качества будут у твоего персонажа</strong>, а если будут сложности - вот пара примеров:</p>
+</div>
 <div class="dlist">
 <dl>
 <dt class="hdlist1">Здоровье</dt>
@@ -785,21 +798,24 @@ img {
 </dd>
 </dl>
 </div>
-<div class="paragraph">
-<p>Подробнее про характеристики ты можешь почитать <a href="http://nerdistway.blogspot.ru/2015/10/blog-post_9.html">в этой статье</a>.</p>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<div class="title">Tip</div>
+</td>
+<td class="content">
+Подробнее про характеристики ты можешь почитать <a href="http://nerdistway.blogspot.ru/2015/10/blog-post_9.html">тут</a>.
+</td>
+</tr>
+</table>
 </div>
-</div>
-<div class="sect2">
-<h3 id="trueнастройка-характеристик-в-рпг-органайзере"><a class="anchor" href="#trueнастройка-характеристик-в-рпг-органайзере"></a>3.2. Настройка характеристик в РПГ Органайзере</h3>
 <div class="paragraph">
-<p>Придумай 5-7 главных характеристик, которые наилучшим образом будут отражать твои стремления.</p>
-</div>
-<div class="paragraph">
-<p>Перейди на экран "лист персонажа":</p>
+<p>Теперь в РПГ Органайзере перейди на экран "лист персонажа":</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img\открыть_лист_персонажа.jpg" alt="img\открыть лист персонажа">
+<img src="img/открыть_лист_персонажа.jpg" alt="открыть лист персонажа">
 </div>
 </div>
 <div class="paragraph">
@@ -807,7 +823,7 @@ img {
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img\Персонаж_переход_в_режим_редактирования.jpg" alt="img\Персонаж переход в режим редактирования">
+<img src="img/Персонаж_переход_в_режим_редактирования.jpg" alt="Персонаж переход в режим редактирования">
 </div>
 </div>
 <div class="paragraph">
@@ -815,7 +831,7 @@ img {
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img\кнопкаДобавитьХарактеристику.jpg" alt="img\кнопкаДобавитьХарактеристику">
+<img src="img/кнопкаДобавитьХарактеристику.jpg" alt="кнопкаДобавитьХарактеристику">
 </div>
 </div>
 <div class="paragraph">
@@ -823,7 +839,7 @@ img {
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img\добавлениеХарактеристикиНазвание.jpg" alt="img\добавлениеХарактеристикиНазвание">
+<img src="img/добавлениеХарактеристикиНазвание.jpg" alt="добавлениеХарактеристикиНазвание">
 </div>
 </div>
 <div class="paragraph">
@@ -831,29 +847,32 @@ img {
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img\готовыйНаборХарактеристик.jpg" alt="img\готовыйНаборХарактеристик">
+<img src="img/готовыйНаборХарактеристик.jpg" alt="готовыйНаборХарактеристик">
 </div>
 </div>
 <div class="paragraph">
-<p>В самом конце не забудь "сохранить":</p>
+<p>Не забудь "сохранить":</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img\сохранитьИзменения.jpg" alt="img\сохранитьИзменения">
+<img src="img/сохранитьИзменения.jpg" alt="сохранитьИзменения">
 </div>
 </div>
 </div>
 <div class="sect2">
-<h3 id="trueхарактеристики-имеют-значение"><a class="anchor" href="#trueхарактеристики-имеют-значение"></a>3.3. Характеристики имеют значение</h3>
+<h3 id="_характеристики_имеют_значение">3.2. Характеристики имеют значение</h3>
 <div class="paragraph">
-<p>При создании персонажа в РПГ мы "распределяем" некоторое количество очков по характеристикам персонажа. В реальной жизни тебе просто предстоит честно ответить на вопрос - как развита каждая характеристика у тебя на момент начала использования РПГ Органайзера. Это даст тебе целостную картину твоего текущего положения дел. Но не забывай - это начало путешествия, твой ПЕРВЫЙ уровень - все еще впереди!</p>
+<p>При создании персонажа в РПГ мы "распределяем" некоторое количество очков по характеристикам персонажа. В реальной жизни тебе просто предстоит честно ответить на вопрос - как развита каждая характеристика у тебя на данный момент. Это даст целостную картину текущего положения дел, но не забывай - это только начало путешествия, твой ПЕРВЫЙ уровень - все еще впереди!</p>
+</div>
+<div class="paragraph">
+<p>В РПГ Органайзере измеряются численным значением от 0 (ужасно) до 10 (супер). Выбери то, которое по твоему мнению больше всего соответствует развитости характеристики у тебя на данный момент.</p>
 </div>
 <div class="paragraph">
 <p>Чтобы указать начальные значения характеристики - кликни по ней (в режиме просмотра, не редактирования):</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img\открытьХарактеристику.jpg" alt="img\открытьХарактеристику">
+<img src="img/открытьХарактеристику.jpg" alt="открытьХарактеристику">
 </div>
 </div>
 <div class="paragraph">
@@ -861,54 +880,58 @@ img {
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img\элементПереходВРежимРедактирования.jpg" alt="img\элементПереходВРежимРедактирования">
+<img src="img/элементПереходВРежимРедактирования.jpg" alt="элементПереходВРежимРедактирования">
 </div>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img\характеристикаВыборНачальногоЗначения.jpg" alt="img\характеристикаВыборНачальногоЗначения">
+<img src="img/характеристикаВыборНачальногоЗначения.jpg" alt="характеристикаВыборНачальногоЗначения">
 </div>
-</div>
-<div class="paragraph">
-<p>Значения характеристик в РПГ Органайзере выражаются численным значением от 0 (ужасно) до 10 (супер). Выбери то значение, которое по твоему мнению больше всего соответствует развитости характеристики на данный момент.</p>
 </div>
 <div class="paragraph">
 <p><strong>Также на этом экране ты можешь настроить описание и изображение характеристики.</strong> Просто впиши текст в поле "описание" и укажи ссылку на картинку в интернете в поле "изображение".</p>
 </div>
 <div class="paragraph">
-<p>В конце настройки не забудь "сохранить" (перо внизу экрана).</p>
+<p>Не забудь "сохранить":</p>
+</div>
+<div class="paragraph">
+<p>!</p>
 </div>
 <div class="paragraph">
 <p>Затем вернись на экран персонажа:</p>
 </div>
 <div class="imageblock">
 <div class="content">
-<img src="img\кнопкаНазад.jpg" alt="img\кнопкаНазад">
+<img src="img/кнопкаНазад.jpg" alt="кнопкаНазад">
 </div>
 </div>
 <div class="paragraph">
 <p>Повтори то же самое с остальными характеристиками!</p>
 </div>
-<div class="paragraph">
-<p>Итак, мы нарисовали портрет персонажа крупными мазками, на следующем шаге мы будем наполнять его мелкими деталями!</p>
-</div>
 </div>
 </div>
 </div>
 <div class="sect1">
-<h2 id="trueнавыки"><a class="anchor" href="#trueнавыки"></a>4. Навыки</h2>
+<h2 id="_навыки">4. Навыки</h2>
 <div class="sectionbody">
-<div class="paragraph">
-<p>[![](<a href="https://3.bp.blogspot.com/-QK3BgCyMu7A/Wgwck6eb49I/AAAAAAAAEak/9Rnlwly9q7oumAN1praFigqfQDzoiISTQCLcBGAs/s1600/%25D0%25A5%25D0%25BE%25D0%25B1%25D0%25B1%25D0%25B8.jpg" class="bare">https://3.bp.blogspot.com/-QK3BgCyMu7A/Wgwck6eb49I/AAAAAAAAEak/9Rnlwly9q7oumAN1praFigqfQDzoiISTQCLcBGAs/s1600/%25D0%25A5%25D0%25BE%25D0%25B1%25D0%25B1%25D0%25B8.jpg</a>)](<a href="https://3.bp.blogspot.com/-QK3BgCyMu7A/Wgwck6eb49I/AAAAAAAAEak/9Rnlwly9q7oumAN1praFigqfQDzoiISTQCLcBGAs/s1600/%25D0%25A5%25D0%25BE%25D0%25B1%25D0%25B1%25D0%25B8.jpg" class="bare">https://3.bp.blogspot.com/-QK3BgCyMu7A/Wgwck6eb49I/AAAAAAAAEak/9Rnlwly9q7oumAN1praFigqfQDzoiISTQCLcBGAs/s1600/%25D0%25A5%25D0%25BE%25D0%25B1%25D0%25B1%25D0%25B8.jpg</a>)</p>
+<div class="imageblock">
+<div class="content">
+<img src="img/навыки.jpg" alt="навыки">
+</div>
 </div>
 <div class="paragraph">
-<p>Продолжаем добавлять новые черты герою!</p>
+<p>Еще одна мера крутости персонажа в РПГ это навыки - искусность в специфичных действиях вроде стрельбы из лука, магии земли, ношении доспехов, взлома и т. д. В реальной жизни у нас тоже есть навыки, от которых зависит наша крутость. Сопротивление фастфуду, ежедневное чтение, зарядка, программирование - вот примеры навыков реальной жизни. Главная цель РПГ Органайзера - сделать сложный и нудный процесс формирования полезных навыков увлекательным.</p>
 </div>
+<div class="sect2">
+<h3 id="_навыки_измеряются">4.1. Навыки измеряются</h3>
 <div class="paragraph">
-<p>Еще одна мера крутости персонажа в РПГ - навыки - искусность в специфичных действиях вроде стрельбы из лука, магии земли, ношении доспехов, взлома и т. д. В реальной жизни у нас тоже есть навыки, от которых зависит наша крутость.</p>
+<p>Как я говорил, в РПГ играх все имеет значение. Навыки в РПГ Органайзере тоже измеряются числом от 0 до 10, как и характреистики. Это полезно, потому что у тебя есть шкала измерений, обратная связь и ты видишь, что любое действие в той или иной мере влечет за собой твое развитие или деградацию.</p>
 </div>
+</div>
+<div class="sect2">
+<h3 id="_навыки_развиваются">4.2. Навыки развиваются</h3>
 <div class="paragraph">
-<p>Определение навыка в Википедии:</p>
+<p>Из Википедии:</p>
 </div>
 <div class="quoteblock">
 <blockquote>
@@ -918,35 +941,17 @@ img {
 </blockquote>
 </div>
 <div class="paragraph">
-<p>Другими словами <strong>навыки в реальной жизни = привычки</strong>. Для простоты давай договоримся, что <strong>когда я говорю “навык”, я имею в виду “привычка”</strong>.</p>
-</div>
-<div class="paragraph">
-<p>Как ты прекрасно знаешь, мы все (супер)люди привычек. Насколько ты красивый, умный и умелый - результат твоих ежедневных действий. Звучит как "капитан очевидность", но это - суровая и не сексуальная правда жизни. Если хочешь чего-то в долгосрочной перспективе, переключись с популярного <strong>достижения целей</strong> на <strong>процесс</strong> - формирование полезных навыков:
-*  <strong>Хочешь похудеть?</strong> - развивай навык "здоровое питание", вместо того, чтобы садиться на интенсив диету перед пляжным сезоном.
-*  <strong>Быть в хорошей форме?</strong> - навык "ежедневная зарядка", приобретения супер-интенсив фитнес программы "6 кубиков за 2 недели".
-*  <strong>Освоить иностранный язык?</strong> - ну ты понял!
-* &#8230;&#8203;</p>
-</div>
-<div class="paragraph">
-<p>Сопротивление фастфуду, ежедневное чтение, зарядка - вот примеры навыков реальной жизни. Главная цель РПГ Органайзера - сделать сложный и нудный процесс формирования полезных навыков (привычек) увлекательным. Развивать навыки важно потому что&#8230;&#8203;</p>
-</div>
-<div class="sect2">
-<h3 id="trueнавыки-влияют-на-характеристики"><a class="anchor" href="#trueнавыки-влияют-на-характеристики"></a>4.1. Навыки влияют на характеристики</h3>
-<div class="paragraph">
-<p>То, какое у тебя сейчас здоровье и как ты выглядишь на 95% следствие твоих хороших или плохих привычек. Если ты пьешь, куришь и ругаешься матом, то у тебя проблемы с характеристиками – <strong>ЗДОРОВЬЕ</strong> и <strong>ХАРИЗМА</strong>. Если развиваешь навык игры на гитаре, то улучшаешь <strong>ОБАЯНИЕ</strong>. Изучаешь программирование – <strong>ИНТЕЛЛЕКТ</strong>, рисование – <strong>МЫШЛЕНИЕ</strong>.</p>
-</div>
-<div class="paragraph">
-<p>То есть навыки развивают характеристики (а характеристики - наше все))). Поэтому В РПГ Органайзере каждый навык связан с той или иной характеристикой, а развивать характеристики можно только прокачивая навыки.</p>
+<p>Что нужно чтобы довести действие до автоматизма? Повторить его много раз. Чтобы развить навык, нужно ежедневно упражняться (<em>звучит как "Капитан Очевидность"</em>), а РПГ Органайзер тебе в этом поможет. Каждый навык будет автоматически преобразован в повторяющуюся задачу. Выполняя такие задачи, ты будешь получать опыт, уровни, очки навыков, звания и другие плюшки. А развивать навыки важно потому что&#8230;&#8203;</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="trueнавыки-измеряются"><a class="anchor" href="#trueнавыки-измеряются"></a>4.2. Навыки измеряются</h3>
+<h3 id="_навыки_влияют_на_характеристики">4.3. Навыки влияют на характеристики</h3>
 <div class="paragraph">
-<p>Как я говорил ранее, в РПГ играх все имеет значение. Навыки в РПГ Органайзере тоже. От 0 до 10, как и характреистики. Это очень полезно, потому что у тебя есть шкала измерений, обратная связь и ты видишь, что любое действие в той или иной мере влечет за собой твое развитие или деградацию.</p>
+<p>Какое у тебя сейчас здоровье и как ты выглядишь на 95% следствие твоих хороших или плохих привычек. Если ты пьешь, куришь и ругаешься матом, то у тебя проблемы с характеристиками – <strong>ЗДОРОВЬЕ</strong> и <strong>ХАРИЗМА</strong>. Если развиваешь навык игры на гитаре, то улучшаешь <strong>ОБАЯНИЕ</strong>. Изучаешь программирование – <strong>ИНТЕЛЛЕКТ</strong>, рисование – <strong>МЫШЛЕНИЕ</strong>. То есть навыки развивают характеристики (а характеристики - наше все))). Поэтому В РПГ Органайзере каждый навык связан с той или иной характеристикой, а развивать характеристики можно только прокачивая навыки.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="trueпримеры-навыков-в-реальной-жизни"><a class="anchor" href="#trueпримеры-навыков-в-реальной-жизни"></a>4.3. Примеры навыков в реальной жизни</h3>
+<h3 id="_примеры_навыков">4.4. Примеры навыков</h3>
 <div class="paragraph">
 <p>|Навык|Характеристика|
 |--|--|--|
@@ -977,21 +982,22 @@ img {
 </div>
 </div>
 <div class="sect2">
-<h3 id="trueнастройка-навыков"><a class="anchor" href="#trueнастройка-навыков"></a>4.4. Настройка навыков</h3>
+<h3 id="_настройка_навыков">4.5. Настройка навыков</h3>
 <div class="paragraph">
-<p>Навыки настраиваются в том же окне, что и характеристики. Убедись, что включен режим редактирования&#8230;&#8203;</p>
+<p>Чтобы добавить навык, на экране персонажа перейди в режим редактирования и нажми на кнопку добавления рядом с характеристикой, которую он будет прокачивать:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="img/навыкДобавить.jpg" alt="навыкДобавить">
+</div>
 </div>
 <div class="paragraph">
-<p>Чтобы добавить навык - нажми на плюсик рядом с характеристикой, которую он будет прокачивать. Добавь к каждой характеристике 3-7 основных навыков:</p>
+<p>Добавь к каждой характеристике 3-7 основных навыков, может получиться что-то вроде этого:</p>
 </div>
-<div class="paragraph">
-<p>![](<a href="https://lh3.googleusercontent.com/OYrCZlKpp0md8xm5ps5Zk4ANp7iJiK5A26xHxSD1GufYJe35668bFwGAhuNT8LWiI9-2wMBfAzKf=s0" class="bare">https://lh3.googleusercontent.com/OYrCZlKpp0md8xm5ps5Zk4ANp7iJiK5A26xHxSD1GufYJe35668bFwGAhuNT8LWiI9-2wMBfAzKf=s0</a>)</p>
+<div class="imageblock">
+<div class="content">
+<img src="img/навыкиДобавлены.jpg" alt="навыкиДобавлены">
 </div>
-<div class="paragraph">
-<p>Может получиться что-то вроде этого:</p>
-</div>
-<div class="paragraph">
-<p>![](<a href="https://lh3.googleusercontent.com/1QvKjqSDgw2Y2Kwu7MmtG63M5poaQulMQdCZEmlCLXXlpX7F5LkeMrenuwO3msLaQKMMJWMsB0KA=s0" class="bare">https://lh3.googleusercontent.com/1QvKjqSDgw2Y2Kwu7MmtG63M5poaQulMQdCZEmlCLXXlpX7F5LkeMrenuwO3msLaQKMMJWMsB0KA=s0</a>)</p>
 </div>
 <div class="paragraph">
 <p>Нажми "сохранить" и двигайся дальше!</p>
@@ -1000,48 +1006,246 @@ img {
 </div>
 </div>
 <div class="sect1">
-<h2 id="trueфайт"><a class="anchor" href="#trueфайт"></a>5. Файт!</h2>
+<h2 id="_награды">5. Награды</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="img/награды.jpg" alt="награды">
+</div>
+</div>
+<div class="paragraph">
+<p>В героических сагах искателями приключений не всегда движет только лишь альтруизм и желание помочь ближним, а также жажда наживы, редких артефактов, золота и славы! Реальная жизнь ничем не лучше! Но и не хуже!</p>
+</div>
+<div class="paragraph">
+<p>Для того, чтобы поддерживать твою мотивацию на высоком уровне, в РПГ Органайзере есть "награды". Покупка новых солнечных очков (+5 к харизме), поход в IMax на любимый фильм (+3 к удовлетворенности), вкусный ужин в ресторане и просто +1000 рублей в фонд "побаловать себя" - вот примеры наград в реальной жизни!</p>
+</div>
+<div class="paragraph">
+<p>Все награды делятся на два типа:</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Трофеи</dt>
+<dd>
+<p>Это те нарады, которые ты получаешь случайным образом после выполнения задач. Как в РПГ играх, когда из монстра "выпадает" бонус.</p>
+</dd>
+<dt class="hdlist1">Артефакты</dt>
+<dd>
+<p>Это те награды, которые ты получаешь, выполнив какую-то определенную миссию. Как в РПГ, когда ты побеждаешь Босса, или когда выполняешь КВЕСТ.</p>
+</dd>
+</dl>
+</div>
+<div class="paragraph">
+<p>Сейчас мы сфокусируемся на наградах типа "Трофеи".</p>
+</div>
+<div class="sect2">
+<h3 id="_добавление_трофея">5.1. Добавление трофея</h3>
+<div class="paragraph">
+<p>На странице персонажа перейди на вкладку "инвентарь" и активируй режим редактирования. Затем нажми "плюсик" на кнопку "добавить трофей":</p>
+</div>
+<div class="paragraph">
+<p>!</p>
+</div>
+<div class="paragraph">
+<p>!</p>
+</div>
+<div class="paragraph">
+<p>Укажи название награды, а также ее тип. Бывают следующие типы наград: обычная, необычная, редкая, эпическая и легендарная. Обычные  "выпадают" намного чаще "легендарных".</p>
+</div>
+<div class="paragraph">
+<p>Примеры наград в реальной жизни:
+* <strong>500 рублей.</strong>
+* <strong>1000 рублей.</strong>
+* <strong>Поход в кино.</strong>
+* <strong>Поход в кафе</strong>
+* <strong>Пицца!</strong>
+* <strong>Книга.</strong>
+* <strong>Фильм.</strong>
+* <strong>Ананасы!</strong></p>
+</div>
+<div class="paragraph">
+<p>&#8230;&#8203;и.т.д.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_квесты">6. Квесты</h2>
+<div class="sectionbody">
+<div class="imageblock">
+<div class="content">
+<img src="img/квесты.jpg" alt="квесты">
+</div>
+</div>
+<div class="paragraph">
+<p>Еще одна полезная штука из РПГ игр, которая может пригодиться в реальной жизни - квесты.</p>
+</div>
+<div class="paragraph">
+<p>Квест это обособленная задача, поставленная перед персонажами игроков в ходе развития игрового сюжета. Её выполнение является источником удовольствия от игры, порой принося персонажам материальные и нематериальные блага, или просто предоставляя возможность интересно и увлекательно провести время.</p>
+</div>
+<div class="paragraph">
+<p>В реальной жизни когда мы хотим достичь чего-то, мы ставим перед собой цели, но проблема в том, что в многих целей мы не достигаем, а в РПГ выполнение квестов доставляет огромное удовольствие и даже трудные задачи решаются играючи. Поэтому, чтобы цель стала квестом нужно <a href="http://nerdistway.blogspot.com/2013/08/blog-post.html">выполнить ряд необходимых условий</a>. Если ты хочешь превратить какой-то свой личный проект в квест - давай сделаем это сейчас!</p>
+</div>
+<div class="sect2">
+<h3 id="_настройка_квестов_в_рпг_органайзере">6.1. Настройка квестов в РПГ Органайзере</h3>
+<div class="paragraph">
+<p>Чтобы создать квест в РПГ Органайзере, перейди на вкладку "Квесты" на экране персонажа. Там активируй режим редактирования.</p>
+</div>
+<div class="paragraph">
+<p>После нажми "Добавить квест" и введи его название:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="img/добавить_квест.jpg" alt="добавить квест">
+</div>
+</div>
+<div class="paragraph">
+<p>Затем "сохранить":</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="img/сохранить_квест.jpg" alt="сохранить квест">
+</div>
+</div>
+<div class="paragraph">
+<p>Чтобы настроить квест - кликни по нему в "режиме просмотра", а затем на экране квеста перейди в режим редактирования:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="img/переход_в_настройку_квеста.jpg" alt="переход в настройку квеста">
+</div>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="img/квест_переход_в_режим_редактирования.jpg" alt="квест переход в режим редактирования">
+</div>
+</div>
+<div class="paragraph">
+<p>Заполни основные поля&#8230;&#8203;</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Название</dt>
+<dd>
+<p>Тут все понятно, но прояви немного фантазии и придумай "героическое" название.</p>
+</dd>
+<dt class="hdlist1">Описание</dt>
+<dd>
+<p>Помнишь, в играх есть сюжет. Зная, что ты помогаешь жителям деревни, а в конечном итоге вообще все сводится к спасению Принцессы, намного лучше мотивирует, чем тупое выполнение чужого поручения. Старайся, чтобы у каждой цели была причина. Не принебрегай описанием.</p>
+</dd>
+</dl>
+</div>
+<div class="sect3">
+<h4 id="_миссии">6.1.1. Миссии</h4>
+<div class="paragraph">
+<p>Разбей квест на задачи. Обязательно добавь хотя бы одну - первый шаг. Если знаешь остальные шаги - добавь их тоже, но сильно не увлекайся планированием, потом могут появиться новые сюжетные линии!</p>
+</div>
+<div class="paragraph">
+<p>Чтобы добавить миссию - нажми на кнопку:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="img/квестДобавитьМиссию.jpg" alt="квестДобавитьМиссию">
+</div>
+</div>
+<div class="paragraph">
+<p>И впиши название:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="img/квестНазваниеМиссии.jpg" alt="квестНазваниеМиссии">
+</div>
+</div>
+<div class="paragraph">
+<p>Задания будут появляться по очереди, поэтому выстрой правильную последовательность миссий этими кнопками:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="img/квестСортировкаМиссий.jpg" alt="квестСортировкаМиссий">
+</div>
+</div>
+<div class="paragraph">
+<p>Если в квесте нет миссий, то добавить "следующий шаг" можно из экрана просмотра квеста (такой большой плюсик).</p>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_награды_2">6.1.2. Награды</h4>
+<div class="paragraph">
+<p>Как я уже говорил, у каждого квеста должна быть причина, и у каждого квеста должен быть результат. Награда создаст мотивацию к следующим свершениям и даст лучше почуствовать "вкус победы" - ощущение, которое очень важно для скромных ботанов.</p>
+</div>
+<div class="paragraph">
+<p>Чтобы добавить награду - нажми кнопку и впиши название:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="img/квестДобавитьНаграду.jpg" alt="квестДобавитьНаграду">
+</div>
+</div>
+<div class="paragraph">
+<p>Награда будет добавлена, а ты сможешь получить ее, когда выполнишь квест.</p>
+</div>
+<div class="paragraph">
+<p>Вот что в итоге получится:</p>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="img/квестГотовый.jpg" alt="квестГотовый">
+</div>
+</div>
+<div class="paragraph">
+<p>Unresolved directive in index.adoc - include::Начало_игры[]</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_файт">7. Файт!</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>![](<a href="https://lh3.googleusercontent.com/gFBuN9p36ajO2Qj114RED9lrmBiMOxirTikEQ20HGYqs7GsHMIqX_6kZjO8js88zHKvpXaXM1ArQ=s0" class="bare">https://lh3.googleusercontent.com/gFBuN9p36ajO2Qj114RED9lrmBiMOxirTikEQ20HGYqs7GsHMIqX_6kZjO8js88zHKvpXaXM1ArQ=s0</a>)</p>
 </div>
 <div class="paragraph">
-<p>Ну вот и наступил самый интересный момент - сама ИГРА!</p>
+<p>Ну вот и наступил самый интересный момент - начало ИГРЫ!</p>
 </div>
 <div class="sect2">
-<h3 id="trueцель-игры"><a class="anchor" href="#trueцель-игры"></a>5.1. Цель игры</h3>
+<h3 id="_цель">7.1. Цель</h3>
 <div class="paragraph">
-<p>Цель Рпг Органайзера - прокачать персонажа (и тебя тоже) до максимально возможного уровня. Максимальный уровень у каждого свой и он зависит от общего количества добавленных тобой навыков. Чтобы прокачивать персонажа, нужно выполнять задачи из списка. После успешного выполнения ты небольшую прибавку к очкам опыта (exp - <strong>ex</strong>perience <strong>p</strong>oints).При достижении порогового значения опыта, будет получен новый уровень персонажа - наглядное подтверждение роста твоей крутости!))) Также с новым уровнем ты получишь 1 ОН (очко навыков), на которое ты сможешь открыть или прокачать какой-либо навык персонажа (тебе станут доступны новые задания). Периодически, с ростом уровня, ты будешь получать новые звания, что символизирует прохождения важного этапа в твоем становлении героя. Прокачиваясь, очень скоро ты будешь чувствовать себя совершенно другим человеком, желаю удачи!</p>
+<p>Цель Рпг Органайзера - прокачать персонажа (и тебя тоже) до максимально возможного уровня (100). Чтобы прокачивать персонажа, нужно выполнять задачи из списка. После успешного выполнения ты получаешь небольшую прибавку к очкам опыта (exp - <strong>ex</strong>perience <strong>p</strong>oints).При достижении порогового значения опыта, будет получен новый уровень персонажа - наглядное подтверждение роста твоей крутости!)) Также с новым уровнем ты получишь несколько ОН (очко навыков), на которое ты сможешь открыть или прокачать навыки (тебе станут доступны новые задания, дающие больше опыта). Прокачиваясь, очень скоро ты будешь чувствовать себя совершенно другим человеком, желаю удачи!</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="trueпанель-задач"><a class="anchor" href="#trueпанель-задач"></a>5.2. Панель задач</h3>
+<h3 id="_панель_задач">7.2. Панель задач</h3>
 <div class="paragraph">
-<p>Все задачи будут сконцентрированы в этом месте:</p>
+<p>Все актуальные задачи будут сконцентрированы в этом месте:</p>
 </div>
 <div class="paragraph">
 <p>![](<a href="https://lh3.googleusercontent.com/fsRMrG0H23LN0p1l_Qe4724rpPa7JiALGMOwlbD2TPPbRH2CGfl2zZPIsxd4S8WtwbQmPxYJhEgf=s0" class="bare">https://lh3.googleusercontent.com/fsRMrG0H23LN0p1l_Qe4724rpPa7JiALGMOwlbD2TPPbRH2CGfl2zZPIsxd4S8WtwbQmPxYJhEgf=s0</a>)</p>
 </div>
 <div class="paragraph">
-<p>Тут есть два режима отображения. Глобальный - когда ты видишь задачи списком и тут нужно выбрать первую подходящую для выполнения:</p>
+<p><strong>Задачи делятся на два списка:</strong> навыки - повторяющиеся ежедневные задачи, выполнение которых дает опыт и качает навыки и квесты - тут будут задачи из твоих целей, их выполнение ведет к достижению целей и получению наград.</p>
 </div>
 <div class="paragraph">
-<p>(То же, что и на примере выше)</p>
+<p><strong>В отображении списков есть два режима:</strong></p>
 </div>
 <div class="paragraph">
-<p>И сфокусированный - когда ты выбрал задачу и тебе видны подробности задачи и доступны функции ее выполнения. Также над названием задачи будет случайная картинка монстра, что символизирует борьбу со сложностями и ленью. Ты победил или тебя победили&#8230;&#8203; С ростом уровня персонажа и/или навыков монстры будут крутеть.</p>
+<p>Глобальный вид:
+!</p>
 </div>
 <div class="paragraph">
-<p>![](<a href="https://lh3.googleusercontent.com/jK34SXSGyh_ALaNqT1eU_mJfhgqAYNx-Fp67tQt36iVxhLNeAOkO-cbhhPnDxo-9NheCeaim-sbh=s0" class="bare">https://lh3.googleusercontent.com/jK34SXSGyh_ALaNqT1eU_mJfhgqAYNx-Fp67tQt36iVxhLNeAOkO-cbhhPnDxo-9NheCeaim-sbh=s0</a>)</p>
+<p>ты видишь задачи списком и тут нужно выбрать первую подходящую для выполнения.</p>
 </div>
 <div class="paragraph">
-<p>Все задачи делятся на два списка: навыки - повторяющиеся ежедневные задачи, выполнение которых дает опыт и качает навыки и квесты - тут будут задачи из твоих целей, их выполнение ведет к достижению целей и получению наград (про квесты мы поговорим чуть позже, тут вообще есть еще много всяких классных штук, например - награды!).</p>
+<p>Сфокусированный вид:
+![](<a href="https://lh3.googleusercontent.com/jK34SXSGyh_ALaNqT1eU_mJfhgqAYNx-Fp67tQt36iVxhLNeAOkO-cbhhPnDxo-9NheCeaim-sbh=s0" class="bare">https://lh3.googleusercontent.com/jK34SXSGyh_ALaNqT1eU_mJfhgqAYNx-Fp67tQt36iVxhLNeAOkO-cbhhPnDxo-9NheCeaim-sbh=s0</a>)</p>
+</div>
+<div class="paragraph">
+<p>когда ты выбрал задачу и тебе видны подробности задачи и действия над задачей. Над названием задачи будет случайная картинка монстра, что символизирует борьбу со сложностями и ленью. Ты победил или тебя победили&#8230;&#8203; С ростом уровня персонажа и/или навыков монстры будут крутеть.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="trueпанель-интерфейса"><a class="anchor" href="#trueпанель-интерфейса"></a>5.3. Панель интерфейса</h3>
+<h3 id="_панель_интерфейса">7.3. Панель интерфейса</h3>
 <div class="paragraph">
-<p>Под панелью задач находится панель интерфейса. На ней кнопки для выполнения всех необходимых действий. Тут тоже два режима:</p>
+<p>Под задачами находится панель интерфейса. На ней кнопки для выполнения всех необходимых действий.</p>
 </div>
 <div class="paragraph">
 <p><strong>1) Если активирован глобальный режим задач:</strong></p>
@@ -1065,7 +1269,7 @@ img {
 <p>: Нажав на эту кнопку, ты попадешь в сфокусированный режим первой задачи из списка.</p>
 </div>
 <div class="paragraph">
-<p><strong>2) Если активизирован сфокусированный режим (когда выбрана конкретная задача для выполнения):</strong></p>
+<p><strong>2) Если активизирован сфокусированный режим:</strong></p>
 </div>
 <div class="paragraph">
 <p>Выполнение/пропуск</p>
@@ -1080,42 +1284,32 @@ img {
 <p>: Поленился или не смог выполнить эту задачу? Нажми на эту кнопку и получишь небольшой штраф (в квестах эту кнопку не надо нажимать). Эта функция поможет тебе двигаться только вперед, а не останавливаться на достигнутом! Понятно, что если ты сегодня поленился и не развивал навык, твой опыт падает и ты теряешь немного крутости! Только не впадай в уныние, это не стирает твои достижения, если на следующий день ты будешь стараться!</p>
 </div>
 <div class="paragraph">
-<p>P.S. Главное правило крутых перцев - не лажай два дня подряд! Так что если сегодня ты не смог сделать что-то - ЗАВТРА - САМЫЙ ГЛАВНЫЙ ДЕНЬ!</p>
-</div>
-<div class="paragraph">
 <p>: ![](<a href="https://lh3.googleusercontent.com/WIoF_ufa0z8OFr5faKL3z62cHPqnFohpRO1HT9qifC2hxujt4BfaMYI0ExwcWcxKJUGJNjet8_gV=s0" class="bare">https://lh3.googleusercontent.com/WIoF_ufa0z8OFr5faKL3z62cHPqnFohpRO1HT9qifC2hxujt4BfaMYI0ExwcWcxKJUGJNjet8_gV=s0</a>)</p>
 </div>
 <div class="paragraph">
 <p>Назад в глобальный вид задач</p>
 </div>
 <div class="paragraph">
-<p>: После того, как ты выполнил или про$@'л задачу, переход в глобальный вид переходит автоматически. Если же ты передумал сейчас делать это задачу и решил переключиться на другую - жми эту кнопку.</p>
+<p>: Если же ты передумал сейчас делать это задачу и решил переключиться на другую - жми эту кнопку.</p>
 </div>
 <div class="paragraph">
 <p>: ![](<a href="https://lh3.googleusercontent.com/Znh3aHhU8H4BzONQM-dDc_s5X12FufF9dB5qYYdhsFgfkzO1abe3eGUmxkJQEIcmyZjwtqofHQqt=s0" class="bare">https://lh3.googleusercontent.com/Znh3aHhU8H4BzONQM-dDc_s5X12FufF9dB5qYYdhsFgfkzO1abe3eGUmxkJQEIcmyZjwtqofHQqt=s0</a>)</p>
 </div>
-</div>
-<div class="sect2">
-<h3 id="trueжесты"><a class="anchor" href="#trueжесты"></a>5.4. Жесты</h3>
 <div class="paragraph">
-<p>Если ты пользуешься прогой на телефоне - в сфокусированном режиме на картинке монстра тебе доступны некоторые жесты:</p>
+<p>Жесты</p>
 </div>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>Свайп влево/вправо</strong> - предыдущая, слудующая в списке задача</p>
-</li>
-<li>
-<p><strong>Свайп вверх/вниз</strong> - выполнить, провалить задачу</p>
-</li>
-</ul>
+<div class="paragraph">
+<p>: Чтобы выбрать следующую/предыдущую задачу сделай свайп слева направо или справа налево по картинке монстра.</p>
+</div>
+<div class="paragraph">
+<p>: Чтобы выполнить/пропустить задачу сделай свайп снизу вверх или сверху вниз по картинке монстра.</p>
 </div>
 <div class="paragraph">
 <p>Теперь я тебе просто кратко опишу алгоритм действий в Рпг Органайзере.</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="trueтвои-действия"><a class="anchor" href="#trueтвои-действия"></a>5.5. Твои действия</h3>
+<h3 id="_работа_с_навыками">7.4. Работа с навыками</h3>
 <div class="paragraph">
 <p>Убедись, что выбран вид задач "навыки", и в панели задач присутствуют задачи:</p>
 </div>
@@ -1123,276 +1317,50 @@ img {
 <p>!</p>
 </div>
 <div class="paragraph">
-<p>Жестами вправо/влево, или перейдя в режим "глобальный вид" выбери подходящую для выполнения задачу:</p>
+<p>Задачи будут "вперемешку", поэтому первым делом осортируй их. Те, что нужно выполнять вначале дня перемести выше, а те, что в конце - ниже. Для этого нажми эту кнопку:</p>
+</div>
+<div class="paragraph">
+<p>!</p>
+</div>
+<div class="paragraph">
+<p>Зажми на стрелочке и сдвинь задачу как тебе нужно:</p>
+</div>
+<div class="paragraph">
+<p>!</p>
+</div>
+<div class="paragraph">
+<p>В конце нажми сюда:</p>
+</div>
+<div class="paragraph">
+<p>!</p>
+</div>
+<div class="paragraph">
+<p>Теперь жестами вправо/влево, или перейдя в режим "глобальный вид" выбери подходящую для выполнения задачу:</p>
 </div>
 <div class="paragraph">
 <p>![](<a href="https://lh3.googleusercontent.com/9IYnBLF2v47h5BbB2lJ-yQHGl2pY7VSe0h-QQrgnbWPmOxqAXVVbN0wey8ls0rJAYXJoF2cxsfQc=s0" class="bare">https://lh3.googleusercontent.com/9IYnBLF2v47h5BbB2lJ-yQHGl2pY7VSe0h-QQrgnbWPmOxqAXVVbN0wey8ls0rJAYXJoF2cxsfQc=s0</a>)</p>
 </div>
 <div class="paragraph">
-<p>Попадаем в режим фокусировки, выполняем задачу в реале и отмечаем в РПГ Органайзере:</p>
+<p>Попадешь в режим фокусировки, выполни задачу в реале и отметь в РПГ Органайзере:</p>
 </div>
 <div class="paragraph">
 <p>![](<a href="https://lh3.googleusercontent.com/Zjd0f0puICGAXL2_f8lDmHcm4S6R7MUSTt2XhPFER90KxSNqgc6v3X9eijG_zsj4gWziKnCA6JXw=s0" class="bare">https://lh3.googleusercontent.com/Zjd0f0puICGAXL2_f8lDmHcm4S6R7MUSTt2XhPFER90KxSNqgc6v3X9eijG_zsj4gWziKnCA6JXw=s0</a>)</p>
 </div>
 <div class="paragraph">
-<p>Далее - следующую задачу. И.т.д.</p>
+<p>Далее выбери следующую задачу, а потом еще одну&#8230;&#8203;</p>
 </div>
 <div class="paragraph">
-<p>Те задачи, которые не получается сегодня сделать отмечай как "не выполненные".</p>
+<p>Те задачи, которые не получается сегодня сделать отмечай как "не выполненные" (значек "щит" или свайп снизу вверх).</p>
 </div>
 <div class="paragraph">
 <p>И фигачь!</p>
 </div>
 <div class="paragraph">
-<p>Поначалу тебе будет просто набирать уровни персонажа. Задания будут проще и они будут быстрее прокачивать навыки - повышать опыт. Но со временем сложность заданий будет расти, а навыки будут повышаться медленнее. Так что достичь максимального уровня пока еще никому не удавалось! Если ты сможешь - напиши мне и ты попадешь в [Зал Славы](<a href="http://nerdistway.blogspot.com/2013/05/blog-post_91.html)!" class="bare">http://nerdistway.blogspot.com/2013/05/blog-post_91.html)!</a> ))) А я постараюсь быть первым (уже 40-й уровень)!)))</p>
+<p>Когда поработаешь с "навыками", переключись на список "квесты".</p>
 </div>
 </div>
 <div class="sect2">
-<h3 id="trueновый-уровень"><a class="anchor" href="#trueновый-уровень"></a>5.6. Новый уровень!</h3>
-<div class="paragraph">
-<p>Рано или поздно ты достигнешь нового уровня:</p>
-</div>
-<div class="paragraph">
-<p>!</p>
-</div>
-<div class="paragraph">
-<p>После появления этого окошка, ты автоматически перейдешь на экран персонажа, где тебе нужно будет распределить полученные ОН:</p>
-</div>
-<div class="paragraph">
-<p>!</p>
-</div>
-<div class="paragraph">
-<p>Если следующий уровень в навыке по сложности абсолютно такой же, как и предыдущий, он будет подсвечен зеденым цветом. Выбирай такие навыки для следующей прокачки - так будет намного легче прогрессировать!</p>
-</div>
-<div class="paragraph">
-<p>В простейшем виде работа с РПГ Органайзером выглядит так, но есть еще дополнительные фишки, о которых ты узнаешь дальше!</p>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="trueнаграды"><a class="anchor" href="#trueнаграды"></a>6. Награды</h2>
-<div class="sectionbody">
-<div class="imageblock">
-<div class="content">
-<img src="img\награды.jpg" alt="img\награды">
-</div>
-</div>
-<div class="paragraph">
-<p>Чтобы тебе было веселее на трудном пути геройского становления, его нужно разбавить приятными неожиданностями )))</p>
-</div>
-<div class="paragraph">
-<p>В героических сагах искателями приключений не всегда движет только лишь альтруизм и желание помочь ближним, а также жажда наживы, редких артефактов, золота и славы! Реальная жизнь ничем не лучше! Но и не хуже!</p>
-</div>
-<div class="paragraph">
-<p>Для того, чтобы поддерживать твою мотивацию на высоком уровне, в РПГ Органайзере введены "награды". Покупка новых солнечных очков (+5 к харизме), поход в IMax на любимый фильм (+3 к удовлетворенности), вкусный ужин в ресторане и просто +1000 рублей в фонд "побаловать себя" - вот примеры наград в реальной жизни!</p>
-</div>
-<div class="sect2">
-<h3 id="trueвиды-наград"><a class="anchor" href="#trueвиды-наград"></a>6.1. Виды наград</h3>
-<div class="paragraph">
-<p>В Рпг Орнайзере все награды делятся на два типа:</p>
-</div>
-<div class="dlist">
-<dl>
-<dt class="hdlist1">Трофеи</dt>
-<dd>
-<p>Это те нарады, которые ты получаешь после выполнения задач. Как в РПГ играх, когда из монстра "выпадает" случайный бонус.</p>
-</dd>
-<dt class="hdlist1">Артефакты</dt>
-<dd>
-<p>Это те награды, которые ты получаешь, выполнив какую-то определенную миссию. Как в РПГ, когда ты побеждаешь Босса, или когда выполняешь КВЕСТ (об этом чуть позже).</p>
-</dd>
-</dl>
-</div>
-<div class="paragraph">
-<p>Сейчас мы сфокусируемся на наградах типа "Трофеи".</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="trueдобавление-награды"><a class="anchor" href="#trueдобавление-награды"></a>6.2. Добавление награды</h3>
-<div class="paragraph">
-<p>На странице персонажа перейди в режим редактирования. Затем нажми "плюсик" на кнопку "добавить трофей":</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img\добавитьТрофей.jpg" alt="img\добавитьТрофей">
-</div>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img\трофейНастройка.jpg" alt="img\трофейНастройка">
-</div>
-</div>
-<div class="paragraph">
-<p>Там впиши название награды, а также вероятность ее получения. Позже, когда ты будешь выполнять задачи, будешь случайным образом иногда получать награды. Чем выше вероятность получения награды, тем чаще ее, естественно, ты будешь получать. Только следи за тем, чтобы сумма всех вероятностей (за все награды) не превышала 100%!</p>
-</div>
-<div class="paragraph">
-<p>Примеры наград в реальной жизни:
-* <strong>1000 рублей.</strong> Ты можешь отложить 1000 рублей, а затем купить себе что-то приятное. Награда для ленивых))
-* <strong>500 рублей.</strong> См. выше
-* <strong>Поход в кино.</strong>
-* <strong>Поход в кафе</strong>
-* <strong>Пицца!</strong>
-* <strong>Книга.</strong> Ты можешь купить, или даже просто скачать одну книгу.
-* <strong>Фильм.</strong> Купить/скачать/посмотреть фильм.
-* <strong>Ананасы!</strong> Не знаю как ты, но я обожаю консервированные ананасы.</p>
-</div>
-<div class="paragraph">
-<p>&#8230;&#8203;и.т.д.</p>
-</div>
-</div>
-<div class="sect2">
-<h3 id="trueполучение-и-использование-наград"><a class="anchor" href="#trueполучение-и-использование-наград"></a>6.3. Получение и использование наград</h3>
-<div class="paragraph">
-<p>Награды ты будешь получать случайным образом при выполнении своих задач. Выполнил задачу - есть шанс получить награду. При этом чем больше "вероятность получения", тем выше шанс!</p>
-</div>
-<div class="paragraph">
-<p>То, что ты получил награду - будет отображено в сообщении при выполнении задачи.</p>
-</div>
-<div class="paragraph">
-<p>Список полученных наград ты можешь посмотреть на экране персонажа на вкладке "Инвентарь":</p>
-</div>
-<div class="paragraph">
-<p>!</p>
-</div>
-<div class="paragraph">
-<p>Чтобы использовать награду - награди себя в реале, а затем нажми на эту кнопку в РПГ Органайзере:</p>
-</div>
-<div class="paragraph">
-<p>!</p>
-</div>
-</div>
-</div>
-</div>
-<div class="sect1">
-<h2 id="trueквесты"><a class="anchor" href="#trueквесты"></a>7. Квесты</h2>
-<div class="sectionbody">
-<div class="imageblock">
-<div class="content">
-<img src="img\квесты.jpg" alt="img\квесты">
-</div>
-</div>
-<div class="paragraph">
-<p>В любой ролевой игре персонаж маленькими шагами продвигается к своей героической цели выполняя те, или иные квесты. Квест это задание в РПГ, которое мастер даёт команде персонажей, обособленная задача, поставленная перед персонажами игроков в ходе развития игрового сюжета. Её выполнение является источником удовольствия от игры, порой принося персонажам материальные и нематериальные блага, или просто предоставляя игрокам возможность интересно и увлекательно провести время.</p>
-</div>
-<div class="paragraph">
-<p>В реальной жизни когда мы хотим достичь чего-то, мы ставим перед собой цели. Но проблема в том, что в многих целей мы не достигаем, а в играх выполнение квестов доставляет огромное удовольствие и даже трудные задачи решаются играючи. Поэтому, чтобы цель стала квестом нужно [выполнить ряд необходимых условий](<a href="http://nerdistway.blogspot.com/2013/08/blog-post.html" class="bare">http://nerdistway.blogspot.com/2013/08/blog-post.html</a>).</p>
-</div>
-<div class="paragraph">
-<p>Сейчас вооружимся РПГ Органайзером и создадим твой первый квест!</p>
-</div>
-<div class="sect2">
-<h3 id="trueнастройка-квестов-в-рпг-органайзере"><a class="anchor" href="#trueнастройка-квестов-в-рпг-органайзере"></a>7.1. Настройка квестов в РПГ Органайзере</h3>
-<div class="paragraph">
-<p>Чтобы создать квест в РПГ Органайзере, перейди на страницу персонажа. В ней - в режим редактирования.</p>
-</div>
-<div class="paragraph">
-<p>После нажми "Добавить квест" и введи его название:</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img\добавить_квест.jpg" alt="img\добавить квест">
-</div>
-</div>
-<div class="paragraph">
-<p>Затем "сохранить":</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img\сохранить_квест.jpg" alt="img\сохранить квест">
-</div>
-</div>
-<div class="paragraph">
-<p>Ок. Теперь чтобы настроить квест - кликни по нему в "режиме просмотра", а затем на экране квеста перейди в режим редактирования:</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img\переход_в_настройку_квеста.jpg" alt="img\переход в настройку квеста">
-</div>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img\квест_переход_в_режим_редактирования.jpg" alt="img\квест переход в режим редактирования">
-</div>
-</div>
-<div class="paragraph">
-<p>Заполни основные поля&#8230;&#8203;</p>
-</div>
-<div class="dlist">
-<dl>
-<dt class="hdlist1">Название</dt>
-<dd>
-<p>Тут все понятно, но прояви немного фантазии и придумай "героическое" название.</p>
-</dd>
-<dt class="hdlist1">Описание</dt>
-<dd>
-<p>Помнишь, в играх есть сюжет. Зная, что ты помогаешь жителям деревни, а в конечном итоге вообще все сводится к спасению Принцессы, намного лучше мотивирует, чем тупое выполнение чужого поручения. Старайся, чтобы у каждой цели была причина. Не принебрегай описанием.</p>
-</dd>
-</dl>
-</div>
-<div class="sect3">
-<h4 id="trueмиссии"><a class="anchor" href="#trueмиссии"></a>7.1.1. Миссии</h4>
-<div class="paragraph">
-<p>Разбей квест на задачи. Обязательно добавь хотя бы одну - первый шаг. Если знаешь остальные шаги - добавь их тоже, но сильно не увлекайся планированием, потом могут появиться новые сюжетные линии!</p>
-</div>
-<div class="paragraph">
-<p>Чтобы добавить миссию - нажми на кнопку:</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img\квестДобавитьМиссию.jpg" alt="img\квестДобавитьМиссию">
-</div>
-</div>
-<div class="paragraph">
-<p>И впиши название:</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img\квестНазваниеМиссии.jpg" alt="img\квестНазваниеМиссии">
-</div>
-</div>
-<div class="paragraph">
-<p>Задания будут появляться по очереди, поэтому выстрой правильную последовательность миссий этими кнопками:</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img\квестСортировкаМиссий.jpg" alt="img\квестСортировкаМиссий">
-</div>
-</div>
-<div class="paragraph">
-<p>Если в квесте нет миссий, то добавить "следующий шаг" можно из экрана просмотра квеста (такой большой плюсик).</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="trueнаграды-2"><a class="anchor" href="#trueнаграды-2"></a>7.1.2. Награды</h4>
-<div class="paragraph">
-<p>Как я уже говорил, у каждого квеста должна быть причина, и у каждого квеста должен быть результат. Награда создаст мотивацию к следующим свершениям и даст лучше почуствовать "вкус победы" - ощущение, которое очень важно для скромных ботанов.</p>
-</div>
-<div class="paragraph">
-<p>Чтобы добавить награду - нажми кнопку и впиши название:</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img\квестДобавитьНаграду.jpg" alt="img\квестДобавитьНаграду">
-</div>
-</div>
-<div class="paragraph">
-<p>Награда будет добавлена, а ты сможешь получить ее, когда выполнишь квест.</p>
-</div>
-<div class="paragraph">
-<p>Вот что в итоге получится:</p>
-</div>
-<div class="imageblock">
-<div class="content">
-<img src="img\квестГотовый.jpg" alt="img\квестГотовый">
-</div>
-</div>
-<div class="paragraph">
-<p>О том, как работать с квестами, да и вообще с задачами в РПГ Органайзере, ты узнаешь в следующей статье.</p>
-</div>
-</div>
-<div class="sect3">
-<h4 id="trueпродвинутое-использование-рпг-органайзера-с-имеющимися-квестами"><a class="anchor" href="#trueпродвинутое-использование-рпг-органайзера-с-имеющимися-квестами"></a>7.1.3. Продвинутое использование РПГ Органайзера с имеющимися квестами</h4>
+<h3 id="_работа_с_квестами">7.5. Работа с квестами</h3>
 <div class="paragraph">
 <p>Если у тебя есть активные квесты, их задания появятся в главном окне программы. Чтобы их увидеть, активируй вид "квесты":</p>
 </div>
@@ -1403,13 +1371,13 @@ img {
 <p>От каждого квеста сюда будет попадать первая невыполненная задача, поэтому внимательно отнесись к сортировке задач квеста.</p>
 </div>
 <div class="paragraph">
-<p>Просто выполни эту задачу в реале, а затем отметь это в РПГ Органайзере:</p>
+<p>Выполни эту задачу в реале, а затем отметь в РПГ Органайзере:</p>
 </div>
 <div class="paragraph">
 <p>!</p>
 </div>
 <div class="paragraph">
-<p>Если тебе нужно будет донастроить квест, ты можешь попасть в него прямо из главного окна!</p>
+<p>Если тебе нужно будет донастроить квест, ты можешь попасть в него прямо из главного окна, щелкнув по названию задачи:</p>
 </div>
 <div class="paragraph">
 <p>!</p>
@@ -1427,12 +1395,62 @@ img {
 <p>Когда поработаешь с квестами - возвращайся к виду "навыки" и продолжай игру!</p>
 </div>
 </div>
+<div class="sect2">
+<h3 id="_новый_уровень">7.6. Новый уровень!</h3>
+<div class="paragraph">
+<p>Поначалу тебе будет просто набирать уровни. Задания будут проще и для перехода тебе нужно будет меньше очков опыта, но со временем сложность заданий и количество очков до следующего уровня будут расти. Так что достичь максимального уровня пока еще никому не удавалось! Если ты сможешь - напиши мне и ты попадешь в [Зал Славы](<a href="http://nerdistway.blogspot.com/2013/05/blog-post_91.html)!" class="bare">http://nerdistway.blogspot.com/2013/05/blog-post_91.html)!</a> ))) А я постараюсь быть первым!)))</p>
+</div>
+<div class="paragraph">
+<p>Итак, рано или поздно ты достигнешь нового уровня:</p>
+</div>
+<div class="paragraph">
+<p>!</p>
+</div>
+<div class="paragraph">
+<p>После появления этого окошка, ты автоматически перейдешь на экран персонажа, где тебе нужно будет распределить полученные ОН. Тыкай по стрелочкам и навыки будут улучшены:</p>
+</div>
+<div class="paragraph">
+<p>!</p>
+</div>
+<div class="paragraph">
+<p>Если следующий уровень в навыке по сложности абсолютно такой же, как и предыдущий, он будет подсвечен зеденым цветом. Выбирай такие навыки для следующей прокачки - так будет немного легче!</p>
+</div>
+<div class="paragraph">
+<p>После распределения, вернись в главное окно и снова отсортируй задачи (вдруг появилось что-то новое).</p>
+</div>
+<div class="paragraph">
+<p>Как только ты достигнешь первого уровня, ты включишься в <strong>турнир героев</strong> и сможешь увидеть своего персонажа в турнирной таблице:</p>
+</div>
+<div class="paragraph">
+<p>!</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_награды_3">7.7. Награды</h3>
+<div class="paragraph">
+<p>Выполняя задачи, ты можешь случайным образом получить награду. Полученная награда попадет в "инвентарь" на экране персонажа:</p>
+</div>
+<div class="paragraph">
+<p>!</p>
+</div>
+<div class="paragraph">
+<p>Когда будешь готов поощерить себя - награди себя в реале, а затем щелкни по награде в РПГ Органайзере:</p>
+</div>
+<div class="paragraph">
+<p>!</p>
+</div>
+<div class="paragraph">
+<p>Иногда ты будешь получать награды за выполнение квестов. Тогда после того, как ты отметишь, что квест "завершен", такая награда также попадет в инвентарь. А там ты уже знаешь что с ней делать!</p>
+</div>
+<div class="paragraph">
+<p><em>Ну вот собственно и все! Выполняй задачи, щедро награждай себя и продвигайся к новым уровням! Желаю удачи!</em></p>
+</div>
+<div class="paragraph">
+<p>Unresolved directive in index.adoc - include::Эпилог[]</p>
 </div>
 </div>
 </div>
 </div>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
-<script>hljs.initHighlighting()</script>
+</div>
 </body>
 </html>

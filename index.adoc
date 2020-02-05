@@ -11,12 +11,20 @@
 :numbered:
 
 include::Приветствую_тебя_первый_игрок.adoc[]
+
 include::Персонаж.adoc[]
+
 include::Характеристики.adoc[]
+
 include::Навыки.adoc[]
+
 include::Награды.adoc[]
+
 include::Квесты.adoc[]
+
 include::Начало_игры[]
+
 include::Файт.adoc[]
+
 include::Эпилог[]
 

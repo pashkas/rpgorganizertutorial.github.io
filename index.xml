@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?asciidoc-toc maxdepth="2"?>
+<?asciidoc-numbered?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xl="http://www.w3.org/1999/xlink" version="5.0" xml:lang="ru">
+<info>
+<title>РПГ ОРГАНАЙЗЕР</title>
+<subtitle>ТУТОРИАЛ</subtitle>
+<date>2020-01-30</date>
+</info>
+<chapter xml:id="_приветствую_тебя_первый_игрок">
+<title>Приветствую тебя, первый игрок!</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/дикарка.jpg"/>
+</imageobject>
+<textobject><phrase>дикарка</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara><emphasis role="strong">Приветствую тебя, Первый Игрок!</emphasis></simpara>
+<simpara><emphasis role="strong">Миру нужны герои. Ты - избранный! И пророчество гласит, что ты САМЫЙ ВАЖНЫЙ, самый талантливый, интересный и необыкновенный человек во вселенной.</emphasis></simpara>
+<simpara><emphasis>Это ты, верно?</emphasis></simpara>
+<simpara>Тебе суждено <link xl:href="http://eepurl.com/ciG_oL">вступить в ряды сопротивления</link> и одержать победу в самой удивительной и захватывающей <link xl:href="http://nerdistway.blogspot.ru/2013/08/blog-post_5490.html">Игре Жизни</link>, отточить до совершенства свои таланты, стать несокрушимой, необыкновенной, вдохновляющей личностью и изменить мир.</simpara>
+<simpara><emphasis>Но прежде тебе предстоит пройти обучение&#8230;&#8203;</emphasis></simpara>
+<simpara>Чтобы полностью раскрыть твой потенциал, мы воспользуется примитивным человеческим изобретением - рпг эмулятором реальной жизни, называемым "Рпг Органайзер". Ты создашь героя, выберешь свой путь и будешь сражаться. Каждая новая победа сделает тебя сильнее, увереннее и откроет доступ к новым испытаниям.</simpara>
+<simpara><emphasis>Готов к приключениям?</emphasis></simpara>
+<section xml:id="_об_рпг_органайзере">
+<title>Об РПГ Органайзере</title>
+<simpara>Рпг Органайзер - это новейшая многопользовательская платформа которая делает саморазвитие простым и веселым.</simpara>
+<simpara>Совершенствуй все стороны жизни с помощью РПГ Органайзера. Независимо от твоего текущего состояния дел, с помощью инновационной системой постепенной прогрессии (которую ты можешь встретить в любимых РПГ играх) у тебя будут хорошие шансы начать выглядеть и чувствовать себя намного лучше всего за несколько недель.</simpara>
+<simpara>С Рпг Органайзером у тебя всегда будет новый вызов и награда, ожидающая тебя. Отслеживай ежедневные миссии, зарабатывай очки опыта и продвигайся выше в турнирной таблице. Стань ЛЕГЕНДАРНЫМ ГЕРОЕМ, прокачай себя в реале и твое имя будет увековечено в <link xl:href="http://nerdistway.blogspot.com/2013/05/blog-post_91.html">Зале Славы</link>!</simpara>
+</section>
+<section xml:id="_доступ_к_рпг_органайзеру">
+<title>Доступ к РПГ Органайзеру</title>
+<simpara>Чтобы попасть во вселенную "РПГ Органайзер" - <link xl:href="https://rpgorganizer-72d0b.firebaseapp.com/">перейди по секретной ссылке</link>.</simpara>
+<simpara><emphasis role="strong">Внимание! Работа гарантируется только в последних версиях Google Chrome.</emphasis></simpara>
+<simpara>Войди, используя Гугл аккаунт.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/логин.jpg"/>
+</imageobject>
+<textobject><phrase>логин</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Если все нормально, попадешь на главный экран:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/главноеОкно.jpg"/>
+</imageobject>
+<textobject><phrase>главноеОкно</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+<section xml:id="_настройка">
+<title>Настройка</title>
+<simpara>При запуске странички тебе будет предложено "добавить РПГ Органайзер на главный экран". Эта функция доступна как на телефоне, так и на десктопе. Соглашайся, так будет намного удобнее пользоваться прогой (альтернативный способ - нажми Меню&#8594;Добавить на главный экран).</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/добавитьПриложениеАндроид.jpg"/>
+</imageobject>
+<textobject><phrase>добавитьПриложениеАндроид</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>После этих действий "РПГ Органайзер" преобразуется в полноценное приложение! Чтобы открыть его - запусти из своего списка установленных программ.</simpara>
+<tip>
+<simpara>Преобразовать РПГ Органайзер в приложение можно также и на десктопе!</simpara>
+</tip>
+</section>
+</chapter>
+<chapter xml:id="_персонаж">
+<title>Персонаж</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/персонаж.jpg"/>
+</imageobject>
+<textobject><phrase>персонаж</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Вместо того, чтобы быть амебой, плывущей безвольно по течению, тебе нужно ПРЯМО СЕЙЧАС и ПРЯМО ЗДЕСЬ подумать о себе как об ИГРОВОМ ДИЗАЙНЕРЕ. Конечно, ты не можешь контролировать все, зато можешь упорядочить свои планы в структуру, которая значительно повысит твои шансы на успех. Готовься, дорогой "убийца драконов", мы будем переносить твои цели в модель РПГ игры, а любая РПГ игра начинается&#8230;&#8203; <emphasis role="strong">с создания персонажа</emphasis>!</simpara>
+<simpara>Персонаж в РПГ - виртуальный аватар, взаимодействующий с игровой вселенной. Сначала он слаб и безызвестен, но в процессе можно достичь максимального уровня и тогда жизнь становится великолепной - открывается возможность входить в особые зоны, носить специальные доспехи и играючи достигать любых целей. Совершенствование персонажа увлекательный процесс, благодаря которому ты постоянно радуешься прогрессу и новым возможностям.</simpara>
+<simpara><emphasis>В реальности все еще интереснее.</emphasis> Мы создадим персонажа игры жизни, которым будешь ты сам. Как в игре, у тебя тоже будут атрибуты, навыки, квесты и инвентарь.</simpara>
+<simpara>Концепция персонажа полезна, потому что:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Позволит выделить параметры, развитие которых сделает тебя круче.</simpara>
+</listitem>
+<listitem>
+<simpara>Даст удобный инструмент для численного измерения достижений.</simpara>
+</listitem>
+<listitem>
+<simpara>Предоставит мотивацию и систему вознаграждений, благодаря которым ты обязательно достигнешь своих целей.</simpara>
+</listitem>
+<listitem>
+<simpara>Позволит создать воображаемый образ того, каким хочешь стать и постепенно стать тем, кем хочешь))) Это игра по твоим правилам, победа в которой преследует твои цели!</simpara>
+</listitem>
+</itemizedlist>
+<simpara>Теперь немного пофантазируем. Ответь на следующие вопросы:</simpara>
+<itemizedlist>
+<listitem>
+<simpara><emphasis role="strong">Какое прозвище будет у твоего персонажа?</emphasis>  <emphasis>Торин Дубощит? Лос Лобос?</emphasis></simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Кто он?</emphasis>  <emphasis>Воин? Волшебник? Асасин?</emphasis></simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Как он будет выглядеть?</emphasis> <emphasis>Он - человек? Гном? Могучий варвар? Эльф?</emphasis></simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Какими качествами он будет обладать на МАКСИМАЛЬНОМ уровне?</emphasis>  <emphasis>Будет сильным и харизматичным? Умным и хитрым? Уверенным, ловким и красивым? Все сразу?</emphasis></simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Что он будет уметь?</emphasis>  <emphasis>Знать иностранные языки? Выступать на публике? Круто танцевать? Петь? Рисовать?&#8230;&#8203;</emphasis></simpara>
+</listitem>
+<listitem>
+<simpara><emphasis role="strong">Какой будет его жизнь и чем он будет заниматься на МАКСИМАЛЬНОМ уровне?</emphasis>  <emphasis>Например, просыпаться в вилле у океана в окружении любящей семьи. Тяжело упражняться и изучать что-то новое, а затем помогать другим людям достигать тех же успехов. Заниматься любимым делом и ни в чем не нуждаться. Проживать каждый день счастливо и с радостью справляться с трудностями.</emphasis></simpara>
+</listitem>
+</itemizedlist>
+<simpara>После того, как ты сформировал это в своей голове, перенесем это в материальный мир!</simpara>
+<section xml:id="_настройка_основной_информации">
+<title>Настройка основной информации</title>
+<simpara>На главной странице кликни по картинке перса:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/открыть_лист_персонажа.jpg"/>
+</imageobject>
+<textobject><phrase>открыть лист персонажа</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Откроется экран персонажа, там активируй "режим редактирования":</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/Персонаж_переход_в_режим_редактирования.jpg"/>
+</imageobject>
+<textobject><phrase>Персонаж переход в режим редактирования</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Заполни поля:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/настройкиПерсонажа.jpg"/>
+</imageobject>
+<textobject><phrase>настройкиПерсонажа</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<variablelist>
+<varlistentry>
+<term>Имя</term>
+<listitem>
+<simpara>Впиши сюда псевдоним для настоящего героя!</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Изображение</term>
+<listitem>
+<simpara>Как будет выглядеть твой герой? Он человек? Выбери в интернете эпичную картинку и укажи в этом поле ссылку на нее!</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>История</term>
+<listitem>
+<simpara>У всего есть начало. У тебя тоже должна быть биографическая легенда. Напиши немного о своей реальной жизни, и как будешь проводить время в виде героя.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<simpara>В конце не забудь сохранить изменения!!!</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/сохранитьИзменения.jpg"/>
+</imageobject>
+<textobject><phrase>сохранитьИзменения</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+</chapter>
+<chapter xml:id="_характристики">
+<title>Характристики</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/характеристики.jpg"/>
+</imageobject>
+<textobject><phrase>характеристики</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>В РПГ главной мерой крутости персонажа являются характеристики (или атрибуты). Герой с высокой ВЫНОСЛИВОСТЬЮ с большей вероятностью переживёт отравление ядом, прокачанным ВОСПРИЯТИЕМ раньше заметит врага, а с низким ИНТЕЛЛЕКТОМ вряд ли найдёт потайную дверь, ведущую в сокровищницу. Существует огромное разнообразие характеристик. От таких как "сила", "ловкость", "телосложение", "интеллект", "обаяние", "мудрость" (Подземелья и драконы) и "тело", "разум", "душа" (Tri-Stat dX) до таких как "отвращение к себе", "усталость", "любовь" (My Life With Master) и "секс", "деньги", "нытье", "курение" (Nicotine Girls).</simpara>
+<simpara>Самой позитивной вещью является то, что параметры персонажа не являются чем-то статичным, а развиваются в процессе игры и сам процесс прокачки доставляет огромное удовольствие!</simpara>
+<simpara><emphasis role="strong">Эта идея отлично подходит для реальной жизни!</emphasis></simpara>
+<simpara>Как и в любимой РПГ твою крутость тоже можно описать рядом характеристик и если продвинутость некоторых из них тебя не устраивает - будем развивать!</simpara>
+<simpara>Выделение характеристик поможет тебе:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>Оценить начальное положение дел и сфокусироваться на том, что нужно подтянуть.</simpara>
+</listitem>
+<listitem>
+<simpara>Создать идеальный план развития.</simpara>
+</listitem>
+<listitem>
+<simpara>Удобно группировать дела.</simpara>
+</listitem>
+<listitem>
+<simpara>Отслеживать прогресс. Что измеряется - то и улучшается!</simpara>
+</listitem>
+</itemizedlist>
+<section xml:id="_настройка_характеристик">
+<title>Настройка характеристик</title>
+<simpara><emphasis role="strong">Придумай, какие главные качества будут у твоего персонажа</emphasis>, а если будут сложности - вот пара примеров:</simpara>
+<variablelist>
+<varlistentry>
+<term>Здоровье</term>
+<listitem>
+<simpara>Энергия, бодрость и жизнестойкость. В него входят выносливость, сопротивляемость болезням и общая «твердость».</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Сила</term>
+<listitem>
+<simpara>Мускулатура и физическая развитость.</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Интеллект</term>
+<listitem>
+<simpara>Насколько ты образован и можешь логически мыслить.</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Мышление</term>
+<listitem>
+<simpara>Насколько ты сообразителен и можешь творчески мыслить.</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Обаяние</term>
+<listitem>
+<simpara>Убедительность, магнетизм, лидерство. Привлекательность для противоположного пола.</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Уверенность</term>
+<listitem>
+<simpara>Позитивность, настрой, вера в себя, оптимизм, сила духа, умение противостоять стрессам.</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Внешность</term>
+<listitem>
+<simpara>Привлекательность. Не только внешний вид, но и видимую грацию, красоту и нечто неописуемое, что делает людей желанными. Внешность и больше, и меньше этого слова – она является лишь жалким отражение души, однако благодаря ей складывается первое впечатление и именно она остается в памяти.</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Ответственность</term>
+<listitem>
+<simpara>Сфера Отношений с близкими тебе людьми. Отношения с противоположным полом, с детьми, родителями, братьями/сестрами. Только ТЫ несешь ответственность за эти отношения!</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Домовитость</term>
+<listitem>
+<simpara>Сфера Комфорта. Организация комфортной жизни. Да, из зоны комфорта нужно выходить, но для начала ее нужно создать))). Это - содержание/ремонт жилища, поддержание порядка, покупка автомобиля и пр.</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Воля</term>
+<listitem>
+<simpara>Способность делать то что нужно, выполнять обещания и свой долг.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<tip>
+<simpara>Подробнее про характеристики ты можешь почитать <link xl:href="http://nerdistway.blogspot.ru/2015/10/blog-post_9.html">тут</link>.</simpara>
+</tip>
+<simpara>Теперь в РПГ Органайзере перейди на экран "лист персонажа":</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/открыть_лист_персонажа.jpg"/>
+</imageobject>
+<textobject><phrase>открыть лист персонажа</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Активируй "режим редактирования":</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/Персонаж_переход_в_режим_редактирования.jpg"/>
+</imageobject>
+<textobject><phrase>Персонаж переход в режим редактирования</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Нажми "добавить характеристику":</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/кнопкаДобавитьХарактеристику.jpg"/>
+</imageobject>
+<textobject><phrase>кнопкаДобавитьХарактеристику</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>В появившемся окне впиши название:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/добавлениеХарактеристикиНазвание.jpg"/>
+</imageobject>
+<textobject><phrase>добавлениеХарактеристикиНазвание</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Таким образом настрой нужный набор характеристик. Получится что-то вроде этого:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/готовыйНаборХарактеристик.jpg"/>
+</imageobject>
+<textobject><phrase>готовыйНаборХарактеристик</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Не забудь "сохранить":</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/сохранитьИзменения.jpg"/>
+</imageobject>
+<textobject><phrase>сохранитьИзменения</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
+<section xml:id="_характеристики_имеют_значение">
+<title>Характеристики имеют значение</title>
+<simpara>При создании персонажа в РПГ мы "распределяем" некоторое количество очков по характеристикам персонажа. В реальной жизни тебе просто предстоит честно ответить на вопрос - как развита каждая характеристика у тебя на данный момент. Это даст целостную картину текущего положения дел, но не забывай - это только начало путешествия, твой ПЕРВЫЙ уровень - все еще впереди!</simpara>
+<simpara>В РПГ Органайзере измеряются численным значением от 0 (ужасно) до 10 (супер). Выбери то, которое по твоему мнению больше всего соответствует развитости характеристики у тебя на данный момент.</simpara>
+<simpara>Чтобы указать начальные значения характеристики - кликни по ней (в режиме просмотра, не редактирования):</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/открытьХарактеристику.jpg"/>
+</imageobject>
+<textobject><phrase>открытьХарактеристику</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>На следующей странице перейди в режим редактирования и выбери "начальное значение":</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/элементПереходВРежимРедактирования.jpg"/>
+</imageobject>
+<textobject><phrase>элементПереходВРежимРедактирования</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/характеристикаВыборНачальногоЗначения.jpg"/>
+</imageobject>
+<textobject><phrase>характеристикаВыборНачальногоЗначения</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara><emphasis role="strong">Также на этом экране ты можешь настроить описание и изображение характеристики.</emphasis> Просто впиши текст в поле "описание" и укажи ссылку на картинку в интернете в поле "изображение".</simpara>
+<simpara>Не забудь "сохранить":</simpara>
+<simpara>!</simpara>
+<simpara>Затем вернись на экран персонажа:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/кнопкаНазад.jpg"/>
+</imageobject>
+<textobject><phrase>кнопкаНазад</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Повтори то же самое с остальными характеристиками!</simpara>
+</section>
+</chapter>
+<chapter xml:id="_навыки">
+<title>Навыки</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/навыки.jpg"/>
+</imageobject>
+<textobject><phrase>навыки</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Еще одна мера крутости персонажа в РПГ это навыки - искусность в специфичных действиях вроде стрельбы из лука, магии земли, ношении доспехов, взлома и т. д. В реальной жизни у нас тоже есть навыки, от которых зависит наша крутость. Сопротивление фастфуду, ежедневное чтение, зарядка, программирование - вот примеры навыков реальной жизни. Главная цель РПГ Органайзера - сделать сложный и нудный процесс формирования полезных навыков увлекательным.</simpara>
+<section xml:id="_навыки_измеряются">
+<title>Навыки измеряются</title>
+<simpara>Как я говорил, в РПГ играх все имеет значение. Навыки в РПГ Органайзере тоже измеряются числом от 0 до 10, как и характреистики. Это полезно, потому что у тебя есть шкала измерений, обратная связь и ты видишь, что любое действие в той или иной мере влечет за собой твое развитие или деградацию.</simpara>
+</section>
+<section xml:id="_навыки_развиваются">
+<title>Навыки развиваются</title>
+<simpara>Из Википедии:</simpara>
+<blockquote>
+<simpara>"Навык - это действие, доведенное до автоматизма"</simpara>
+</blockquote>
+<simpara>Что нужно чтобы довести действие до автоматизма? Повторить его много раз. Чтобы развить навык, нужно ежедневно упражняться (<emphasis>звучит как "Капитан Очевидность"</emphasis>), а РПГ Органайзер тебе в этом поможет. Каждый навык будет автоматически преобразован в повторяющуюся задачу. Выполняя такие задачи, ты будешь получать опыт, уровни, очки навыков, звания и другие плюшки. А развивать навыки важно потому что&#8230;&#8203;</simpara>
+</section>
+<section xml:id="_навыки_влияют_на_характеристики">
+<title>Навыки влияют на характеристики</title>
+<simpara>Какое у тебя сейчас здоровье и как ты выглядишь на 95% следствие твоих хороших или плохих привычек. Если ты пьешь, куришь и ругаешься матом, то у тебя проблемы с характеристиками – <emphasis role="strong">ЗДОРОВЬЕ</emphasis> и <emphasis role="strong">ХАРИЗМА</emphasis>. Если развиваешь навык игры на гитаре, то улучшаешь <emphasis role="strong">ОБАЯНИЕ</emphasis>. Изучаешь программирование – <emphasis role="strong">ИНТЕЛЛЕКТ</emphasis>, рисование – <emphasis role="strong">МЫШЛЕНИЕ</emphasis>. То есть навыки развивают характеристики (а характеристики - наше все))). Поэтому В РПГ Органайзере каждый навык связан с той или иной характеристикой, а развивать характеристики можно только прокачивая навыки.</simpara>
+</section>
+<section xml:id="_примеры_навыков">
+<title>Примеры навыков</title>
+<simpara>|Навык|Характеристика|
+|--|--|--|
+|Утренняя зарядка|Здоровье|
+|Йога|Ловкость|
+|Полезная еда|Здоровье|
+|Полезный завтрак|Здоровье|
+|Полезный обед|Здоровье|
+|Полезный ужин|Здоровье|
+|Сопротивление вредной еде|Здоровье|
+|Аккуратность|Харизма|
+|Бодибилдинг|Сила|
+|Изучение программирования|Интеллект|
+|Шахматы|Мышление|
+|Медитация|Восприятие|
+|Сопротивление алкоголю|Здоровье|
+|Сопротивление фастфуду|Здоровье|
+|Забота о близких|Ответственность|
+|Чтение|Интеллект|
+|Творчество|Мышление|
+|Писательство|Мышление|
+|Мечтание|Восприятие|
+|Наведение порядка|Комфорт|
+|Аэробика|Красота|
+|Ораторское искусство|Харизма|
+|Чтение литературы|Харизма|
+И.т.д.</simpara>
+</section>
+<section xml:id="_настройка_навыков">
+<title>Настройка навыков</title>
+<simpara>Чтобы добавить навык, на экране персонажа перейди в режим редактирования и нажми на кнопку добавления рядом с характеристикой, которую он будет прокачивать:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/навыкДобавить.jpg"/>
+</imageobject>
+<textobject><phrase>навыкДобавить</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Добавь к каждой характеристике 3-7 основных навыков, может получиться что-то вроде этого:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/навыкиДобавлены.jpg"/>
+</imageobject>
+<textobject><phrase>навыкиДобавлены</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Нажми "сохранить" и двигайся дальше!</simpara>
+</section>
+</chapter>
+<chapter xml:id="_награды">
+<title>Награды</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/награды.jpg"/>
+</imageobject>
+<textobject><phrase>награды</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>В героических сагах искателями приключений не всегда движет только лишь альтруизм и желание помочь ближним, а также жажда наживы, редких артефактов, золота и славы! Реальная жизнь ничем не лучше! Но и не хуже!</simpara>
+<simpara>Для того, чтобы поддерживать твою мотивацию на высоком уровне, в РПГ Органайзере есть "награды". Покупка новых солнечных очков (+5 к харизме), поход в IMax на любимый фильм (+3 к удовлетворенности), вкусный ужин в ресторане и просто +1000 рублей в фонд "побаловать себя" - вот примеры наград в реальной жизни!</simpara>
+<simpara>Все награды делятся на два типа:</simpara>
+<variablelist>
+<varlistentry>
+<term>Трофеи</term>
+<listitem>
+<simpara>Это те нарады, которые ты получаешь случайным образом после выполнения задач. Как в РПГ играх, когда из монстра "выпадает" бонус.</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Артефакты</term>
+<listitem>
+<simpara>Это те награды, которые ты получаешь, выполнив какую-то определенную миссию. Как в РПГ, когда ты побеждаешь Босса, или когда выполняешь КВЕСТ.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<simpara>Сейчас мы сфокусируемся на наградах типа "Трофеи".</simpara>
+<section xml:id="_добавление_трофея">
+<title>Добавление трофея</title>
+<simpara>На странице персонажа перейди на вкладку "инвентарь" и активируй режим редактирования. Затем нажми "плюсик" на кнопку "добавить трофей":</simpara>
+<simpara>!</simpara>
+<simpara>!</simpara>
+<simpara>Укажи название награды, а также ее тип. Бывают следующие типы наград: обычная, необычная, редкая, эпическая и легендарная. Обычные  "выпадают" намного чаще "легендарных".</simpara>
+<simpara>Примеры наград в реальной жизни:
+* <emphasis role="strong">500 рублей.</emphasis>
+* <emphasis role="strong">1000 рублей.</emphasis>
+* <emphasis role="strong">Поход в кино.</emphasis>
+* <emphasis role="strong">Поход в кафе</emphasis>
+* <emphasis role="strong">Пицца!</emphasis>
+* <emphasis role="strong">Книга.</emphasis>
+* <emphasis role="strong">Фильм.</emphasis>
+* <emphasis role="strong">Ананасы!</emphasis></simpara>
+<simpara>&#8230;&#8203;и.т.д.</simpara>
+</section>
+</chapter>
+<chapter xml:id="_квесты">
+<title>Квесты</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/квесты.jpg"/>
+</imageobject>
+<textobject><phrase>квесты</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Еще одна полезная штука из РПГ игр, которая может пригодиться в реальной жизни - квесты.</simpara>
+<simpara>Квест это обособленная задача, поставленная перед персонажами игроков в ходе развития игрового сюжета. Её выполнение является источником удовольствия от игры, порой принося персонажам материальные и нематериальные блага, или просто предоставляя возможность интересно и увлекательно провести время.</simpara>
+<simpara>В реальной жизни когда мы хотим достичь чего-то, мы ставим перед собой цели, но проблема в том, что в многих целей мы не достигаем, а в РПГ выполнение квестов доставляет огромное удовольствие и даже трудные задачи решаются играючи. Поэтому, чтобы цель стала квестом нужно <link xl:href="http://nerdistway.blogspot.com/2013/08/blog-post.html">выполнить ряд необходимых условий</link>. Если ты хочешь превратить какой-то свой личный проект в квест - давай сделаем это сейчас!</simpara>
+<section xml:id="_настройка_квестов_в_рпг_органайзере">
+<title>Настройка квестов в РПГ Органайзере</title>
+<simpara>Чтобы создать квест в РПГ Органайзере, перейди на вкладку "Квесты" на экране персонажа. Там активируй режим редактирования.</simpara>
+<simpara>После нажми "Добавить квест" и введи его название:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/добавить_квест.jpg"/>
+</imageobject>
+<textobject><phrase>добавить квест</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Затем "сохранить":</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/сохранить_квест.jpg"/>
+</imageobject>
+<textobject><phrase>сохранить квест</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Чтобы настроить квест - кликни по нему в "режиме просмотра", а затем на экране квеста перейди в режим редактирования:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/переход_в_настройку_квеста.jpg"/>
+</imageobject>
+<textobject><phrase>переход в настройку квеста</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/квест_переход_в_режим_редактирования.jpg"/>
+</imageobject>
+<textobject><phrase>квест переход в режим редактирования</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Заполни основные поля&#8230;&#8203;</simpara>
+<variablelist>
+<varlistentry>
+<term>Название</term>
+<listitem>
+<simpara>Тут все понятно, но прояви немного фантазии и придумай "героическое" название.</simpara>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Описание</term>
+<listitem>
+<simpara>Помнишь, в играх есть сюжет. Зная, что ты помогаешь жителям деревни, а в конечном итоге вообще все сводится к спасению Принцессы, намного лучше мотивирует, чем тупое выполнение чужого поручения. Старайся, чтобы у каждой цели была причина. Не принебрегай описанием.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<section xml:id="_миссии">
+<title>Миссии</title>
+<simpara>Разбей квест на задачи. Обязательно добавь хотя бы одну - первый шаг. Если знаешь остальные шаги - добавь их тоже, но сильно не увлекайся планированием, потом могут появиться новые сюжетные линии!</simpara>
+<simpara>Чтобы добавить миссию - нажми на кнопку:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/квестДобавитьМиссию.jpg"/>
+</imageobject>
+<textobject><phrase>квестДобавитьМиссию</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>И впиши название:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/квестНазваниеМиссии.jpg"/>
+</imageobject>
+<textobject><phrase>квестНазваниеМиссии</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Задания будут появляться по очереди, поэтому выстрой правильную последовательность миссий этими кнопками:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/квестСортировкаМиссий.jpg"/>
+</imageobject>
+<textobject><phrase>квестСортировкаМиссий</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Если в квесте нет миссий, то добавить "следующий шаг" можно из экрана просмотра квеста (такой большой плюсик).</simpara>
+</section>
+<section xml:id="_награды_2">
+<title>Награды</title>
+<simpara>Как я уже говорил, у каждого квеста должна быть причина, и у каждого квеста должен быть результат. Награда создаст мотивацию к следующим свершениям и даст лучше почуствовать "вкус победы" - ощущение, которое очень важно для скромных ботанов.</simpara>
+<simpara>Чтобы добавить награду - нажми кнопку и впиши название:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/квестДобавитьНаграду.jpg"/>
+</imageobject>
+<textobject><phrase>квестДобавитьНаграду</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Награда будет добавлена, а ты сможешь получить ее, когда выполнишь квест.</simpara>
+<simpara>Вот что в итоге получится:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/квестГотовый.jpg"/>
+</imageobject>
+<textobject><phrase>квестГотовый</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Unresolved directive in index.adoc - include::Начало_игры[]</simpara>
+</section>
+</section>
+</chapter>
+<chapter xml:id="_файт">
+<title>Файт!</title>
+<simpara>![](<link xl:href="https://lh3.googleusercontent.com/gFBuN9p36ajO2Qj114RED9lrmBiMOxirTikEQ20HGYqs7GsHMIqX_6kZjO8js88zHKvpXaXM1ArQ=s0">https://lh3.googleusercontent.com/gFBuN9p36ajO2Qj114RED9lrmBiMOxirTikEQ20HGYqs7GsHMIqX_6kZjO8js88zHKvpXaXM1ArQ=s0</link>)</simpara>
+<simpara>Ну вот и наступил самый интересный момент - начало ИГРЫ!</simpara>
+<section xml:id="_цель">
+<title>Цель</title>
+<simpara>Цель Рпг Органайзера - прокачать персонажа (и тебя тоже) до максимально возможного уровня (100). Чтобы прокачивать персонажа, нужно выполнять задачи из списка. После успешного выполнения ты получаешь небольшую прибавку к очкам опыта (exp - <emphasis role="strong">ex</emphasis>perience <emphasis role="strong">p</emphasis>oints).При достижении порогового значения опыта, будет получен новый уровень персонажа - наглядное подтверждение роста твоей крутости!)) Также с новым уровнем ты получишь несколько ОН (очко навыков), на которое ты сможешь открыть или прокачать навыки (тебе станут доступны новые задания, дающие больше опыта). Прокачиваясь, очень скоро ты будешь чувствовать себя совершенно другим человеком, желаю удачи!</simpara>
+</section>
+<section xml:id="_панель_задач">
+<title>Панель задач</title>
+<simpara>Все актуальные задачи будут сконцентрированы в этом месте:</simpara>
+<simpara>![](<link xl:href="https://lh3.googleusercontent.com/fsRMrG0H23LN0p1l_Qe4724rpPa7JiALGMOwlbD2TPPbRH2CGfl2zZPIsxd4S8WtwbQmPxYJhEgf=s0">https://lh3.googleusercontent.com/fsRMrG0H23LN0p1l_Qe4724rpPa7JiALGMOwlbD2TPPbRH2CGfl2zZPIsxd4S8WtwbQmPxYJhEgf=s0</link>)</simpara>
+<simpara><emphasis role="strong">Задачи делятся на два списка:</emphasis> навыки - повторяющиеся ежедневные задачи, выполнение которых дает опыт и качает навыки и квесты - тут будут задачи из твоих целей, их выполнение ведет к достижению целей и получению наград.</simpara>
+<simpara><emphasis role="strong">В отображении списков есть два режима:</emphasis></simpara>
+<simpara>Глобальный вид:
+!</simpara>
+<simpara>ты видишь задачи списком и тут нужно выбрать первую подходящую для выполнения.</simpara>
+<simpara>Сфокусированный вид:
+![](<link xl:href="https://lh3.googleusercontent.com/jK34SXSGyh_ALaNqT1eU_mJfhgqAYNx-Fp67tQt36iVxhLNeAOkO-cbhhPnDxo-9NheCeaim-sbh=s0">https://lh3.googleusercontent.com/jK34SXSGyh_ALaNqT1eU_mJfhgqAYNx-Fp67tQt36iVxhLNeAOkO-cbhhPnDxo-9NheCeaim-sbh=s0</link>)</simpara>
+<simpara>когда ты выбрал задачу и тебе видны подробности задачи и действия над задачей. Над названием задачи будет случайная картинка монстра, что символизирует борьбу со сложностями и ленью. Ты победил или тебя победили&#8230;&#8203; С ростом уровня персонажа и/или навыков монстры будут крутеть.</simpara>
+</section>
+<section xml:id="_панель_интерфейса">
+<title>Панель интерфейса</title>
+<simpara>Под задачами находится панель интерфейса. На ней кнопки для выполнения всех необходимых действий.</simpara>
+<simpara><emphasis role="strong">1) Если активирован глобальный режим задач:</emphasis></simpara>
+<simpara>Квесты/навыки</simpara>
+<simpara>: ![](<link xl:href="https://lh3.googleusercontent.com/QtsAYEMMC_d6eehgnK5EvdmoM6NndG8okLlkjuOP03ZfZVZT-iCZdjBQ4sMKyX6NpAg4_sY4_Ded=s0">https://lh3.googleusercontent.com/QtsAYEMMC_d6eehgnK5EvdmoM6NndG8okLlkjuOP03ZfZVZT-iCZdjBQ4sMKyX6NpAg4_sY4_Ded=s0</link>)</simpara>
+<simpara>: Нажимая на эти кнопки, ты можешь выбирать списки задач - квесты и навыки, соответственно.</simpara>
+<simpara>Первая задача из списка</simpara>
+<simpara>: ![](<link xl:href="https://lh3.googleusercontent.com/YUUHvso70vzycixBThATLlDX7Ngb8jID0wXk6jHI3FgbVOstCBrkkBgNSPAk2gUKqWBISrJ333zu=s0">https://lh3.googleusercontent.com/YUUHvso70vzycixBThATLlDX7Ngb8jID0wXk6jHI3FgbVOstCBrkkBgNSPAk2gUKqWBISrJ333zu=s0</link>)</simpara>
+<simpara>: Нажав на эту кнопку, ты попадешь в сфокусированный режим первой задачи из списка.</simpara>
+<simpara><emphasis role="strong">2) Если активизирован сфокусированный режим:</emphasis></simpara>
+<simpara>Выполнение/пропуск</simpara>
+<simpara>: Выполнил задачу? Молодец! Отметь это, нажав эту кнопку.</simpara>
+<simpara>: ![](<link xl:href="https://lh3.googleusercontent.com/okooCxGJ2xhxmdOEkFGjZlL2BfxHfNcSSPFRBIk-d7m6e_PxNZSY3Z5nfc12Ejd-Y4EXZQJSSnrF=s0">https://lh3.googleusercontent.com/okooCxGJ2xhxmdOEkFGjZlL2BfxHfNcSSPFRBIk-d7m6e_PxNZSY3Z5nfc12Ejd-Y4EXZQJSSnrF=s0</link>)</simpara>
+<simpara>: Поленился или не смог выполнить эту задачу? Нажми на эту кнопку и получишь небольшой штраф (в квестах эту кнопку не надо нажимать). Эта функция поможет тебе двигаться только вперед, а не останавливаться на достигнутом! Понятно, что если ты сегодня поленился и не развивал навык, твой опыт падает и ты теряешь немного крутости! Только не впадай в уныние, это не стирает твои достижения, если на следующий день ты будешь стараться!</simpara>
+<simpara>: ![](<link xl:href="https://lh3.googleusercontent.com/WIoF_ufa0z8OFr5faKL3z62cHPqnFohpRO1HT9qifC2hxujt4BfaMYI0ExwcWcxKJUGJNjet8_gV=s0">https://lh3.googleusercontent.com/WIoF_ufa0z8OFr5faKL3z62cHPqnFohpRO1HT9qifC2hxujt4BfaMYI0ExwcWcxKJUGJNjet8_gV=s0</link>)</simpara>
+<simpara>Назад в глобальный вид задач</simpara>
+<simpara>: Если же ты передумал сейчас делать это задачу и решил переключиться на другую - жми эту кнопку.</simpara>
+<simpara>: ![](<link xl:href="https://lh3.googleusercontent.com/Znh3aHhU8H4BzONQM-dDc_s5X12FufF9dB5qYYdhsFgfkzO1abe3eGUmxkJQEIcmyZjwtqofHQqt=s0">https://lh3.googleusercontent.com/Znh3aHhU8H4BzONQM-dDc_s5X12FufF9dB5qYYdhsFgfkzO1abe3eGUmxkJQEIcmyZjwtqofHQqt=s0</link>)</simpara>
+<simpara>Жесты</simpara>
+<simpara>: Чтобы выбрать следующую/предыдущую задачу сделай свайп слева направо или справа налево по картинке монстра.</simpara>
+<simpara>: Чтобы выполнить/пропустить задачу сделай свайп снизу вверх или сверху вниз по картинке монстра.</simpara>
+<simpara>Теперь я тебе просто кратко опишу алгоритм действий в Рпг Органайзере.</simpara>
+</section>
+<section xml:id="_работа_с_навыками">
+<title>Работа с навыками</title>
+<simpara>Убедись, что выбран вид задач "навыки", и в панели задач присутствуют задачи:</simpara>
+<simpara>!</simpara>
+<simpara>Задачи будут "вперемешку", поэтому первым делом осортируй их. Те, что нужно выполнять вначале дня перемести выше, а те, что в конце - ниже. Для этого нажми эту кнопку:</simpara>
+<simpara>!</simpara>
+<simpara>Зажми на стрелочке и сдвинь задачу как тебе нужно:</simpara>
+<simpara>!</simpara>
+<simpara>В конце нажми сюда:</simpara>
+<simpara>!</simpara>
+<simpara>Теперь жестами вправо/влево, или перейдя в режим "глобальный вид" выбери подходящую для выполнения задачу:</simpara>
+<simpara>![](<link xl:href="https://lh3.googleusercontent.com/9IYnBLF2v47h5BbB2lJ-yQHGl2pY7VSe0h-QQrgnbWPmOxqAXVVbN0wey8ls0rJAYXJoF2cxsfQc=s0">https://lh3.googleusercontent.com/9IYnBLF2v47h5BbB2lJ-yQHGl2pY7VSe0h-QQrgnbWPmOxqAXVVbN0wey8ls0rJAYXJoF2cxsfQc=s0</link>)</simpara>
+<simpara>Попадешь в режим фокусировки, выполни задачу в реале и отметь в РПГ Органайзере:</simpara>
+<simpara>![](<link xl:href="https://lh3.googleusercontent.com/Zjd0f0puICGAXL2_f8lDmHcm4S6R7MUSTt2XhPFER90KxSNqgc6v3X9eijG_zsj4gWziKnCA6JXw=s0">https://lh3.googleusercontent.com/Zjd0f0puICGAXL2_f8lDmHcm4S6R7MUSTt2XhPFER90KxSNqgc6v3X9eijG_zsj4gWziKnCA6JXw=s0</link>)</simpara>
+<simpara>Далее выбери следующую задачу, а потом еще одну&#8230;&#8203;</simpara>
+<simpara>Те задачи, которые не получается сегодня сделать отмечай как "не выполненные" (значек "щит" или свайп снизу вверх).</simpara>
+<simpara>И фигачь!</simpara>
+<simpara>Когда поработаешь с "навыками", переключись на список "квесты".</simpara>
+</section>
+<section xml:id="_работа_с_квестами">
+<title>Работа с квестами</title>
+<simpara>Если у тебя есть активные квесты, их задания появятся в главном окне программы. Чтобы их увидеть, активируй вид "квесты":</simpara>
+<simpara>!</simpara>
+<simpara>От каждого квеста сюда будет попадать первая невыполненная задача, поэтому внимательно отнесись к сортировке задач квеста.</simpara>
+<simpara>Выполни эту задачу в реале, а затем отметь в РПГ Органайзере:</simpara>
+<simpara>!</simpara>
+<simpara>Если тебе нужно будет донастроить квест, ты можешь попасть в него прямо из главного окна, щелкнув по названию задачи:</simpara>
+<simpara>!</simpara>
+<simpara>Рано или поздно, ты выполнишь все задачи квеста. Тогда перейди на экран этого квеста и отметь, что он завершен:</simpara>
+<simpara>!</simpara>
+<simpara>Если за него были какие-то награды, ты их получишь.</simpara>
+<simpara>Когда поработаешь с квестами - возвращайся к виду "навыки" и продолжай игру!</simpara>
+</section>
+<section xml:id="_новый_уровень">
+<title>Новый уровень!</title>
+<simpara>Поначалу тебе будет просто набирать уровни. Задания будут проще и для перехода тебе нужно будет меньше очков опыта, но со временем сложность заданий и количество очков до следующего уровня будут расти. Так что достичь максимального уровня пока еще никому не удавалось! Если ты сможешь - напиши мне и ты попадешь в [Зал Славы](<link xl:href="http://nerdistway.blogspot.com/2013/05/blog-post_91.html)!">http://nerdistway.blogspot.com/2013/05/blog-post_91.html)!</link> ))) А я постараюсь быть первым!)))</simpara>
+<simpara>Итак, рано или поздно ты достигнешь нового уровня:</simpara>
+<simpara>!</simpara>
+<simpara>После появления этого окошка, ты автоматически перейдешь на экран персонажа, где тебе нужно будет распределить полученные ОН. Тыкай по стрелочкам и навыки будут улучшены:</simpara>
+<simpara>!</simpara>
+<simpara>Если следующий уровень в навыке по сложности абсолютно такой же, как и предыдущий, он будет подсвечен зеденым цветом. Выбирай такие навыки для следующей прокачки - так будет немного легче!</simpara>
+<simpara>После распределения, вернись в главное окно и снова отсортируй задачи (вдруг появилось что-то новое).</simpara>
+<simpara>Как только ты достигнешь первого уровня, ты включишься в <emphasis role="strong">турнир героев</emphasis> и сможешь увидеть своего персонажа в турнирной таблице:</simpara>
+<simpara>!</simpara>
+</section>
+<section xml:id="_награды_3">
+<title>Награды</title>
+<simpara>Выполняя задачи, ты можешь случайным образом получить награду. Полученная награда попадет в "инвентарь" на экране персонажа:</simpara>
+<simpara>!</simpara>
+<simpara>Когда будешь готов поощерить себя - награди себя в реале, а затем щелкни по награде в РПГ Органайзере:</simpara>
+<simpara>!</simpara>
+<simpara>Иногда ты будешь получать награды за выполнение квестов. Тогда после того, как ты отметишь, что квест "завершен", такая награда также попадет в инвентарь. А там ты уже знаешь что с ней делать!</simpara>
+<simpara><emphasis>Ну вот собственно и все! Выполняй задачи, щедро награждай себя и продвигайся к новым уровням! Желаю удачи!</emphasis></simpara>
+<simpara>Unresolved directive in index.adoc - include::Эпилог[]</simpara>
+</section>
+</chapter>
+</book>
