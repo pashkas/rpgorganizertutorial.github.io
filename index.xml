@@ -5,7 +5,7 @@
 <info>
 <title>РПГ ОРГАНАЙЗЕР</title>
 <subtitle>ТУТОРИАЛ</subtitle>
-<date>2020-01-30</date>
+<date>2020-02-06</date>
 </info>
 <chapter xml:id="_приветствую_тебя_первый_игрок">
 <title>Приветствую тебя, первый игрок!</title>
@@ -33,7 +33,9 @@
 <section xml:id="_доступ_к_рпг_органайзеру">
 <title>Доступ к РПГ Органайзеру</title>
 <simpara>Чтобы попасть во вселенную "РПГ Органайзер" - <link xl:href="https://rpgorganizer-72d0b.firebaseapp.com/">перейди по секретной ссылке</link>.</simpara>
-<simpara><emphasis role="strong">Внимание! Работа гарантируется только в последних версиях Google Chrome.</emphasis></simpara>
+<important>
+<simpara>Внимание! Работа гарантируется только в последних версиях Google Chrome.</simpara>
+</important>
 <simpara>Войди, используя Гугл аккаунт.</simpara>
 <informalfigure>
 <mediaobject>
@@ -47,9 +49,9 @@
 <informalfigure>
 <mediaobject>
 <imageobject>
-<imagedata fileref="img/главноеОкно.jpg"/>
+<imagedata fileref="img/ГлавноеОкно.jpg"/>
 </imageobject>
-<textobject><phrase>главноеОкно</phrase></textobject>
+<textobject><phrase>ГлавноеОкно</phrase></textobject>
 </mediaobject>
 </informalfigure>
 </section>
@@ -126,27 +128,27 @@
 <informalfigure>
 <mediaobject>
 <imageobject>
-<imagedata fileref="img/открыть_лист_персонажа.jpg"/>
+<imagedata fileref="img/ОткрытьЛистПерсонажа.jpg"/>
 </imageobject>
-<textobject><phrase>открыть лист персонажа</phrase></textobject>
+<textobject><phrase>ОткрытьЛистПерсонажа</phrase></textobject>
 </mediaobject>
 </informalfigure>
 <simpara>Откроется экран персонажа, там активируй "режим редактирования":</simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
-<imagedata fileref="img/Персонаж_переход_в_режим_редактирования.jpg"/>
+<imagedata fileref="img/ПерсПереходРедактирование.jpg"/>
 </imageobject>
-<textobject><phrase>Персонаж переход в режим редактирования</phrase></textobject>
+<textobject><phrase>ПерсПереходРедактирование</phrase></textobject>
 </mediaobject>
 </informalfigure>
 <simpara>Заполни поля:</simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
-<imagedata fileref="img/настройкиПерсонажа.jpg"/>
+<imagedata fileref="img/ПерсОсновныеНастройки.jpg"/>
 </imageobject>
-<textobject><phrase>настройкиПерсонажа</phrase></textobject>
+<textobject><phrase>ПерсОсновныеНастройки</phrase></textobject>
 </mediaobject>
 </informalfigure>
 <variablelist>
@@ -173,9 +175,9 @@
 <informalfigure>
 <mediaobject>
 <imageobject>
-<imagedata fileref="img/сохранитьИзменения.jpg"/>
+<imagedata fileref="img/СохранитьИзменения.jpg"/>
 </imageobject>
-<textobject><phrase>сохранитьИзменения</phrase></textobject>
+<textobject><phrase>СохранитьИзменения</phrase></textobject>
 </mediaobject>
 </informalfigure>
 </section>
@@ -281,18 +283,18 @@
 <informalfigure>
 <mediaobject>
 <imageobject>
-<imagedata fileref="img/открыть_лист_персонажа.jpg"/>
+<imagedata fileref="img/ОткрытьЛистПерсонажа.jpg"/>
 </imageobject>
-<textobject><phrase>открыть лист персонажа</phrase></textobject>
+<textobject><phrase>ОткрытьЛистПерсонажа</phrase></textobject>
 </mediaobject>
 </informalfigure>
 <simpara>Активируй "режим редактирования":</simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
-<imagedata fileref="img/Персонаж_переход_в_режим_редактирования.jpg"/>
+<imagedata fileref="img/ПерсПереходРедактирование.jpg"/>
 </imageobject>
-<textobject><phrase>Персонаж переход в режим редактирования</phrase></textobject>
+<textobject><phrase>ПерсПереходРедактирование</phrase></textobject>
 </mediaobject>
 </informalfigure>
 <simpara>Нажми "добавить характеристику":</simpara>
@@ -622,8 +624,64 @@
 <textobject><phrase>квестГотовый</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>Unresolved directive in index.adoc - include::Начало_игры[]</simpara>
 </section>
+</section>
+</chapter>
+<chapter xml:id="_начало_игры">
+<title>Начало игры</title>
+<simpara>Итак, ты начинаешь игру никому не известным слабым персонажем нулевого уровня. В процессе игры, уровень и характеристики будут расти. На начальном уровне и с каждым последующим ты будешь получать одно очко навыков (ОН), с помощью ОН ты сможешь открывать и прокачивать навыки, по одному за раз, что обеспечит тебе постепенность прогресса и возможность сделать то, что сразу может не получиться и достичь высот, о которых ты даже не мечтал!</simpara>
+<simpara>Чтобы открыть навык - убедись, что ты находишься на экране "лист персонажа", затем - щелкни по стрелке:</simpara>
+<simpara>!</simpara>
+<simpara>Если навык был 0-го уровня, то он "откроется" (если 1-го и больше, то он "прокачается"). При открытии навыка ты автоматом окажешься на экране настройки, где нужно будет указать расширенные данные навыка.</simpara>
+<simpara>На экране настройки навыка&#8230;&#8203; Активируй режим редактирования.</simpara>
+<simpara>![](<link xl:href="https://lh3.googleusercontent.com/Ta5cghtevOZJ75kWKqEgUN_p7Ii9FyBprqNwYyvViXLG_HGdze218Mnws-ngUlvMofNhfAx9KIK4=s0">https://lh3.googleusercontent.com/Ta5cghtevOZJ75kWKqEgUN_p7Ii9FyBprqNwYyvViXLG_HGdze218Mnws-ngUlvMofNhfAx9KIK4=s0</link>)</simpara>
+<simpara>![](<link xl:href="https://lh3.googleusercontent.com/Ly8C3FvFIDq8QLi1a4TpND&#8212;&#8203;ZItxmwLlzkT-wJNRHVk0Dwlgdo0aUTxmtY48UcxGR1ErWHFWVf0R=s0">https://lh3.googleusercontent.com/Ly8C3FvFIDq8QLi1a4TpND&#8212;&#8203;ZItxmwLlzkT-wJNRHVk0Dwlgdo0aUTxmtY48UcxGR1ErWHFWVf0R=s0</link>)</simpara>
+<simpara>![](<link xl:href="https://lh3.googleusercontent.com/GcPhAbwA4xR-T1e5elHrakO7RG3IK0O7fXApX4g08ZP8d5JwsAwcRIvydc1n1DpO1y3WnqLli8Di=s0">https://lh3.googleusercontent.com/GcPhAbwA4xR-T1e5elHrakO7RG3IK0O7fXApX4g08ZP8d5JwsAwcRIvydc1n1DpO1y3WnqLli8Di=s0</link>)</simpara>
+<simpara>Как ты понимаешь, прокачка навыка - это периодическая тренировка. Поэтому укажи периодичность повторений (ежедневно, будни, выходные, дни недели, и.т.д.):</simpara>
+<simpara>![](<link xl:href="https://lh3.googleusercontent.com/rd0jPggQbMhDxhdpZL7M4kKK5jAg2HlCIm9ExKqF-QAUATMSXrE6M9QsrEqxeGhN7o_pAxR3ldOP=s0">https://lh3.googleusercontent.com/rd0jPggQbMhDxhdpZL7M4kKK5jAg2HlCIm9ExKqF-QAUATMSXrE6M9QsrEqxeGhN7o_pAxR3ldOP=s0</link>)</simpara>
+<simpara>А теперь самое интересное&#8230;&#8203;</simpara>
+<section xml:id="_прогрессия_рулит">
+<title>Прогрессия рулит</title>
+<simpara>Ты помнишь, что в играх прокачка происходит постепенно? Сначала ты можешь пульнуть слабенький файербол на близкое расстояние, а позже - серию гиганских огненных шаров, испепеляющих толпы врагов. Также и в реальной жизни! Очень круто развивать свои навыки постепенно, начав с чего-то очень простого и постепенно увеличивая сложность. Прогрессия рулит!</simpara>
+<simpara>Качки прекрасно об этом знают! Как там в тренажерке? В самом начале туда приходит чщедушный дохляк, который делает жим лежа пустого грифа штанги всего пару раз. А потом, постепенно добавляя по чуть-чуть повторы, подходы и веса - он преображается в крутого бодибилдера!</simpara>
+<simpara>Вот и привычки/навыки мы тоже будем развивать постепенно. Помнишь, что навыки делятся на уровни от 0 до 10? Каждая задача на каждом уровне навыка будет иметь свои различные качества (сложность). Чтобы настроить постепенность, нужно определиться в чем измеряться прогресс в навыке. Например, крутость в медитации измеряется в минутах, а подтягиваний в количестве раз, пробежка - в количеств километров, а чтение - в прочитанных страницах или минутах сосредоточенного чтения.</simpara>
+<simpara>Если крутость навыка измеряется в минутах, укажи значение, к которому ты в идеале стремишься тут:</simpara>
+<simpara>![](<link xl:href="https://lh3.googleusercontent.com/0VPM5p1MUJWCMzNaxMXMpBgVxCaO_qKZlN7WcekUqUEeH11qUFx0YzDPIG0VBhqolPKAbfhSYYKy=s0">https://lh3.googleusercontent.com/0VPM5p1MUJWCMzNaxMXMpBgVxCaO_qKZlN7WcekUqUEeH11qUFx0YzDPIG0VBhqolPKAbfhSYYKy=s0</link>)</simpara>
+<simpara>Судя по примеру выше, конечная цель - медитировать по 15 минут в день.</simpara>
+<simpara>Если крутость навыка измеряется количеством раз (например, отжимания, подтягивания), то заполни поле "раз" необходимым числом.</simpara>
+<simpara>!</simpara>
+<simpara>После того, как заполнишь, нажми "сохранить" и посмотри что получится. Автоматом распределятся значения "по уровням". Начинать нужно будет с чего то простого, а потом постепенно крутеть.</simpara>
+<simpara>![](<link xl:href="https://lh3.googleusercontent.com/gM-VNRSz9N5-7o32atfYhAvNjBVAYSdPBOJQJ2ALeGR_IG38g4LYjdKqy8h-Wva6Pj97nPnlxTEs=s0">https://lh3.googleusercontent.com/gM-VNRSz9N5-7o32atfYhAvNjBVAYSdPBOJQJ2ALeGR_IG38g4LYjdKqy8h-Wva6Pj97nPnlxTEs=s0</link>)</simpara>
+<simpara>Если сложность не измеряется в количестве раз или минут - используй "состояния". В зависимости от прокачки они будут меняться. Например, на уровне "ужасно" - отжимания от стены, на уровне "легендарно" - отжимания на одной руке вверх ногами!))) Вот пример такой настройки:</simpara>
+<simpara>![](<link xl:href="https://lh3.googleusercontent.com/L94cgT_TTtvPzEN5WRpwo6s3CZarZrnf-WiXNDS_C27pQt66LGFRi5Ro5bAFskmzERh3Np4KEkCL=s0">https://lh3.googleusercontent.com/L94cgT_TTtvPzEN5WRpwo6s3CZarZrnf-WiXNDS_C27pQt66LGFRi5Ro5bAFskmzERh3Np4KEkCL=s0</link>)</simpara>
+<simpara>![](<link xl:href="https://lh3.googleusercontent.com/uXXTBoOwvdv57YTVkJuZWRnBhjM-OjtCuLukODehjou6mldLG2w-X6NSCv6C4PKrlJ_9cSVslw07=s0">https://lh3.googleusercontent.com/uXXTBoOwvdv57YTVkJuZWRnBhjM-OjtCuLukODehjou6mldLG2w-X6NSCv6C4PKrlJ_9cSVslw07=s0</link>)</simpara>
+<simpara>А что если необходимо, чтобы с каждым уровнем добавлялись новые задачи? Например, на первом уровне ты избегаешь питаться только гамбургерами, на втором - гамбургерами и фри, а на третьем - гамбургерами, фри и газировкой))):</simpara>
+<simpara>![](<link xl:href="https://lh3.googleusercontent.com/fSG85X_eDPdckz7LiFWBTUICXyi80vzcuC3a5nr_OGFCk9HnCG-adoDAMIaHISJV-3IGrCPFXB2o=s0">https://lh3.googleusercontent.com/fSG85X_eDPdckz7LiFWBTUICXyi80vzcuC3a5nr_OGFCk9HnCG-adoDAMIaHISJV-3IGrCPFXB2o=s0</link>)</simpara>
+<simpara>![](<link xl:href="https://lh3.googleusercontent.com/IFhOSQ_cMPKIsoEG_UzTrq-g4jxV0LEFw9ZrZPKnO4zm94XWjs69y4VbGkM8azAmrQ6h9f_xDJfN=s0">https://lh3.googleusercontent.com/IFhOSQ_cMPKIsoEG_UzTrq-g4jxV0LEFw9ZrZPKnO4zm94XWjs69y4VbGkM8azAmrQ6h9f_xDJfN=s0</link>)</simpara>
+<simpara>Постарайся разделить на уровни каждый навык. Тут тебе поможет твоя фантазия. Можешь даже довести все до абсурда - например "чистка 1 зуба зубной нитью", "чтение 1 минута", "холодный душ - только пальцы на ногах", "одеться для пробежки и выйти на улицу, а затем вернуться домой", "вспомнить о том, что нужно сделать уборку и все" )))) Есть даже такой подход в приобретении привычек - начинать нужно с чего-то настолько элементарно простого, что было бы глупо от этого отказываться! Главное встать на путь, а сложность можно потом постепенно нарастить! (Почитай книгу Мини привычки - макси результаты.)</simpara>
+<simpara>Вот тебе несколько примеров, для того, чтобы ты яснее представлял как настроить прогрессию&#8230;&#8203;</simpara>
+<simpara><emphasis role="strong">Чтение</emphasis></simpara>
+<simpara>![](<link xl:href="https://lh3.googleusercontent.com/y_7WNUjL-vDIp8xFMB1rZjwh3fxrkN5p9bTKDBAg-jjvb3YEpat75Z12vUq2jRxtvuCF4KwJueNz=s0">https://lh3.googleusercontent.com/y_7WNUjL-vDIp8xFMB1rZjwh3fxrkN5p9bTKDBAg-jjvb3YEpat75Z12vUq2jRxtvuCF4KwJueNz=s0</link>)</simpara>
+<simpara><emphasis role="strong">Полезная еда</emphasis></simpara>
+<simpara>![](<link xl:href="https://lh3.googleusercontent.com/iAQf5NsP50xkF_m29w0YfoZdDT-wEyjIJW1yc-XSKGlPgK7tQnxeZD3jKt_J_Mr5cWi2K1oek3PZ=s0">https://lh3.googleusercontent.com/iAQf5NsP50xkF_m29w0YfoZdDT-wEyjIJW1yc-XSKGlPgK7tQnxeZD3jKt_J_Mr5cWi2K1oek3PZ=s0</link>)</simpara>
+<simpara><emphasis role="strong">Сопротивление вредной еде</emphasis></simpara>
+<simpara>![](<link xl:href="https://lh3.googleusercontent.com/2lEYAm5KYHv5F-AMo8KJjQ3PphXnz6_Wp8kSPgjrPF-aeMNv2HtkaaiH0mztJrOWjRUZMWAS7zk7=s0">https://lh3.googleusercontent.com/2lEYAm5KYHv5F-AMo8KJjQ3PphXnz6_Wp8kSPgjrPF-aeMNv2HtkaaiH0mztJrOWjRUZMWAS7zk7=s0</link>)</simpara>
+<simpara><emphasis>Примечание: есть исследования, что черный молотый кофе в малых количествах полезен, а зеленый чай для мужчин очень вреден. Поэтому в примерах чай попал во вредную еду, а кофе в полезную.</emphasis></simpara>
+<simpara><emphasis role="strong">Питье</emphasis></simpara>
+<simpara>![](<link xl:href="https://lh3.googleusercontent.com/eUFOxvOHJFIFwtNJc-F-Wzl7YWeD103i2GyKkbfSnGE0U7rVQv2Di0OdlregVpN5BhQ594UpE3WL=s0">https://lh3.googleusercontent.com/eUFOxvOHJFIFwtNJc-F-Wzl7YWeD103i2GyKkbfSnGE0U7rVQv2Di0OdlregVpN5BhQ594UpE3WL=s0</link>)</simpara>
+<simpara><emphasis>Также следует добавить навыки "вода днем" и "вода вечером".</emphasis></simpara>
+<simpara><emphasis role="strong">Качалка</emphasis></simpara>
+<simpara>![](<link xl:href="https://lh3.googleusercontent.com/UFkvCl9Ksaz0zlp4kBe6UKhXM4fmxHMoouAvlQuqJmt16fUXRRcV0_SCDysrn6dvedRJL6Owlf8P=s0">https://lh3.googleusercontent.com/UFkvCl9Ksaz0zlp4kBe6UKhXM4fmxHMoouAvlQuqJmt16fUXRRcV0_SCDysrn6dvedRJL6Owlf8P=s0</link>)</simpara>
+<simpara><emphasis>Тут указано количество повторений в упражнениях. Поначалу начинается с идиотского одного повтора, что очень легко, а потом постепенно идет усложнение.</emphasis></simpara>
+<simpara><emphasis role="strong">Сопротивление новостям</emphasis></simpara>
+<simpara>![](<link xl:href="https://lh3.googleusercontent.com/lMU7fK235-hT5B25ul1hu-PjIewZOIyC7ANPnP8HssCdOJhEnP5fRcUcHTuo3_DHd0hraz1HfUmw=s0">https://lh3.googleusercontent.com/lMU7fK235-hT5B25ul1hu-PjIewZOIyC7ANPnP8HssCdOJhEnP5fRcUcHTuo3_DHd0hraz1HfUmw=s0</link>)</simpara>
+<simpara><emphasis role="strong">Новости это полная шляпа, и чтобы поберечь свое моральное здоровье, лучше их избегать.</emphasis></simpara>
+</section>
+<section xml:id="_посмотри_задачи">
+<title>Посмотри задачи</title>
+<simpara>Каждый открытый навык будет преобразован в конкретные действия - задачи. Чтобы посмотреть задачи на сегодня - вернись в главное окно программы:</simpara>
+<simpara>!</simpara>
+<simpara>А теперь&#8230;&#8203; Настало время сражения! Файт!</simpara>
 </section>
 </chapter>
 <chapter xml:id="_файт">
@@ -724,7 +782,23 @@
 <simpara>!</simpara>
 <simpara>Иногда ты будешь получать награды за выполнение квестов. Тогда после того, как ты отметишь, что квест "завершен", такая награда также попадет в инвентарь. А там ты уже знаешь что с ней делать!</simpara>
 <simpara><emphasis>Ну вот собственно и все! Выполняй задачи, щедро награждай себя и продвигайся к новым уровням! Желаю удачи!</emphasis></simpara>
-<simpara>Unresolved directive in index.adoc - include::Эпилог[]</simpara>
 </section>
+</chapter>
+<chapter xml:id="_эпилог">
+<title>Эпилог</title>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/level_up.gif"/>
+</imageobject>
+<textobject><phrase>level up</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Поздравляю! Ты успешно прошел обучающую компанию РПГ Органайзера! Ты реально крут!</simpara>
+<simpara>Если будут вопросы или предложения - пиши мне на e-mail: <link xl:href="mailto:nerdistway@yandex.ru">nerdistway@yandex.ru</link> или <link xl:href="mailto:rpgorganizer@yandex.ru">rpgorganizer@yandex.ru</link> или обращайся на <link xl:href="http://rpg-organizer.107353.n8.nabble.com/">форуме программы</link>.</simpara>
+<simpara>Если ты еще не сделал этого, буду очень признателен, если ты <link xl:href="http://eepurl.com/ciG_oL">подпишешься на рассылку</link> моего <link xl:href="https://nerdistway.blogspot.com">блога "Путь ботана"</link>. Так ты будешь в курсе последних обновлений программы и будешь периодически получать шикарные статьи по саморазвитию )))</simpara>
+<simpara>И еще я буду жутко рад, если ты напишешь хороший отзыв на программу в том месте, где ты ее скачал, или поделишься <link xl:href="https://nerdistway.blogspot.ru/2013/07/mylife-rpg-organizer.html">ссылкой на страничку проги</link> где-нибудь в социальных сетях )))</simpara>
+<simpara>А также поделись со мной своим мнением по поводу РПГ Органайзера в комментариях <link xl:href="https://nerdistway.blogspot.ru/2013/07/mylife-rpg-organizer.html">тут</link>. Мне очень приятно знать, что то, что я делаю имеет отклик и благодаря обратной связи мы сможем сделать самый лучший в мире РПГ Органайзер!</simpara>
+<simpara><emphasis>Желаю отличных приключений! И да прибудет с тобой СИЛА!</emphasis></simpara>
 </chapter>
 </book>

@@ -1,4 +1,5 @@
 = РПГ ОРГАНАЙЗЕР: ТУТОРИАЛ
+:icons: font
 :nofooter:
 :doctype: book
 :encoding: utf-8
@@ -22,9 +23,9 @@ include::Награды.adoc[]
 
 include::Квесты.adoc[]
 
-include::Начало_игры[]
+include::Начало_игры.adoc[]
 
 include::Файт.adoc[]
 
-include::Эпилог[]
+include::Эпилог.adoc[]
 
