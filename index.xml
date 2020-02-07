@@ -366,7 +366,14 @@
 </informalfigure>
 <simpara><emphasis role="strong">Также на этом экране ты можешь настроить описание и изображение характеристики.</emphasis> Просто впиши текст в поле "описание" и укажи ссылку на картинку в интернете в поле "изображение".</simpara>
 <simpara>Не забудь "сохранить":</simpara>
-<simpara>!</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/СохранитьИзменения.jpg"/>
+</imageobject>
+<textobject><phrase>СохранитьИзменения</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>Затем вернись на экран персонажа:</simpara>
 <informalfigure>
 <mediaobject>
@@ -446,6 +453,7 @@
 <textobject><phrase>навыкДобавить</phrase></textobject>
 </mediaobject>
 </informalfigure>
+<simpara>Во всплывающем окне введи название навыка&#8230;&#8203;</simpara>
 <simpara>Добавь к каждой характеристике 3-7 основных навыков, может получиться что-то вроде этого:</simpara>
 <informalfigure>
 <mediaobject>
