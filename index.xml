@@ -496,20 +496,36 @@
 <simpara>Сейчас мы сфокусируемся на наградах типа "Трофеи".</simpara>
 <section xml:id="_добавление_трофея">
 <title>Добавление трофея</title>
-<simpara>На странице персонажа перейди на вкладку "инвентарь" и активируй режим редактирования. Затем нажми "плюсик" на кнопку "добавить трофей":</simpara>
-<simpara>!</simpara>
-<simpara>!</simpara>
-<simpara>Укажи название награды, а также ее тип. Бывают следующие типы наград: обычная, необычная, редкая, эпическая и легендарная. Обычные  "выпадают" намного чаще "легендарных".</simpara>
+<simpara>На странице персонажа перейди на вкладку "инвентарь" и активируй режим редактирования. Затем нажми на кнопку "добавить трофей":</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ДобавитьТрофей.jpg"/>
+</imageobject>
+<textobject><phrase>ДобавитьТрофей</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>В появившемся окне укажи название награды, а также ее тип.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/НастройкаНаграды.jpg"/>
+</imageobject>
+<textobject><phrase>НастройкаНаграды</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Бывают следующие типы наград: обычная, необычная, редкая, эпическая и легендарная. Обычные  "выпадают" намного чаще "легендарных".</simpara>
 <simpara>Примеры наград в реальной жизни:
 * <emphasis role="strong">500 рублей.</emphasis>
 * <emphasis role="strong">1000 рублей.</emphasis>
+* <emphasis role="strong">2000 рублей.</emphasis>
 * <emphasis role="strong">Поход в кино.</emphasis>
 * <emphasis role="strong">Поход в кафе</emphasis>
 * <emphasis role="strong">Пицца!</emphasis>
 * <emphasis role="strong">Книга.</emphasis>
 * <emphasis role="strong">Фильм.</emphasis>
 * <emphasis role="strong">Ананасы!</emphasis></simpara>
-<simpara>&#8230;&#8203;и.т.д.</simpara>
+<simpara>В конце не забудь "сохранить"!</simpara>
 </section>
 </chapter>
 <chapter xml:id="_квесты">
