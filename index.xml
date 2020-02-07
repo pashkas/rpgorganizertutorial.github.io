@@ -5,7 +5,7 @@
 <info>
 <title>РПГ ОРГАНАЙЗЕР</title>
 <subtitle>ТУТОРИАЛ</subtitle>
-<date>2020-02-06</date>
+<date>2020-02-07</date>
 </info>
 <chapter xml:id="_приветствую_тебя_первый_игрок">
 <title>Приветствую тебя, первый игрок!</title>
@@ -412,35 +412,117 @@
 <section xml:id="_навыки_влияют_на_характеристики">
 <title>Навыки влияют на характеристики</title>
 <simpara>Какое у тебя сейчас здоровье и как ты выглядишь на 95% следствие твоих хороших или плохих привычек. Если ты пьешь, куришь и ругаешься матом, то у тебя проблемы с характеристиками – <emphasis role="strong">ЗДОРОВЬЕ</emphasis> и <emphasis role="strong">ХАРИЗМА</emphasis>. Если развиваешь навык игры на гитаре, то улучшаешь <emphasis role="strong">ОБАЯНИЕ</emphasis>. Изучаешь программирование – <emphasis role="strong">ИНТЕЛЛЕКТ</emphasis>, рисование – <emphasis role="strong">МЫШЛЕНИЕ</emphasis>. То есть навыки развивают характеристики (а характеристики - наше все))). Поэтому В РПГ Органайзере каждый навык связан с той или иной характеристикой, а развивать характеристики можно только прокачивая навыки.</simpara>
-</section>
-<section xml:id="_примеры_навыков">
+<table frame="all" rowsep="1" colsep="1">
 <title>Примеры навыков</title>
-<simpara>|Навык|Характеристика|
-|--|--|--|
-|Утренняя зарядка|Здоровье|
-|Йога|Ловкость|
-|Полезная еда|Здоровье|
-|Полезный завтрак|Здоровье|
-|Полезный обед|Здоровье|
-|Полезный ужин|Здоровье|
-|Сопротивление вредной еде|Здоровье|
-|Аккуратность|Харизма|
-|Бодибилдинг|Сила|
-|Изучение программирования|Интеллект|
-|Шахматы|Мышление|
-|Медитация|Восприятие|
-|Сопротивление алкоголю|Здоровье|
-|Сопротивление фастфуду|Здоровье|
-|Забота о близких|Ответственность|
-|Чтение|Интеллект|
-|Творчество|Мышление|
-|Писательство|Мышление|
-|Мечтание|Восприятие|
-|Наведение порядка|Комфорт|
-|Аэробика|Красота|
-|Ораторское искусство|Харизма|
-|Чтение литературы|Харизма|
-И.т.д.</simpara>
+<tgroup cols="2">
+<colspec colname="col_1" colwidth="50*"/>
+<colspec colname="col_2" colwidth="50*"/>
+<thead>
+<row>
+<entry align="left" valign="top">Навык</entry>
+<entry align="left" valign="top">Характеристика</entry>
+</row>
+</thead>
+<tbody>
+<row>
+<entry align="left" valign="top"><simpara>Утренняя зарядка</simpara></entry>
+<entry align="left" valign="top"><simpara>Здоровье</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Йога</simpara></entry>
+<entry align="left" valign="top"><simpara>Ловкость</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Полезная еда</simpara></entry>
+<entry align="left" valign="top"><simpara>Здоровье</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Полезный завтрак</simpara></entry>
+<entry align="left" valign="top"><simpara>Здоровье</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Полезный обед</simpara></entry>
+<entry align="left" valign="top"><simpara>Здоровье</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Полезный ужин</simpara></entry>
+<entry align="left" valign="top"><simpara>Здоровье</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Сопротивление вредной еде</simpara></entry>
+<entry align="left" valign="top"><simpara>Здоровье</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Аккуратность</simpara></entry>
+<entry align="left" valign="top"><simpara>Харизма</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Бодибилдинг</simpara></entry>
+<entry align="left" valign="top"><simpara>Сила</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Изучение программирования</simpara></entry>
+<entry align="left" valign="top"><simpara>Интеллект</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Шахматы</simpara></entry>
+<entry align="left" valign="top"><simpara>Мышление</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Медитация</simpara></entry>
+<entry align="left" valign="top"><simpara>Восприятие</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Сопротивление алкоголю</simpara></entry>
+<entry align="left" valign="top"><simpara>Здоровье</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Сопротивление фастфуду</simpara></entry>
+<entry align="left" valign="top"><simpara>Здоровье</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Забота о близких</simpara></entry>
+<entry align="left" valign="top"><simpara>Ответственность</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Чтение</simpara></entry>
+<entry align="left" valign="top"><simpara>Интеллект</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Творчество</simpara></entry>
+<entry align="left" valign="top"><simpara>Мышление</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Писательство</simpara></entry>
+<entry align="left" valign="top"><simpara>Мышление</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Мечтание</simpara></entry>
+<entry align="left" valign="top"><simpara>Восприятие</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Наведение порядка</simpara></entry>
+<entry align="left" valign="top"><simpara>Комфорт</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Аэробика</simpara></entry>
+<entry align="left" valign="top"><simpara>Красота</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Ораторское искусство</simpara></entry>
+<entry align="left" valign="top"><simpara>Харизма</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"><simpara>Чтение литературы</simpara></entry>
+<entry align="left" valign="top"><simpara>Харизма</simpara></entry>
+</row>
+<row>
+<entry align="left" valign="top"></entry>
+<entry align="left" valign="top"><simpara>И.т.д.</simpara></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
 </section>
 <section xml:id="_настройка_навыков">
 <title>Настройка навыков</title>
@@ -496,7 +578,25 @@
 <simpara>Сейчас мы сфокусируемся на наградах типа "Трофеи".</simpara>
 <section xml:id="_добавление_трофея">
 <title>Добавление трофея</title>
-<simpara>На странице персонажа перейди на вкладку "инвентарь" и активируй режим редактирования. Затем нажми на кнопку "добавить трофей":</simpara>
+<simpara>На странице персонажа перейди на вкладку "инвентарь":</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ВкладкаИнвентарь.jpg"/>
+</imageobject>
+<textobject><phrase>ВкладкаИнвентарь</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>И активируй режим редактирования.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/элементПереходВРежимРедактирования.jpg"/>
+</imageobject>
+<textobject><phrase>элементПереходВРежимРедактирования</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Затем нажми на кнопку "добавить трофей":</simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -515,16 +615,36 @@
 </mediaobject>
 </informalfigure>
 <simpara>Бывают следующие типы наград: обычная, необычная, редкая, эпическая и легендарная. Обычные  "выпадают" намного чаще "легендарных".</simpara>
-<simpara>Примеры наград в реальной жизни:
-* <emphasis role="strong">500 рублей.</emphasis>
-* <emphasis role="strong">1000 рублей.</emphasis>
-* <emphasis role="strong">2000 рублей.</emphasis>
-* <emphasis role="strong">Поход в кино.</emphasis>
-* <emphasis role="strong">Поход в кафе</emphasis>
-* <emphasis role="strong">Пицца!</emphasis>
-* <emphasis role="strong">Книга.</emphasis>
-* <emphasis role="strong">Фильм.</emphasis>
-* <emphasis role="strong">Ананасы!</emphasis></simpara>
+<simpara>Примеры наград в реальной жизни:</simpara>
+<itemizedlist>
+<listitem>
+<simpara>500 рублей.</simpara>
+</listitem>
+<listitem>
+<simpara>1000 рублей.</simpara>
+</listitem>
+<listitem>
+<simpara>2000 рублей.</simpara>
+</listitem>
+<listitem>
+<simpara>Поход в кино.</simpara>
+</listitem>
+<listitem>
+<simpara>Поход в кафе</simpara>
+</listitem>
+<listitem>
+<simpara>Пицца!</simpara>
+</listitem>
+<listitem>
+<simpara>Книга.</simpara>
+</listitem>
+<listitem>
+<simpara>Фильм.</simpara>
+</listitem>
+<listitem>
+<simpara>Ананасы!</simpara>
+</listitem>
+</itemizedlist>
 <simpara>В конце не забудь "сохранить"!</simpara>
 </section>
 </chapter>
@@ -543,7 +663,16 @@
 <simpara>В реальной жизни когда мы хотим достичь чего-то, мы ставим перед собой цели, но проблема в том, что в многих целей мы не достигаем, а в РПГ выполнение квестов доставляет огромное удовольствие и даже трудные задачи решаются играючи. Поэтому, чтобы цель стала квестом нужно <link xl:href="http://nerdistway.blogspot.com/2013/08/blog-post.html">выполнить ряд необходимых условий</link>. Если ты хочешь превратить какой-то свой личный проект в квест - давай сделаем это сейчас!</simpara>
 <section xml:id="_настройка_квестов_в_рпг_органайзере">
 <title>Настройка квестов в РПГ Органайзере</title>
-<simpara>Чтобы создать квест в РПГ Органайзере, перейди на вкладку "Квесты" на экране персонажа. Там активируй режим редактирования.</simpara>
+<simpara>Чтобы создать квест в РПГ Органайзере, перейди на вкладку "Квесты" на экране персонажа.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ВкладкаКвесты.jpg"/>
+</imageobject>
+<textobject><phrase>ВкладкаКвесты</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Там активируй режим редактирования.</simpara>
 <simpara>После нажми "Добавить квест" и введи его название:</simpara>
 <informalfigure>
 <mediaobject>
@@ -553,16 +682,8 @@
 <textobject><phrase>добавить квест</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>Затем "сохранить":</simpara>
-<informalfigure>
-<mediaobject>
-<imageobject>
-<imagedata fileref="img/сохранить_квест.jpg"/>
-</imageobject>
-<textobject><phrase>сохранить квест</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<simpara>Чтобы настроить квест - кликни по нему в "режиме просмотра", а затем на экране квеста перейди в режим редактирования:</simpara>
+<simpara>Затем "сохрани".</simpara>
+<simpara>Чтобы настроить квест - кликни по нему в "режиме просмотра".</simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -571,15 +692,8 @@
 <textobject><phrase>переход в настройку квеста</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<informalfigure>
-<mediaobject>
-<imageobject>
-<imagedata fileref="img/квест_переход_в_режим_редактирования.jpg"/>
-</imageobject>
-<textobject><phrase>квест переход в режим редактирования</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<simpara>Заполни основные поля&#8230;&#8203;</simpara>
+<simpara>А затем на экране квеста перейди в режим редактирования.</simpara>
+<simpara>И заполни основные поля&#8230;&#8203;</simpara>
 <variablelist>
 <varlistentry>
 <term>Название</term>
@@ -639,7 +753,7 @@
 </mediaobject>
 </informalfigure>
 <simpara>Награда будет добавлена, а ты сможешь получить ее, когда выполнишь квест.</simpara>
-<simpara>Вот что в итоге получится:</simpara>
+<simpara>Нажми "сохранить" и вот что в итоге получится:</simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -653,16 +767,62 @@
 </chapter>
 <chapter xml:id="_начало_игры">
 <title>Начало игры</title>
-<simpara>Итак, ты начинаешь игру никому не известным слабым персонажем нулевого уровня. В процессе игры, уровень и характеристики будут расти. На начальном уровне и с каждым последующим ты будешь получать одно очко навыков (ОН), с помощью ОН ты сможешь открывать и прокачивать навыки, по одному за раз, что обеспечит тебе постепенность прогресса и возможность сделать то, что сразу может не получиться и достичь высот, о которых ты даже не мечтал!</simpara>
+<simpara>Итак, ты начинаешь игру никому не известным слабым персонажем нулевого уровня. В процессе игры, уровень и характеристики будут расти.</simpara>
+<simpara>На начальном уровне и с каждым последующим ты будешь получать одно очко навыков (ОН):</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ОчкиНавыков.jpg"/>
+</imageobject>
+<textobject><phrase>ОчкиНавыков</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>C помощью ОН ты сможешь открывать и прокачивать навыки, по одному за раз, что обеспечит тебе постепенность прогресса и возможность сделать то, что сразу может не получиться и достичь высот, о которых ты даже не мечтал!</simpara>
 <simpara>Чтобы открыть навык - убедись, что ты находишься на экране "лист персонажа", затем - щелкни по стрелке:</simpara>
-<simpara>!</simpara>
-<simpara>Если навык был 0-го уровня, то он "откроется" (если 1-го и больше, то он "прокачается"). При открытии навыка ты автоматом окажешься на экране настройки, где нужно будет указать расширенные данные навыка.</simpara>
-<simpara>На экране настройки навыка&#8230;&#8203; Активируй режим редактирования.</simpara>
-<simpara>![](<link xl:href="https://lh3.googleusercontent.com/Ta5cghtevOZJ75kWKqEgUN_p7Ii9FyBprqNwYyvViXLG_HGdze218Mnws-ngUlvMofNhfAx9KIK4=s0">https://lh3.googleusercontent.com/Ta5cghtevOZJ75kWKqEgUN_p7Ii9FyBprqNwYyvViXLG_HGdze218Mnws-ngUlvMofNhfAx9KIK4=s0</link>)</simpara>
-<simpara>![](<link xl:href="https://lh3.googleusercontent.com/Ly8C3FvFIDq8QLi1a4TpND&#8212;&#8203;ZItxmwLlzkT-wJNRHVk0Dwlgdo0aUTxmtY48UcxGR1ErWHFWVf0R=s0">https://lh3.googleusercontent.com/Ly8C3FvFIDq8QLi1a4TpND&#8212;&#8203;ZItxmwLlzkT-wJNRHVk0Dwlgdo0aUTxmtY48UcxGR1ErWHFWVf0R=s0</link>)</simpara>
-<simpara>![](<link xl:href="https://lh3.googleusercontent.com/GcPhAbwA4xR-T1e5elHrakO7RG3IK0O7fXApX4g08ZP8d5JwsAwcRIvydc1n1DpO1y3WnqLli8Di=s0">https://lh3.googleusercontent.com/GcPhAbwA4xR-T1e5elHrakO7RG3IK0O7fXApX4g08ZP8d5JwsAwcRIvydc1n1DpO1y3WnqLli8Di=s0</link>)</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ПоднятьНавык.jpg"/>
+</imageobject>
+<textobject><phrase>ПоднятьНавык</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Если навык был 0-го уровня, то он "откроется" (если 1-го и больше, то он "прокачается"). При открытии навыка ты автоматом окажешься на экране настройки где нужно будет указать расширенные данные навыка:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ЭкранНастройкиНавыка.jpg"/>
+</imageobject>
+<textobject><phrase>ЭкранНастройкиНавыка</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Перейди в режим редактирования:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/элементПереходВРежимРедактирования.jpg"/>
+</imageobject>
+<textobject><phrase>элементПереходВРежимРедактирования</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Впиши там название, дополнительное описание, путь к картинке в интернете и&#8230;&#8203;</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ОсновныеНастройкиНавыка.jpg"/>
+</imageobject>
+<textobject><phrase>ОсновныеНастройкиНавыка</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>Как ты понимаешь, прокачка навыка - это периодическая тренировка. Поэтому укажи периодичность повторений (ежедневно, будни, выходные, дни недели, и.т.д.):</simpara>
-<simpara>![](<link xl:href="https://lh3.googleusercontent.com/rd0jPggQbMhDxhdpZL7M4kKK5jAg2HlCIm9ExKqF-QAUATMSXrE6M9QsrEqxeGhN7o_pAxR3ldOP=s0">https://lh3.googleusercontent.com/rd0jPggQbMhDxhdpZL7M4kKK5jAg2HlCIm9ExKqF-QAUATMSXrE6M9QsrEqxeGhN7o_pAxR3ldOP=s0</link>)</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/НавыкНастройкаПовтора.jpg"/>
+</imageobject>
+<textobject><phrase>НавыкНастройкаПовтора</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>А теперь самое интересное&#8230;&#8203;</simpara>
 <section xml:id="_прогрессия_рулит">
 <title>Прогрессия рулит</title>
@@ -670,41 +830,95 @@
 <simpara>Качки прекрасно об этом знают! Как там в тренажерке? В самом начале туда приходит чщедушный дохляк, который делает жим лежа пустого грифа штанги всего пару раз. А потом, постепенно добавляя по чуть-чуть повторы, подходы и веса - он преображается в крутого бодибилдера!</simpara>
 <simpara>Вот и привычки/навыки мы тоже будем развивать постепенно. Помнишь, что навыки делятся на уровни от 0 до 10? Каждая задача на каждом уровне навыка будет иметь свои различные качества (сложность). Чтобы настроить постепенность, нужно определиться в чем измеряться прогресс в навыке. Например, крутость в медитации измеряется в минутах, а подтягиваний в количестве раз, пробежка - в количеств километров, а чтение - в прочитанных страницах или минутах сосредоточенного чтения.</simpara>
 <simpara>Если крутость навыка измеряется в минутах, укажи значение, к которому ты в идеале стремишься тут:</simpara>
-<simpara>![](<link xl:href="https://lh3.googleusercontent.com/0VPM5p1MUJWCMzNaxMXMpBgVxCaO_qKZlN7WcekUqUEeH11qUFx0YzDPIG0VBhqolPKAbfhSYYKy=s0">https://lh3.googleusercontent.com/0VPM5p1MUJWCMzNaxMXMpBgVxCaO_qKZlN7WcekUqUEeH11qUFx0YzDPIG0VBhqolPKAbfhSYYKy=s0</link>)</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/НавыкНастройкаВремя.jpg"/>
+</imageobject>
+<textobject><phrase>НавыкНастройкаВремя</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>Судя по примеру выше, конечная цель - медитировать по 15 минут в день.</simpara>
 <simpara>Если крутость навыка измеряется количеством раз (например, отжимания, подтягивания), то заполни поле "раз" необходимым числом.</simpara>
-<simpara>!</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/НавыкНастройкаРаз.jpg"/>
+</imageobject>
+<textobject><phrase>НавыкНастройкаРаз</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>После того, как заполнишь, нажми "сохранить" и посмотри что получится. Автоматом распределятся значения "по уровням". Начинать нужно будет с чего то простого, а потом постепенно крутеть.</simpara>
-<simpara>![](<link xl:href="https://lh3.googleusercontent.com/gM-VNRSz9N5-7o32atfYhAvNjBVAYSdPBOJQJ2ALeGR_IG38g4LYjdKqy8h-Wva6Pj97nPnlxTEs=s0">https://lh3.googleusercontent.com/gM-VNRSz9N5-7o32atfYhAvNjBVAYSdPBOJQJ2ALeGR_IG38g4LYjdKqy8h-Wva6Pj97nPnlxTEs=s0</link>)</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ПримерЗаполненногоНавыка.jpg"/>
+</imageobject>
+<textobject><phrase>ПримерЗаполненногоНавыка</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>Если сложность не измеряется в количестве раз или минут - используй "состояния". В зависимости от прокачки они будут меняться. Например, на уровне "ужасно" - отжимания от стены, на уровне "легендарно" - отжимания на одной руке вверх ногами!))) Вот пример такой настройки:</simpara>
-<simpara>![](<link xl:href="https://lh3.googleusercontent.com/L94cgT_TTtvPzEN5WRpwo6s3CZarZrnf-WiXNDS_C27pQt66LGFRi5Ro5bAFskmzERh3Np4KEkCL=s0">https://lh3.googleusercontent.com/L94cgT_TTtvPzEN5WRpwo6s3CZarZrnf-WiXNDS_C27pQt66LGFRi5Ro5bAFskmzERh3Np4KEkCL=s0</link>)</simpara>
-<simpara>![](<link xl:href="https://lh3.googleusercontent.com/uXXTBoOwvdv57YTVkJuZWRnBhjM-OjtCuLukODehjou6mldLG2w-X6NSCv6C4PKrlJ_9cSVslw07=s0">https://lh3.googleusercontent.com/uXXTBoOwvdv57YTVkJuZWRnBhjM-OjtCuLukODehjou6mldLG2w-X6NSCv6C4PKrlJ_9cSVslw07=s0</link>)</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ДобавитьСостояние.jpg"/>
+</imageobject>
+<textobject><phrase>ДобавитьСостояние</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/СостоянияГотово.jpg"/>
+</imageobject>
+<textobject><phrase>СостоянияГотово</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>А что если необходимо, чтобы с каждым уровнем добавлялись новые задачи? Например, на первом уровне ты избегаешь питаться только гамбургерами, на втором - гамбургерами и фри, а на третьем - гамбургерами, фри и газировкой))):</simpara>
-<simpara>![](<link xl:href="https://lh3.googleusercontent.com/fSG85X_eDPdckz7LiFWBTUICXyi80vzcuC3a5nr_OGFCk9HnCG-adoDAMIaHISJV-3IGrCPFXB2o=s0">https://lh3.googleusercontent.com/fSG85X_eDPdckz7LiFWBTUICXyi80vzcuC3a5nr_OGFCk9HnCG-adoDAMIaHISJV-3IGrCPFXB2o=s0</link>)</simpara>
-<simpara>![](<link xl:href="https://lh3.googleusercontent.com/IFhOSQ_cMPKIsoEG_UzTrq-g4jxV0LEFw9ZrZPKnO4zm94XWjs69y4VbGkM8azAmrQ6h9f_xDJfN=s0">https://lh3.googleusercontent.com/IFhOSQ_cMPKIsoEG_UzTrq-g4jxV0LEFw9ZrZPKnO4zm94XWjs69y4VbGkM8azAmrQ6h9f_xDJfN=s0</link>)</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ДобавитьСостояние.jpg"/>
+</imageobject>
+<textobject><phrase>ДобавитьСостояние</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/СостоянияСуммаГотово.jpg"/>
+</imageobject>
+<textobject><phrase>СостоянияСуммаГотово</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>Постарайся разделить на уровни каждый навык. Тут тебе поможет твоя фантазия. Можешь даже довести все до абсурда - например "чистка 1 зуба зубной нитью", "чтение 1 минута", "холодный душ - только пальцы на ногах", "одеться для пробежки и выйти на улицу, а затем вернуться домой", "вспомнить о том, что нужно сделать уборку и все" )))) Есть даже такой подход в приобретении привычек - начинать нужно с чего-то настолько элементарно простого, что было бы глупо от этого отказываться! Главное встать на путь, а сложность можно потом постепенно нарастить! (Почитай книгу Мини привычки - макси результаты.)</simpara>
 <simpara>Вот тебе несколько примеров, для того, чтобы ты яснее представлял как настроить прогрессию&#8230;&#8203;</simpara>
 <simpara><emphasis role="strong">Чтение</emphasis></simpara>
-<simpara>![](<link xl:href="https://lh3.googleusercontent.com/y_7WNUjL-vDIp8xFMB1rZjwh3fxrkN5p9bTKDBAg-jjvb3YEpat75Z12vUq2jRxtvuCF4KwJueNz=s0">https://lh3.googleusercontent.com/y_7WNUjL-vDIp8xFMB1rZjwh3fxrkN5p9bTKDBAg-jjvb3YEpat75Z12vUq2jRxtvuCF4KwJueNz=s0</link>)</simpara>
-<simpara><emphasis role="strong">Полезная еда</emphasis></simpara>
-<simpara>![](<link xl:href="https://lh3.googleusercontent.com/iAQf5NsP50xkF_m29w0YfoZdDT-wEyjIJW1yc-XSKGlPgK7tQnxeZD3jKt_J_Mr5cWi2K1oek3PZ=s0">https://lh3.googleusercontent.com/iAQf5NsP50xkF_m29w0YfoZdDT-wEyjIJW1yc-XSKGlPgK7tQnxeZD3jKt_J_Mr5cWi2K1oek3PZ=s0</link>)</simpara>
-<simpara><emphasis role="strong">Сопротивление вредной еде</emphasis></simpara>
-<simpara>![](<link xl:href="https://lh3.googleusercontent.com/2lEYAm5KYHv5F-AMo8KJjQ3PphXnz6_Wp8kSPgjrPF-aeMNv2HtkaaiH0mztJrOWjRUZMWAS7zk7=s0">https://lh3.googleusercontent.com/2lEYAm5KYHv5F-AMo8KJjQ3PphXnz6_Wp8kSPgjrPF-aeMNv2HtkaaiH0mztJrOWjRUZMWAS7zk7=s0</link>)</simpara>
-<simpara><emphasis>Примечание: есть исследования, что черный молотый кофе в малых количествах полезен, а зеленый чай для мужчин очень вреден. Поэтому в примерах чай попал во вредную еду, а кофе в полезную.</emphasis></simpara>
-<simpara><emphasis role="strong">Питье</emphasis></simpara>
-<simpara>![](<link xl:href="https://lh3.googleusercontent.com/eUFOxvOHJFIFwtNJc-F-Wzl7YWeD103i2GyKkbfSnGE0U7rVQv2Di0OdlregVpN5BhQ594UpE3WL=s0">https://lh3.googleusercontent.com/eUFOxvOHJFIFwtNJc-F-Wzl7YWeD103i2GyKkbfSnGE0U7rVQv2Di0OdlregVpN5BhQ594UpE3WL=s0</link>)</simpara>
-<simpara><emphasis>Также следует добавить навыки "вода днем" и "вода вечером".</emphasis></simpara>
-<simpara><emphasis role="strong">Качалка</emphasis></simpara>
-<simpara>![](<link xl:href="https://lh3.googleusercontent.com/UFkvCl9Ksaz0zlp4kBe6UKhXM4fmxHMoouAvlQuqJmt16fUXRRcV0_SCDysrn6dvedRJL6Owlf8P=s0">https://lh3.googleusercontent.com/UFkvCl9Ksaz0zlp4kBe6UKhXM4fmxHMoouAvlQuqJmt16fUXRRcV0_SCDysrn6dvedRJL6Owlf8P=s0</link>)</simpara>
-<simpara><emphasis>Тут указано количество повторений в упражнениях. Поначалу начинается с идиотского одного повтора, что очень легко, а потом постепенно идет усложнение.</emphasis></simpara>
-<simpara><emphasis role="strong">Сопротивление новостям</emphasis></simpara>
-<simpara>![](<link xl:href="https://lh3.googleusercontent.com/lMU7fK235-hT5B25ul1hu-PjIewZOIyC7ANPnP8HssCdOJhEnP5fRcUcHTuo3_DHd0hraz1HfUmw=s0">https://lh3.googleusercontent.com/lMU7fK235-hT5B25ul1hu-PjIewZOIyC7ANPnP8HssCdOJhEnP5fRcUcHTuo3_DHd0hraz1HfUmw=s0</link>)</simpara>
-<simpara><emphasis role="strong">Новости это полная шляпа, и чтобы поберечь свое моральное здоровье, лучше их избегать.</emphasis></simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/НавыкЧтение.jpg"/>
+</imageobject>
+<textobject><phrase>НавыкЧтение</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Тут добавить примеров</simpara>
+</section>
+<section xml:id="_распредели_оставшиеся_очки_навыков">
+<title>Распредели оставшиеся очки навыков</title>
+
 </section>
 <section xml:id="_посмотри_задачи">
 <title>Посмотри задачи</title>
 <simpara>Каждый открытый навык будет преобразован в конкретные действия - задачи. Чтобы посмотреть задачи на сегодня - вернись в главное окно программы:</simpara>
-<simpara>!</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ГлавноеОкноСЗадачами.jpg"/>
+</imageobject>
+<textobject><phrase>ГлавноеОкноСЗадачами</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>А теперь&#8230;&#8203; Настало время сражения! Файт!</simpara>
 </section>
 </chapter>

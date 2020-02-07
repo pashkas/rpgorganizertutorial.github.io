@@ -11,6 +11,8 @@
 :stylesheet: mystyles.css
 :numbered:
 
+include::locale/attributes-ru.adoc[]
+
 include::Приветствую_тебя_первый_игрок.adoc[]
 
 include::Персонаж.adoc[]
