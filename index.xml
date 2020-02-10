@@ -5,7 +5,7 @@
 <info>
 <title>РПГ ОРГАНАЙЗЕР</title>
 <subtitle>ТУТОРИАЛ</subtitle>
-<date>2020-02-07</date>
+<date>2020-02-10</date>
 </info>
 <chapter xml:id="_приветствую_тебя_первый_игрок">
 <title>Приветствую тебя, первый игрок!</title>
@@ -814,7 +814,7 @@
 <textobject><phrase>ОсновныеНастройкиНавыка</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>Как ты понимаешь, прокачка навыка - это периодическая тренировка. Поэтому укажи периодичность повторений (ежедневно, будни, выходные, дни недели, и.т.д.):</simpara>
+<simpara>Как ты понимаешь, прокачка навыка - это периодическая тренировка. Поэтому укажи периодичность повторений (ежедневно, будни, выходные, дни недели, и.т.д.), а также убедись, что установлена правильная дата начала:</simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -874,13 +874,21 @@
 <textobject><phrase>СостоянияГотово</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>А что если необходимо, чтобы с каждым уровнем добавлялись новые задачи? Например, на первом уровне ты избегаешь питаться только гамбургерами, на втором - гамбургерами и фри, а на третьем - гамбургерами, фри и газировкой))):</simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
-<imagedata fileref="img/ДобавитьСостояние.jpg"/>
+<imagedata fileref="img/СостоянияГотово2.jpg"/>
 </imageobject>
-<textobject><phrase>ДобавитьСостояние</phrase></textobject>
+<textobject><phrase>СостоянияГотово2</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>А что если необходимо, чтобы с каждым уровнем добавлялись новые задачи? Например, на первом уровне ты избегаешь питаться только гамбургерами, на втором - гамбургерами и фри, а на третьем - гамбургерами, фри и газировкой))). Тогда также добавь состояния, но активируй значек "сумма состояний":</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ДобавитьСостояниеСумма.jpg"/>
+</imageobject>
+<textobject><phrase>ДобавитьСостояниеСумма</phrase></textobject>
 </mediaobject>
 </informalfigure>
 <informalfigure>
@@ -891,22 +899,101 @@
 <textobject><phrase>СостоянияСуммаГотово</phrase></textobject>
 </mediaobject>
 </informalfigure>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/СостоянияСуммаГотово2.jpg"/>
+</imageobject>
+<textobject><phrase>СостоянияСуммаГотово2</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>Постарайся разделить на уровни каждый навык. Тут тебе поможет твоя фантазия. Можешь даже довести все до абсурда - например "чистка 1 зуба зубной нитью", "чтение 1 минута", "холодный душ - только пальцы на ногах", "одеться для пробежки и выйти на улицу, а затем вернуться домой", "вспомнить о том, что нужно сделать уборку и все" )))) Есть даже такой подход в приобретении привычек - начинать нужно с чего-то настолько элементарно простого, что было бы глупо от этого отказываться! Главное встать на путь, а сложность можно потом постепенно нарастить! (Почитай книгу Мини привычки - макси результаты.)</simpara>
 <simpara>Вот тебе несколько примеров, для того, чтобы ты яснее представлял как настроить прогрессию&#8230;&#8203;</simpara>
 <simpara><emphasis role="strong">Чтение</emphasis></simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
-<imagedata fileref="img/НавыкЧтение.jpg"/>
+<imagedata fileref="img/ЧтениеПример.jpg"/>
 </imageobject>
-<textobject><phrase>НавыкЧтение</phrase></textobject>
+<textobject><phrase>ЧтениеПример</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>Тут добавить примеров</simpara>
+<simpara><emphasis role="strong">Полезное</emphasis></simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ПолезноеПример.jpg"/>
+</imageobject>
+<textobject><phrase>ПолезноеПример</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara><emphasis role="strong">Медитация</emphasis></simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/МедитацияПример.jpg"/>
+</imageobject>
+<textobject><phrase>МедитацияПример</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara><emphasis role="strong">Сон</emphasis></simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/СонПример.jpg"/>
+</imageobject>
+<textobject><phrase>СонПример</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara><emphasis role="strong">Умные игры</emphasis></simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/УмныеИгрыПример.jpg"/>
+</imageobject>
+<textobject><phrase>УмныеИгрыПример</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara><emphasis role="strong">Забота о ребенке</emphasis></simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ЗаботаОРебенкеПример.jpg"/>
+</imageobject>
+<textobject><phrase>ЗаботаОРебенкеПример</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara><emphasis role="strong">Мечтание</emphasis></simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/МечтаниеПример.jpg"/>
+</imageobject>
+<textobject><phrase>МечтаниеПример</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara><emphasis role="strong">Иностранные языки</emphasis></simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/АнглийскийПример.jpg"/>
+</imageobject>
+<textobject><phrase>АнглийскийПример</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>И.т.д. Надеюсь, идею ты понял&#8230;&#8203;</simpara>
 </section>
 <section xml:id="_распредели_оставшиеся_очки_навыков">
 <title>Распредели оставшиеся очки навыков</title>
-
+<simpara>Если у тебя остались еще ОН, ты можешь распределить их. Либо "открой" какой-то новый навык, либо прокачай существующий, также нажав на стрелочку напротив его названия.</simpara>
+<variablelist>
+<varlistentry>
+<term>TIP</term>
+<listitem>
+<simpara>Чем выше уровень навыка, тем больше игровых очков он будет приностить!</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 </section>
 <section xml:id="_посмотри_задачи">
 <title>Посмотри задачи</title>
@@ -924,7 +1011,14 @@
 </chapter>
 <chapter xml:id="_файт">
 <title>Файт!</title>
-<simpara>![](<link xl:href="https://lh3.googleusercontent.com/gFBuN9p36ajO2Qj114RED9lrmBiMOxirTikEQ20HGYqs7GsHMIqX_6kZjO8js88zHKvpXaXM1ArQ=s0">https://lh3.googleusercontent.com/gFBuN9p36ajO2Qj114RED9lrmBiMOxirTikEQ20HGYqs7GsHMIqX_6kZjO8js88zHKvpXaXM1ArQ=s0</link>)</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/Файт.jpg"/>
+</imageobject>
+<textobject><phrase>Файт</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>Ну вот и наступил самый интересный момент - начало ИГРЫ!</simpara>
 <section xml:id="_цель">
 <title>Цель</title>
@@ -933,36 +1027,108 @@
 <section xml:id="_панель_задач">
 <title>Панель задач</title>
 <simpara>Все актуальные задачи будут сконцентрированы в этом месте:</simpara>
-<simpara>![](<link xl:href="https://lh3.googleusercontent.com/fsRMrG0H23LN0p1l_Qe4724rpPa7JiALGMOwlbD2TPPbRH2CGfl2zZPIsxd4S8WtwbQmPxYJhEgf=s0">https://lh3.googleusercontent.com/fsRMrG0H23LN0p1l_Qe4724rpPa7JiALGMOwlbD2TPPbRH2CGfl2zZPIsxd4S8WtwbQmPxYJhEgf=s0</link>)</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ПанельЗадач.jpg"/>
+</imageobject>
+<textobject><phrase>ПанельЗадач</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara><emphasis role="strong">Задачи делятся на два списка:</emphasis> навыки - повторяющиеся ежедневные задачи, выполнение которых дает опыт и качает навыки и квесты - тут будут задачи из твоих целей, их выполнение ведет к достижению целей и получению наград.</simpara>
 <simpara><emphasis role="strong">В отображении списков есть два режима:</emphasis></simpara>
-<simpara>Глобальный вид:
-!</simpara>
-<simpara>ты видишь задачи списком и тут нужно выбрать первую подходящую для выполнения.</simpara>
-<simpara>Сфокусированный вид:
-![](<link xl:href="https://lh3.googleusercontent.com/jK34SXSGyh_ALaNqT1eU_mJfhgqAYNx-Fp67tQt36iVxhLNeAOkO-cbhhPnDxo-9NheCeaim-sbh=s0">https://lh3.googleusercontent.com/jK34SXSGyh_ALaNqT1eU_mJfhgqAYNx-Fp67tQt36iVxhLNeAOkO-cbhhPnDxo-9NheCeaim-sbh=s0</link>)</simpara>
-<simpara>когда ты выбрал задачу и тебе видны подробности задачи и действия над задачей. Над названием задачи будет случайная картинка монстра, что символизирует борьбу со сложностями и ленью. Ты победил или тебя победили&#8230;&#8203; С ростом уровня персонажа и/или навыков монстры будут крутеть.</simpara>
+<simpara>Глобальный вид:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ГлобальныйВидАктивировать.jpg"/>
+</imageobject>
+<textobject><phrase>ГлобальныйВидАктивировать</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Ты видишь задачи списком и тут нужно выбрать первую подходящую для выполнения:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ГлобальныйВидПример.jpg"/>
+</imageobject>
+<textobject><phrase>ГлобальныйВидПример</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Сфокусированный вид:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/СфокусированныйВидАктивировать.jpg"/>
+</imageobject>
+<textobject><phrase>СфокусированныйВидАктивировать</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Когда ты выбрал задачу и тебе видны подробности задачи и действия над задачей. Над названием задачи будет случайная картинка монстра, что символизирует борьбу со сложностями и ленью. Ты победил или тебя победили&#8230;&#8203; С ростом уровня персонажа и/или навыков монстры будут крутеть.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/СфокусированныйВидПример.jpg"/>
+</imageobject>
+<textobject><phrase>СфокусированныйВидПример</phrase></textobject>
+</mediaobject>
+</informalfigure>
 </section>
 <section xml:id="_панель_интерфейса">
 <title>Панель интерфейса</title>
-<simpara>Под задачами находится панель интерфейса. На ней кнопки для выполнения всех необходимых действий.</simpara>
-<simpara><emphasis role="strong">1) Если активирован глобальный режим задач:</emphasis></simpara>
+<simpara>Под задачами находится панель интерфейса. На ней кнопки для выполнения всех необходимых действий. Например:</simpara>
 <simpara>Квесты/навыки</simpara>
-<simpara>: ![](<link xl:href="https://lh3.googleusercontent.com/QtsAYEMMC_d6eehgnK5EvdmoM6NndG8okLlkjuOP03ZfZVZT-iCZdjBQ4sMKyX6NpAg4_sY4_Ded=s0">https://lh3.googleusercontent.com/QtsAYEMMC_d6eehgnK5EvdmoM6NndG8okLlkjuOP03ZfZVZT-iCZdjBQ4sMKyX6NpAg4_sY4_Ded=s0</link>)</simpara>
-<simpara>: Нажимая на эти кнопки, ты можешь выбирать списки задач - квесты и навыки, соответственно.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/КвестыНавыкиПанель.jpg"/>
+</imageobject>
+<textobject><phrase>КвестыНавыкиПанель</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Нажимая на эти кнопки, ты можешь выбирать списки задач - квесты и навыки, соответственно.</simpara>
+<simpara><emphasis role="strong">1) Если активирован глобальный режим задач:</emphasis></simpara>
 <simpara>Первая задача из списка</simpara>
-<simpara>: ![](<link xl:href="https://lh3.googleusercontent.com/YUUHvso70vzycixBThATLlDX7Ngb8jID0wXk6jHI3FgbVOstCBrkkBgNSPAk2gUKqWBISrJ333zu=s0">https://lh3.googleusercontent.com/YUUHvso70vzycixBThATLlDX7Ngb8jID0wXk6jHI3FgbVOstCBrkkBgNSPAk2gUKqWBISrJ333zu=s0</link>)</simpara>
-<simpara>: Нажав на эту кнопку, ты попадешь в сфокусированный режим первой задачи из списка.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ПерваяИзСписка.jpg"/>
+</imageobject>
+<textobject><phrase>ПерваяИзСписка</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Нажав на эту кнопку, ты попадешь в сфокусированный режим первой задачи из списка.</simpara>
 <simpara><emphasis role="strong">2) Если активизирован сфокусированный режим:</emphasis></simpara>
 <simpara>Выполнение/пропуск</simpara>
-<simpara>: Выполнил задачу? Молодец! Отметь это, нажав эту кнопку.</simpara>
-<simpara>: ![](<link xl:href="https://lh3.googleusercontent.com/okooCxGJ2xhxmdOEkFGjZlL2BfxHfNcSSPFRBIk-d7m6e_PxNZSY3Z5nfc12Ejd-Y4EXZQJSSnrF=s0">https://lh3.googleusercontent.com/okooCxGJ2xhxmdOEkFGjZlL2BfxHfNcSSPFRBIk-d7m6e_PxNZSY3Z5nfc12Ejd-Y4EXZQJSSnrF=s0</link>)</simpara>
-<simpara>: Поленился или не смог выполнить эту задачу? Нажми на эту кнопку и получишь небольшой штраф (в квестах эту кнопку не надо нажимать). Эта функция поможет тебе двигаться только вперед, а не останавливаться на достигнутом! Понятно, что если ты сегодня поленился и не развивал навык, твой опыт падает и ты теряешь немного крутости! Только не впадай в уныние, это не стирает твои достижения, если на следующий день ты будешь стараться!</simpara>
-<simpara>: ![](<link xl:href="https://lh3.googleusercontent.com/WIoF_ufa0z8OFr5faKL3z62cHPqnFohpRO1HT9qifC2hxujt4BfaMYI0ExwcWcxKJUGJNjet8_gV=s0">https://lh3.googleusercontent.com/WIoF_ufa0z8OFr5faKL3z62cHPqnFohpRO1HT9qifC2hxujt4BfaMYI0ExwcWcxKJUGJNjet8_gV=s0</link>)</simpara>
+<simpara>Выполнил задачу? Молодец! Отметь это, нажав эту кнопку.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ВыполнениеЗадачи.jpg"/>
+</imageobject>
+<textobject><phrase>ВыполнениеЗадачи</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Поленился или не смог выполнить эту задачу? Нажми на эту кнопку и получишь небольшой штраф (в квестах эту кнопку не надо нажимать). Эта функция поможет тебе двигаться только вперед, а не останавливаться на достигнутом! Понятно, что если ты сегодня поленился и не развивал навык, твой опыт падает и ты теряешь немного крутости! Только не впадай в уныние, это не стирает твои достижения, если на следующий день ты будешь стараться!</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ПропускЗадачи.jpg"/>
+</imageobject>
+<textobject><phrase>ПропускЗадачи</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>Назад в глобальный вид задач</simpara>
-<simpara>: Если же ты передумал сейчас делать это задачу и решил переключиться на другую - жми эту кнопку.</simpara>
-<simpara>: ![](<link xl:href="https://lh3.googleusercontent.com/Znh3aHhU8H4BzONQM-dDc_s5X12FufF9dB5qYYdhsFgfkzO1abe3eGUmxkJQEIcmyZjwtqofHQqt=s0">https://lh3.googleusercontent.com/Znh3aHhU8H4BzONQM-dDc_s5X12FufF9dB5qYYdhsFgfkzO1abe3eGUmxkJQEIcmyZjwtqofHQqt=s0</link>)</simpara>
-<simpara>Жесты</simpara>
+<simpara>Если же ты передумал сейчас делать это задачу и решил переключиться на другую - жми эту кнопку.</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ВГлобальныйВид.jpg"/>
+</imageobject>
+<textobject><phrase>ВГлобальныйВид</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Или используй жесты.</simpara>
 <simpara>: Чтобы выбрать следующую/предыдущую задачу сделай свайп слева направо или справа налево по картинке монстра.</simpara>
 <simpara>: Чтобы выполнить/пропустить задачу сделай свайп снизу вверх или сверху вниз по картинке монстра.</simpara>
 <simpara>Теперь я тебе просто кратко опишу алгоритм действий в Рпг Органайзере.</simpara>
@@ -970,33 +1136,151 @@
 <section xml:id="_работа_с_навыками">
 <title>Работа с навыками</title>
 <simpara>Убедись, что выбран вид задач "навыки", и в панели задач присутствуют задачи:</simpara>
-<simpara>!</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ВыборНавыкиСЗадачей.jpg"/>
+</imageobject>
+<textobject><phrase>ВыборНавыкиСЗадачей</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>Задачи будут "вперемешку", поэтому первым делом осортируй их. Те, что нужно выполнять вначале дня перемести выше, а те, что в конце - ниже. Для этого нажми эту кнопку:</simpara>
-<simpara>!</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/СортировкаАктивировать.jpg"/>
+</imageobject>
+<textobject><phrase>СортировкаАктивировать</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>Зажми на стрелочке и сдвинь задачу как тебе нужно:</simpara>
-<simpara>!</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/СортировкаЗадач.jpg"/>
+</imageobject>
+<textobject><phrase>СортировкаЗадач</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>В конце нажми сюда:</simpara>
-<simpara>!</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/СохранитьПослеСортировки.jpg"/>
+</imageobject>
+<textobject><phrase>СохранитьПослеСортировки</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>Теперь жестами вправо/влево, или перейдя в режим "глобальный вид" выбери подходящую для выполнения задачу:</simpara>
-<simpara>![](<link xl:href="https://lh3.googleusercontent.com/9IYnBLF2v47h5BbB2lJ-yQHGl2pY7VSe0h-QQrgnbWPmOxqAXVVbN0wey8ls0rJAYXJoF2cxsfQc=s0">https://lh3.googleusercontent.com/9IYnBLF2v47h5BbB2lJ-yQHGl2pY7VSe0h-QQrgnbWPmOxqAXVVbN0wey8ls0rJAYXJoF2cxsfQc=s0</link>)</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ЗадачаДляВыполнения.jpg"/>
+</imageobject>
+<textobject><phrase>ЗадачаДляВыполнения</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>Попадешь в режим фокусировки, выполни задачу в реале и отметь в РПГ Органайзере:</simpara>
-<simpara>![](<link xl:href="https://lh3.googleusercontent.com/Zjd0f0puICGAXL2_f8lDmHcm4S6R7MUSTt2XhPFER90KxSNqgc6v3X9eijG_zsj4gWziKnCA6JXw=s0">https://lh3.googleusercontent.com/Zjd0f0puICGAXL2_f8lDmHcm4S6R7MUSTt2XhPFER90KxSNqgc6v3X9eijG_zsj4gWziKnCA6JXw=s0</link>)</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ОтметитьВыполнено.jpg"/>
+</imageobject>
+<textobject><phrase>ОтметитьВыполнено</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ОтметитьВыполнено2.jpg"/>
+</imageobject>
+<textobject><phrase>ОтметитьВыполнено2</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>Далее выбери следующую задачу, а потом еще одну&#8230;&#8203;</simpara>
 <simpara>Те задачи, которые не получается сегодня сделать отмечай как "не выполненные" (значек "щит" или свайп снизу вверх).</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ЗначекЩит.jpg"/>
+</imageobject>
+<textobject><phrase>ЗначекЩит</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ЗначекЩит2.jpg"/>
+</imageobject>
+<textobject><phrase>ЗначекЩит2</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>И фигачь!</simpara>
 <simpara>Когда поработаешь с "навыками", переключись на список "квесты".</simpara>
 </section>
 <section xml:id="_работа_с_квестами">
 <title>Работа с квестами</title>
 <simpara>Если у тебя есть активные квесты, их задания появятся в главном окне программы. Чтобы их увидеть, активируй вид "квесты":</simpara>
-<simpara>!</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ЗадачаКвест.jpg"/>
+</imageobject>
+<textobject><phrase>ЗадачаКвест</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>От каждого квеста сюда будет попадать первая невыполненная задача, поэтому внимательно отнесись к сортировке задач квеста.</simpara>
 <simpara>Выполни эту задачу в реале, а затем отметь в РПГ Органайзере:</simpara>
-<simpara>!</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ЗадачаКвест2.jpg"/>
+</imageobject>
+<textobject><phrase>ЗадачаКвест2</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>Если тебе нужно будет донастроить квест, ты можешь попасть в него прямо из главного окна, щелкнув по названию задачи:</simpara>
-<simpara>!</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ВКвестИзГлавногоОкна.jpg"/>
+</imageobject>
+<textobject><phrase>ВКвестИзГлавногоОкна</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>Рано или поздно, ты выполнишь все задачи квеста. Тогда перейди на экран этого квеста и отметь, что он завершен:</simpara>
-<simpara>!</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ОтметитьКвестВыполнен1.jpg"/>
+</imageobject>
+<textobject><phrase>ОтметитьКвестВыполнен1</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ОтметитьКвестВыполнен2.jpg"/>
+</imageobject>
+<textobject><phrase>ОтметитьКвестВыполнен2</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ОтметитьКвестВыполнен3.jpg"/>
+</imageobject>
+<textobject><phrase>ОтметитьКвестВыполнен3</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ОтметитьКвестВыполнен4.jpg"/>
+</imageobject>
+<textobject><phrase>ОтметитьКвестВыполнен4</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>Если за него были какие-то награды, ты их получишь.</simpara>
 <simpara>Когда поработаешь с квестами - возвращайся к виду "навыки" и продолжай игру!</simpara>
 </section>
@@ -1004,20 +1288,63 @@
 <title>Новый уровень!</title>
 <simpara>Поначалу тебе будет просто набирать уровни. Задания будут проще и для перехода тебе нужно будет меньше очков опыта, но со временем сложность заданий и количество очков до следующего уровня будут расти. Так что достичь максимального уровня пока еще никому не удавалось! Если ты сможешь - напиши мне и ты попадешь в [Зал Славы](<link xl:href="http://nerdistway.blogspot.com/2013/05/blog-post_91.html)!">http://nerdistway.blogspot.com/2013/05/blog-post_91.html)!</link> ))) А я постараюсь быть первым!)))</simpara>
 <simpara>Итак, рано или поздно ты достигнешь нового уровня:</simpara>
-<simpara>!</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/НовыйУровень.jpg"/>
+</imageobject>
+<textobject><phrase>НовыйУровень</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>После появления этого окошка, ты автоматически перейдешь на экран персонажа, где тебе нужно будет распределить полученные ОН. Тыкай по стрелочкам и навыки будут улучшены:</simpara>
-<simpara>!</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/НовыйУровеньПрокачка.jpg"/>
+</imageobject>
+<textobject><phrase>НовыйУровеньПрокачка</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>Если следующий уровень в навыке по сложности абсолютно такой же, как и предыдущий, он будет подсвечен зеденым цветом. Выбирай такие навыки для следующей прокачки - так будет немного легче!</simpara>
 <simpara>После распределения, вернись в главное окно и снова отсортируй задачи (вдруг появилось что-то новое).</simpara>
 <simpara>Как только ты достигнешь первого уровня, ты включишься в <emphasis role="strong">турнир героев</emphasis> и сможешь увидеть своего персонажа в турнирной таблице:</simpara>
-<simpara>!</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ОткрытьТурнирнаяТаблица.jpg"/>
+</imageobject>
+<textobject><phrase>ОткрытьТурнирнаяТаблица</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ТурнирнаяТаблица.jpg"/>
+</imageobject>
+<textobject><phrase>ТурнирнаяТаблица</phrase></textobject>
+</mediaobject>
+</informalfigure>
 </section>
 <section xml:id="_награды_3">
 <title>Награды</title>
 <simpara>Выполняя задачи, ты можешь случайным образом получить награду. Полученная награда попадет в "инвентарь" на экране персонажа:</simpara>
-<simpara>!</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ИнвентарьСНаградой.jpg"/>
+</imageobject>
+<textobject><phrase>ИнвентарьСНаградой</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>Когда будешь готов поощерить себя - награди себя в реале, а затем щелкни по награде в РПГ Органайзере:</simpara>
-<simpara>!</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ИспользоватьНаграду.jpg"/>
+</imageobject>
+<textobject><phrase>ИспользоватьНаграду</phrase></textobject>
+</mediaobject>
+</informalfigure>
 <simpara>Иногда ты будешь получать награды за выполнение квестов. Тогда после того, как ты отметишь, что квест "завершен", такая награда также попадет в инвентарь. А там ты уже знаешь что с ней делать!</simpara>
 <simpara><emphasis>Ну вот собственно и все! Выполняй задачи, щедро награждай себя и продвигайся к новым уровням! Желаю удачи!</emphasis></simpara>
 </section>
