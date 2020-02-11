@@ -1019,52 +1019,16 @@
 <textobject><phrase>Файт</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>Ну вот и наступил самый интересный момент - начало ИГРЫ!</simpara>
+<simpara>Ну вот и наступил самый интересный момент - СРАЖЕНИЕ!</simpara>
 <section xml:id="_цель">
 <title>Цель</title>
-<simpara>Цель Рпг Органайзера - прокачать персонажа (и тебя тоже) до максимально возможного уровня (100). Чтобы прокачивать персонажа, нужно выполнять задачи из списка. После успешного выполнения ты получаешь небольшую прибавку к очкам опыта (exp - <emphasis role="strong">ex</emphasis>perience <emphasis role="strong">p</emphasis>oints).При достижении порогового значения опыта, будет получен новый уровень персонажа - наглядное подтверждение роста твоей крутости!)) Также с новым уровнем ты получишь несколько ОН (очко навыков), на которое ты сможешь открыть или прокачать навыки (тебе станут доступны новые задания, дающие больше опыта). Прокачиваясь, очень скоро ты будешь чувствовать себя совершенно другим человеком, желаю удачи!</simpara>
+<simpara>Цель Рпг Органайзера - прокачать персонажа (и тебя тоже) до максимально возможного уровня (100). Чтобы прокачивать персонажа, нужно выполнять задачи из списка. После успешного выполнения ты получаешь небольшую прибавку к очкам опыта - EXP (<emphasis role="strong">EX</emphasis>perience <emphasis role="strong">P</emphasis>oints).При достижении порогового значения опыта, будет получен новый уровень персонажа - наглядное подтверждение роста твоей крутости!)) Также с новым уровнем ты получишь несколько <emphasis role="strong">О</emphasis>чков <emphasis role="strong">Н</emphasis>авыков (ОН), на которые ты сможешь открывать или прокачивать навыки (тебе станут доступны новые задания, дающие больше опыта). Прокачиваясь, очень скоро ты будешь чувствовать себя совершенно другим человеком!</simpara>
+<simpara>Теперь я просто кратко опишу алгоритм действий в Рпг Органайзере.</simpara>
 </section>
-<section xml:id="_панель_задач">
-<title>Панель задач</title>
-<simpara>Все актуальные задачи будут сконцентрированы в этом месте:</simpara>
-<informalfigure>
-<mediaobject>
-<imageobject>
-<imagedata fileref="img/ПанельЗадач.jpg"/>
-</imageobject>
-<textobject><phrase>ПанельЗадач</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<simpara><emphasis role="strong">Задачи делятся на два списка:</emphasis> навыки - повторяющиеся ежедневные задачи, выполнение которых дает опыт и качает навыки и квесты - тут будут задачи из твоих целей, их выполнение ведет к достижению целей и получению наград.</simpara>
-<simpara><emphasis role="strong">В отображении списков есть два режима:</emphasis></simpara>
-<simpara>Глобальный вид:</simpara>
-<informalfigure>
-<mediaobject>
-<imageobject>
-<imagedata fileref="img/ГлобальныйВидАктивировать.jpg"/>
-</imageobject>
-<textobject><phrase>ГлобальныйВидАктивировать</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<simpara>Ты видишь задачи списком и тут нужно выбрать первую подходящую для выполнения:</simpara>
-<informalfigure>
-<mediaobject>
-<imageobject>
-<imagedata fileref="img/ГлобальныйВидПример.jpg"/>
-</imageobject>
-<textobject><phrase>ГлобальныйВидПример</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<simpara>Сфокусированный вид:</simpara>
-<informalfigure>
-<mediaobject>
-<imageobject>
-<imagedata fileref="img/СфокусированныйВидАктивировать.jpg"/>
-</imageobject>
-<textobject><phrase>СфокусированныйВидАктивировать</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<simpara>Когда ты выбрал задачу и тебе видны подробности задачи и действия над задачей. Над названием задачи будет случайная картинка монстра, что символизирует борьбу со сложностями и ленью. Ты победил или тебя победили&#8230;&#8203; С ростом уровня персонажа и/или навыков монстры будут крутеть.</simpara>
+<section xml:id="_работа_с_навыками">
+<title>Работа с навыками</title>
+<simpara>Первым делом нужно выполнять задачи, которые прокачивают навыки, потому что именно эти задачи будут давать тебе EXP и развивать тебя.</simpara>
+<simpara>Сначала у тебя активирован "сфокусированный режим", где ты видишь только одну задачу c картинкой "монстра" что символизирует победу над сложностями и все такое (с ростом твоего уровня монстры будут крутеть) и тебе доступны функции действий над ней (выполнить-пропустить):</simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -1073,69 +1037,7 @@
 <textobject><phrase>СфокусированныйВидПример</phrase></textobject>
 </mediaobject>
 </informalfigure>
-</section>
-<section xml:id="_панель_интерфейса">
-<title>Панель интерфейса</title>
-<simpara>Под задачами находится панель интерфейса. На ней кнопки для выполнения всех необходимых действий. Например:</simpara>
-<simpara>Квесты/навыки</simpara>
-<informalfigure>
-<mediaobject>
-<imageobject>
-<imagedata fileref="img/КвестыНавыкиПанель.jpg"/>
-</imageobject>
-<textobject><phrase>КвестыНавыкиПанель</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<simpara>Нажимая на эти кнопки, ты можешь выбирать списки задач - квесты и навыки, соответственно.</simpara>
-<simpara><emphasis role="strong">1) Если активирован глобальный режим задач:</emphasis></simpara>
-<simpara>Первая задача из списка</simpara>
-<informalfigure>
-<mediaobject>
-<imageobject>
-<imagedata fileref="img/ПерваяИзСписка.jpg"/>
-</imageobject>
-<textobject><phrase>ПерваяИзСписка</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<simpara>Нажав на эту кнопку, ты попадешь в сфокусированный режим первой задачи из списка.</simpara>
-<simpara><emphasis role="strong">2) Если активизирован сфокусированный режим:</emphasis></simpara>
-<simpara>Выполнение/пропуск</simpara>
-<simpara>Выполнил задачу? Молодец! Отметь это, нажав эту кнопку.</simpara>
-<informalfigure>
-<mediaobject>
-<imageobject>
-<imagedata fileref="img/ВыполнениеЗадачи.jpg"/>
-</imageobject>
-<textobject><phrase>ВыполнениеЗадачи</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<simpara>Поленился или не смог выполнить эту задачу? Нажми на эту кнопку и получишь небольшой штраф (в квестах эту кнопку не надо нажимать). Эта функция поможет тебе двигаться только вперед, а не останавливаться на достигнутом! Понятно, что если ты сегодня поленился и не развивал навык, твой опыт падает и ты теряешь немного крутости! Только не впадай в уныние, это не стирает твои достижения, если на следующий день ты будешь стараться!</simpara>
-<informalfigure>
-<mediaobject>
-<imageobject>
-<imagedata fileref="img/ПропускЗадачи.jpg"/>
-</imageobject>
-<textobject><phrase>ПропускЗадачи</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<simpara>Назад в глобальный вид задач</simpara>
-<simpara>Если же ты передумал сейчас делать это задачу и решил переключиться на другую - жми эту кнопку.</simpara>
-<informalfigure>
-<mediaobject>
-<imageobject>
-<imagedata fileref="img/ВГлобальныйВид.jpg"/>
-</imageobject>
-<textobject><phrase>ВГлобальныйВид</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<simpara>Или используй жесты.</simpara>
-<simpara>: Чтобы выбрать следующую/предыдущую задачу сделай свайп слева направо или справа налево по картинке монстра.</simpara>
-<simpara>: Чтобы выполнить/пропустить задачу сделай свайп снизу вверх или сверху вниз по картинке монстра.</simpara>
-<simpara>Теперь я тебе просто кратко опишу алгоритм действий в Рпг Органайзере.</simpara>
-</section>
-<section xml:id="_работа_с_навыками">
-<title>Работа с навыками</title>
-<simpara>Убедись, что выбран вид задач "навыки", и в панели задач присутствуют задачи:</simpara>
+<simpara>Убедись, что выбран список "навыки":</simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -1144,7 +1046,7 @@
 <textobject><phrase>ВыборНавыкиСЗадачей</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>Задачи будут "вперемешку", поэтому первым делом осортируй их. Те, что нужно выполнять вначале дня перемести выше, а те, что в конце - ниже. Для этого нажми эту кнопку:</simpara>
+<simpara>Задачи будут "вперемешку", поэтому первым делом осортируй их, нажав эту кнопку:</simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -1153,7 +1055,7 @@
 <textobject><phrase>СортировкаАктивировать</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>Зажми на стрелочке и сдвинь задачу как тебе нужно:</simpara>
+<simpara>Те, что нужно выполнять раньше перемести выше, а те, что позже - ниже. Зажми на стрелочке и сдвинь задачу как тебе нужно:</simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -1162,7 +1064,7 @@
 <textobject><phrase>СортировкаЗадач</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>В конце нажми сюда:</simpara>
+<simpara>В конце сохрани результат:</simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -1171,15 +1073,32 @@
 <textobject><phrase>СохранитьПослеСортировки</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>Теперь жестами вправо/влево, или перейдя в режим "глобальный вид" выбери подходящую для выполнения задачу:</simpara>
+<simpara>Теперь выберем задачу для выполнения. Перейди в режим "глобальный вид" и выбери подходящую задачу:</simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
-<imagedata fileref="img/ЗадачаДляВыполнения.jpg"/>
+<imagedata fileref="img/ГлобальныйВидАктивировать.jpg"/>
 </imageobject>
-<textobject><phrase>ЗадачаДляВыполнения</phrase></textobject>
+<textobject><phrase>ГлобальныйВидАктивировать</phrase></textobject>
 </mediaobject>
 </informalfigure>
+<simpara>В глобальном виде все твои задачи будут отображены списком, так что ты сможешь наглядно видеть весь список актуальных дел. Щелкни по подходящему делу:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ГлобальныйКликПоЗадаче.jpg"/>
+</imageobject>
+<textobject><phrase>ГлобальныйКликПоЗадаче</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<variablelist>
+<varlistentry>
+<term>TIP</term>
+<listitem>
+<simpara>Также в сфокусированном виде можно переключаться между задачами свайпами слева-направа и справа-налево по картинке задачи.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
 <simpara>Попадешь в режим фокусировки, выполни задачу в реале и отметь в РПГ Органайзере:</simpara>
 <informalfigure>
 <mediaobject>
@@ -1189,6 +1108,7 @@
 <textobject><phrase>ОтметитьВыполнено</phrase></textobject>
 </mediaobject>
 </informalfigure>
+<simpara>Получишь награду в виде небольшой прибавки к EXP и немного приблизишься к следующему уровню:</simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -1197,8 +1117,16 @@
 <textobject><phrase>ОтметитьВыполнено2</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>Далее выбери следующую задачу, а потом еще одну&#8230;&#8203;</simpara>
-<simpara>Те задачи, которые не получается сегодня сделать отмечай как "не выполненные" (значек "щит" или свайп снизу вверх).</simpara>
+<variablelist>
+<varlistentry>
+<term>TIP</term>
+<listitem>
+<simpara>Также можно "выполнить задачу" свайпом снизу-вверх.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<simpara><emphasis>Далее выбери следующую задачу, а потом еще одну&#8230;&#8203;</emphasis></simpara>
+<simpara>Те задачи, которые не получается сегодня сделать отмечай как "не выполненные" (значек "щит"):</simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -1207,6 +1135,7 @@
 <textobject><phrase>ЗначекЩит</phrase></textobject>
 </mediaobject>
 </informalfigure>
+<simpara>Получишь небольшой "штраф", так что постарайся не пропускать задачи!</simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -1215,8 +1144,16 @@
 <textobject><phrase>ЗначекЩит2</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>И фигачь!</simpara>
-<simpara>Когда поработаешь с "навыками", переключись на список "квесты".</simpara>
+<variablelist>
+<varlistentry>
+<term>TIP</term>
+<listitem>
+<simpara>Также можно "пропустить задачу" свайпом снизу-вверх.</simpara>
+</listitem>
+</varlistentry>
+</variablelist>
+<simpara>Таким образом выполни все задачи из списка!</simpara>
+<simpara>Когда поработаешь с "навыками", пришло время поработать над достижением целей - "квестами".</simpara>
 </section>
 <section xml:id="_работа_с_квестами">
 <title>Работа с квестами</title>
@@ -1239,7 +1176,7 @@
 <textobject><phrase>ЗадачаКвест2</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>Если тебе нужно будет донастроить квест, ты можешь попасть в него прямо из главного окна, щелкнув по названию задачи:</simpara>
+<simpara>Если тебе нужно будет донастроить квест, ты можешь попасть в него прямо из главного окна, щелкнув по названию квеста под названием задачи:</simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -1248,6 +1185,31 @@
 <textobject><phrase>ВКвестИзГлавногоОкна</phrase></textobject>
 </mediaobject>
 </informalfigure>
+<variablelist>
+<varlistentry>
+<term>TIP</term>
+<listitem>
+<simpara>Кстати, можно разбивать задачи квеста на подзадачи. Для этого перейди в настройку задачи:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ПереходВНастройкуЗадачи.jpg"/>
+</imageobject>
+<textobject><phrase>ПереходВНастройкуЗадачи</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Там добавь подзадачи (также как и "состояния" в задачах навыков):</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/Подзадачи.jpg"/>
+</imageobject>
+<textobject><phrase>Подзадачи</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</listitem>
+</varlistentry>
+</variablelist>
 <simpara>Рано или поздно, ты выполнишь все задачи квеста. Тогда перейди на экран этого квеста и отметь, что он завершен:</simpara>
 <informalfigure>
 <mediaobject>
@@ -1284,10 +1246,30 @@
 <simpara>Если за него были какие-то награды, ты их получишь.</simpara>
 <simpara>Когда поработаешь с квестами - возвращайся к виду "навыки" и продолжай игру!</simpara>
 </section>
+<section xml:id="_награды_3">
+<title>Награды</title>
+<simpara>Иногда ты будешь получать награды за выполнение квестов или случайным образом получить трофеи при выполнении задач. Полученные награды попадут в "инвентарь" на экране персонажа:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ИнвентарьСНаградой.jpg"/>
+</imageobject>
+<textobject><phrase>ИнвентарьСНаградой</phrase></textobject>
+</mediaobject>
+</informalfigure>
+<simpara>Когда будешь готов поощерить себя - наградись в реале, а затем щелкни по награде в РПГ Органайзере:</simpara>
+<informalfigure>
+<mediaobject>
+<imageobject>
+<imagedata fileref="img/ИспользоватьНаграду.jpg"/>
+</imageobject>
+<textobject><phrase>ИспользоватьНаграду</phrase></textobject>
+</mediaobject>
+</informalfigure>
+</section>
 <section xml:id="_новый_уровень">
 <title>Новый уровень!</title>
-<simpara>Поначалу тебе будет просто набирать уровни. Задания будут проще и для перехода тебе нужно будет меньше очков опыта, но со временем сложность заданий и количество очков до следующего уровня будут расти. Так что достичь максимального уровня пока еще никому не удавалось! Если ты сможешь - напиши мне и ты попадешь в [Зал Славы](<link xl:href="http://nerdistway.blogspot.com/2013/05/blog-post_91.html)!">http://nerdistway.blogspot.com/2013/05/blog-post_91.html)!</link> ))) А я постараюсь быть первым!)))</simpara>
-<simpara>Итак, рано или поздно ты достигнешь нового уровня:</simpara>
+<simpara>Со временем ты достигнешь нового уровня (<emphasis>круто! поздравляю!</emphasis>). Ты узнаешь об этом при появлении этого окошка:</simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -1296,7 +1278,7 @@
 <textobject><phrase>НовыйУровень</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>После появления этого окошка, ты автоматически перейдешь на экран персонажа, где тебе нужно будет распределить полученные ОН. Тыкай по стрелочкам и навыки будут улучшены:</simpara>
+<simpara>После этого ты автоматом перейдешь на экран персонажа, где нужно будет распределить полученные ОН. Тыкай по стрелочкам и навыки будут улучшены:</simpara>
 <informalfigure>
 <mediaobject>
 <imageobject>
@@ -1305,8 +1287,9 @@
 <textobject><phrase>НовыйУровеньПрокачка</phrase></textobject>
 </mediaobject>
 </informalfigure>
-<simpara>Если следующий уровень в навыке по сложности абсолютно такой же, как и предыдущий, он будет подсвечен зеденым цветом. Выбирай такие навыки для следующей прокачки - так будет немного легче!</simpara>
-<simpara>После распределения, вернись в главное окно и снова отсортируй задачи (вдруг появилось что-то новое).</simpara>
+<simpara>Если следующий уровень в навыке по сложности абсолютно такой же, как и предыдущий, он будет подсвечен зеденым цветом. Первым делом выбирай для прокачки такие навыки - так будет немного легче!</simpara>
+<simpara>После распределения, вернись в главное окно и снова отсортируй задачи (вдруг появилось что-то новое). И продолжай сражение!</simpara>
+<simpara>Поначалу тебе будет просто набирать уровни. Задания будут проще и для перехода тебе нужно будет меньше очков опыта, но со временем сложность заданий и количество очков до следующего уровня будут расти. Так что достичь максимального уровня пока еще никому не удавалось! Если ты сможешь - напиши мне и ты попадешь в <link xl:href="http://nerdistway.blogspot.com/2013/05/blog-post_91.html">Зал Славы</link>! ))) А я постараюсь быть первым!)))</simpara>
 <simpara>Как только ты достигнешь первого уровня, ты включишься в <emphasis role="strong">турнир героев</emphasis> и сможешь увидеть своего персонажа в турнирной таблице:</simpara>
 <informalfigure>
 <mediaobject>
@@ -1324,28 +1307,6 @@
 <textobject><phrase>ТурнирнаяТаблица</phrase></textobject>
 </mediaobject>
 </informalfigure>
-</section>
-<section xml:id="_награды_3">
-<title>Награды</title>
-<simpara>Выполняя задачи, ты можешь случайным образом получить награду. Полученная награда попадет в "инвентарь" на экране персонажа:</simpara>
-<informalfigure>
-<mediaobject>
-<imageobject>
-<imagedata fileref="img/ИнвентарьСНаградой.jpg"/>
-</imageobject>
-<textobject><phrase>ИнвентарьСНаградой</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<simpara>Когда будешь готов поощерить себя - награди себя в реале, а затем щелкни по награде в РПГ Органайзере:</simpara>
-<informalfigure>
-<mediaobject>
-<imageobject>
-<imagedata fileref="img/ИспользоватьНаграду.jpg"/>
-</imageobject>
-<textobject><phrase>ИспользоватьНаграду</phrase></textobject>
-</mediaobject>
-</informalfigure>
-<simpara>Иногда ты будешь получать награды за выполнение квестов. Тогда после того, как ты отметишь, что квест "завершен", такая награда также попадет в инвентарь. А там ты уже знаешь что с ней делать!</simpara>
 <simpara><emphasis>Ну вот собственно и все! Выполняй задачи, щедро награждай себя и продвигайся к новым уровням! Желаю удачи!</emphasis></simpara>
 </section>
 </chapter>
@@ -1362,8 +1323,8 @@
 <simpara>Поздравляю! Ты успешно прошел обучающую компанию РПГ Органайзера! Ты реально крут!</simpara>
 <simpara>Если будут вопросы или предложения - пиши мне на e-mail: <link xl:href="mailto:nerdistway@yandex.ru">nerdistway@yandex.ru</link> или <link xl:href="mailto:rpgorganizer@yandex.ru">rpgorganizer@yandex.ru</link> или обращайся на <link xl:href="http://rpg-organizer.107353.n8.nabble.com/">форуме программы</link>.</simpara>
 <simpara>Если ты еще не сделал этого, буду очень признателен, если ты <link xl:href="http://eepurl.com/ciG_oL">подпишешься на рассылку</link> моего <link xl:href="https://nerdistway.blogspot.com">блога "Путь ботана"</link>. Так ты будешь в курсе последних обновлений программы и будешь периодически получать шикарные статьи по саморазвитию )))</simpara>
-<simpara>И еще я буду жутко рад, если ты напишешь хороший отзыв на программу в том месте, где ты ее скачал, или поделишься <link xl:href="https://nerdistway.blogspot.ru/2013/07/mylife-rpg-organizer.html">ссылкой на страничку проги</link> где-нибудь в социальных сетях )))</simpara>
-<simpara>А также поделись со мной своим мнением по поводу РПГ Органайзера в комментариях <link xl:href="https://nerdistway.blogspot.ru/2013/07/mylife-rpg-organizer.html">тут</link>. Мне очень приятно знать, что то, что я делаю имеет отклик и благодаря обратной связи мы сможем сделать самый лучший в мире РПГ Органайзер!</simpara>
+<simpara>И еще я буду жутко рад, если ты поделишься <link xl:href="https://nerdistway.blogspot.ru/2013/07/mylife-rpg-organizer.html">ссылкой на страничку проги</link> со своими друзьями )))</simpara>
+<simpara>А также поделишься своим мнением по поводу РПГ Органайзера в комментариях <link xl:href="https://nerdistway.blogspot.ru/2013/07/mylife-rpg-organizer.html">тут</link>. Благодаря обратной связи мы сможем сделать самый лучший в мире РПГ Органайзер!</simpara>
 <simpara><emphasis>Желаю отличных приключений! И да прибудет с тобой СИЛА!</emphasis></simpara>
 </chapter>
 </book>
