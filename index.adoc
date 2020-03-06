@@ -31,3 +31,5 @@ include::Файт.adoc[]
 
 include::Эпилог.adoc[]
 
+include::Умный_дневник.adoc[]
+
