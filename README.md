@@ -22,5 +22,36 @@
 
 ## Разработка
 
-Это руководство написано на языке разметки asciidoc, скомпилировано при помощи asciidoctor. Буду признателен за любые улучшения этого руководства)))
+Это руководство написано на языке разметки markdown. Файл index.md. Удобно использовать программу Typora. Буду признателен за любые улучшения этого руководства)))
+
+## Компиляция
+
+С помощью pandoc преобразовать в asciidoc:
+
+```
+pandoc -f markdown -t asciidoc index.md -o index.adoc
+```
+
+Добавить в заголовок:
+
+```
+= РПГ Органайзер: туториал
+:icons: font
+:nofooter:
+:doctype: book
+:encoding: utf-8
+:lang: ru
+:toc: left
+:footer: nofooter
+:toc-title: Содержание
+:toclevels: 2
+:stylesheet: mystyles.css
+:numbered:
+```
+
+Скомпилировать при помощи asciidoctor:
+
+```
+asciidoctor index.adoc
+```
 
