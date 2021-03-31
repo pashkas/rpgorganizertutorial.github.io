@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://pashkas.github.io/blog</id>
+    <title>РПГ Органайзер - туториал Blog</title>
+    <updated>2015-10-25T23:29:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://pashkas.github.io/blog"/>
+    <subtitle>РПГ Органайзер - туториал Blog</subtitle>
+    <icon>https://pashkas.github.io/img/favicon.ico</icon>
+</feed>
